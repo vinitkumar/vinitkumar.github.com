@@ -1,7 +1,7 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Click on the title to check out the post"
+tags: [blog, template]
 image:
-  feature: texture-feature-01.jpg
+  feature: texture-feature-04.jpg
 ---
