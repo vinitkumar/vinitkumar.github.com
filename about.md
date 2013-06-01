@@ -8,11 +8,14 @@ image:
   feature: texture-feature-05.jpg
 ---
 
-Hello, I am Vinit and i work as a JS/Nodejs programmer in an awesome dutch company, Changer. 
-I am in love with programming ever since i laid my hands on those sweet black and box magic machines with LOGO in it. I progressed from Logo to GWBasic to Java to Python, C, C++ and now i mostly program in JavaScript. I love the way programming and development has progressed and i can see it going well beyond.
+Hello, I am Vinit and I work as a JavaScipt/Node.JS programmer in an awesome Dutch company named as [Changer](http://changer.nl)
 
-I also like writing sometimes mostly on web, programming, development and technology. So if you have interest in these topics, i am sure you will find something interesting.
+I fell in love with programming the first time i laid my hands on those sweet black and white computers(P2/P3) with LOGO in it. I progressed from Logo to GWBasic to Java to Python, C, C++ and now i mostly do JavaScript. I love how programming and development has progressed and continues to go beyond.
 
-I also maintain another tech-blog named as [Gotchacode](http://www.gotchacode.com). It has quite some good posts about technology. So what you waiting for, grab a coffee and enjoy them.
+I like writing and meeting interesting people. I also used to do some sketching and drawing.
+
+In here, you would mostly find my personal experiences, thoughts or some details about any of my open source projects. I believe in improving myself and working hard everyday.
+
+I also maintain another popular technology Blog named as [Gotchacode](http://www.gotchacode.com). There some interesting post over here and there. So, what you waiting for? Grab some coffee and Enjoy them.
 
 
