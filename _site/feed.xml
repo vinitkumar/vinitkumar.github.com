@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Vinit Kumar</title>
+<subtitle type="text">My Personal blog</subtitle>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2013-06-01T17:05:47+00:00</updated>
+<id>/</id>
+<author>
+  <name>Vinit Kumar</name>
+  <uri>/</uri>
+  <email>vinit.kumar@changer.nl</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Good Week Gone By]]></title>
+  <link rel="alternate" type="text/html" href="/articles/just-another-good-week-for-learning" />
+  <id>/articles/just-another-good-week-for-learning</id>
+  <published>2013-05-31T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;This week is going to be a particularly good one. I am implementing 
+twitter clone in node.js. It is a  great exercise to just take a look 
+at something trying to guess what is going on behind the scenes and 
+reverse engineering it in a different stack.&lt;/p&gt;
+
+&lt;p&gt;Well , the basis of attempting this is that a lot of rails devs are 
+shifting to node and a lot of design architecture in node is being 
+borrowed from rails. Say “Fat models, thin controllers.”&lt;/p&gt;
+
+&lt;p&gt;I will be posting about some special code segments and problems how 
+i tackled them in future post. &lt;/p&gt;
+
+&lt;p&gt;Going to sleep now. Ciao!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/just-another-good-week-for-learning&quot;&gt;Good Week Gone By&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on May 31, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My Setup]]></title>
+  <link rel="alternate" type="text/html" href="/articles/my-setup" />
+  <id>/articles/my-setup</id>
+  <published>2013-05-26T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;I am doing The Setup interview for myself. It is basically based on these four questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Who are you and what do you do?&lt;/li&gt;
+  &lt;li&gt;What hardware do you use?&lt;/li&gt;
+  &lt;li&gt;And what software?&lt;/li&gt;
+  &lt;li&gt;What would be your dream setup?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So here it goes:&lt;/p&gt;
+
+&lt;h3 id=&quot;who-are-you-and-what-do-you-do&quot;&gt;Who are you and what do you do?&lt;/h3&gt;
+
+&lt;p&gt;Hey, I am Vinit and I am a Node.js/JavaScript developer at this awesome dutch startup,&lt;a href=&quot;http://changer.nl&quot;&gt;Changer&lt;/a&gt;.I spend most of my time writing and reading code and programming books and listening to music.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-hardware-do-you-use&quot;&gt;What hardware do you use?&lt;/h3&gt;
+
+&lt;p&gt;I use a Macbook Pro, Mid 2009, with 8 GB Ram and 256 GB SSD. I also use a apple wired keyboard, BenQ Monitors at work. I use Logitech GT400 mouse at work and home. 
+I also have an old Dell Inspiron Laptop which has Linux and Windows 7.
+My phone is HTC Desire X with runs Android ICS.
+I use Logitech Headphones/HTC earphone when i need to listen to music while working.&lt;/p&gt;
+
+&lt;h3 id=&quot;and-what-software&quot;&gt;And What Software?&lt;/h3&gt;
+
+&lt;p&gt;I do all my development on OS X Mountain Lion now, earlier did all my development on Ubuntu 12.04. &lt;/p&gt;
+
+&lt;p&gt;Well here is the list of Software i use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OS: OS X, Android, Windows, Linux&lt;/li&gt;
+  &lt;li&gt;Browsers: Chrome(mostly), Firefox&lt;/li&gt;
+  &lt;li&gt;TextEditor: SublimeText2, Vim, TextMate.&lt;/li&gt;
+  &lt;li&gt;Music and Video : VLC, iTunes, QuickTime.&lt;/li&gt;
+  &lt;li&gt;Terminal: Iterm2(on mac), KDE terminal on Linux.&lt;/li&gt;
+  &lt;li&gt;Backup: Google Drive, Dropbox.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I use all the stack required to do the Nodejs/JS development.
+For productivity i am a big fan of Omnifocus app and use notes applications quite often.&lt;/p&gt;
+
+&lt;p&gt;On Android, i use Runkeeper, Aldiko, Google Keep, Maps, Instagram, Twitter, Dropbox mostly.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-would-be-your-dream-setup&quot;&gt;What would be your dream setup?&lt;/h3&gt;
+
+&lt;p&gt;My dream setup would be couple of Big 30-inch monitors and a better flat keyboard, also a really good pair of Noise canceling headphones.
+I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/my-setup&quot;&gt;My Setup&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on May 26, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Single Machine Workflow]]></title>
+  <link rel="alternate" type="text/html" href="/articles/single-machine-workflow" />
+  <id>/articles/single-machine-workflow</id>
+  <published>2013-05-07T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;single-laptop-workflow&quot;&gt;Single laptop workflow&lt;/h1&gt;
+
+&lt;h2 id=&quot;benefits&quot;&gt;benefits&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More focus, less distraction&lt;/li&gt;
+  &lt;li&gt;personal&lt;/li&gt;
+  &lt;li&gt;Skill developed for handling lot of things in less resource effectively.&lt;/li&gt;
+  &lt;li&gt;Get better in typing and using mac more productively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to&quot;&gt;How to:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use 75% to 100% code window in sublime when needed.&lt;/li&gt;
+  &lt;li&gt;Use full browser window &lt;/li&gt;
+  &lt;li&gt;Music and everything else is minimized. &lt;/li&gt;
+  &lt;li&gt;Distraction free mode in sublime when required. &lt;/li&gt;
+  &lt;li&gt;Use different desktops for coding, shell and browser.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;donts&quot;&gt;Donts:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Don’t use a monitor to break this rhythm.&lt;/li&gt;
+  &lt;li&gt;Don’t use a monitor unless you need to show something that can be shown in laptop.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/single-machine-workflow&quot;&gt;Single Machine Workflow&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on May 07, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[New projects]]></title>
+  <link rel="alternate" type="text/html" href="/articles/new-project-planning" />
+  <id>/articles/new-project-planning</id>
+  <published>2013-04-30T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;In last couple of days, i noticed there was no good planning for my personal projects and there were lots of loose ends. So i finally cleaned up my Github.&lt;/p&gt;
+
+&lt;p&gt;Here are some of ground rules for projects on Github:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t open source a project until the project has got unittest, wikis and sample application (if it is a application project) hosted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrate CI like travis and jenkins with all of them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do all the immature , experimental projects on Bitbucket.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write good, clean , pragmatic code in the projects on Github.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look for bugs and spend more time on projects seriously.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Strictly follow Git-Flow on all your projects.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Blog about your latest work or maintain the wiki for the project every work. At the end of week review your work.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/new-project-planning&quot;&gt;New projects&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on April 30, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Django plugin open sourced]]></title>
+  <link rel="alternate" type="text/html" href="/articles/django-plugin-open-sourced" />
+  <id>/articles/django-plugin-open-sourced</id>
+  <published>2013-04-29T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;facebook-album-plugin-for-django-cms&quot;&gt;Facebook Album plugin for Django CMS&lt;/h1&gt;
+
+&lt;p&gt;There are lot of useful plugins for Django CMS.
+Well, this plugin let you use the images from a Facebook Album. Currently it supports fetching images from Photo Album of a Facebook Page.&lt;/p&gt;
+
+&lt;p&gt;All you need to do is to put Facebook Album URL, Access-token and the album name in the plugin fields and you will get a nice thumbnail in the intended place and once clicked big images will open in carousel effects. Sounds nice, take a look at the screenshots below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entering the details in plugin form:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://vinitcool76.github.io/images/admin.png&quot; alt=&quot;Admin Page&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thumbnail view of plugin:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;![Small View] (http://vinitcool76.github.io/imagessmallview.png)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Image slideshow in carousel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://vinitcool76.github.io/images/bigview.png&quot; alt=&quot;Carousel&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;Installation is dead simple. First start your virtualenv&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ workon sample
+(sample)$ pip install cmsplugin-fbalbum
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You might need to do this if you are getting some sort of database error.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python manage.py syncdb
+python manage.py migrate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In case you face any problems, file issues and if you want to contribute take a look at the existing issues and send a pull request.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/django-plugin-open-sourced&quot;&gt;Django plugin open sourced&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on April 29, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My First flight]]></title>
+  <link rel="alternate" type="text/html" href="/articles/new-open-source-projects" />
+  <id>/articles/new-open-source-projects</id>
+  <published>2013-04-27T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;Maintaining and contributing to an Open Source Project is a very important part of a developers life. Luckily, i am in a Company that gives me full liberty  to contribute and infact we have a Open Source day(Friday) where we could open source reusable components of project we have been working on to the open source audience.&lt;/p&gt;
+
+&lt;p&gt;This is plain awesome, because not only it encourages a healthy culture of giving back to the community, also it improves the overall quality of the project as you just don’t open source anything without getting it better.&lt;/p&gt;
+
+&lt;p&gt;With that said, I have open source two of my projects:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vinitcool76/cmsplugin-fbalbum&quot;&gt;cmsplugin-fbalbum&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;This is a django-cms plugin that gives the end user to showcase the photos from their Facebook album without going through any code. Just enter the album name, album URL and access-token and you are good to go.&lt;/p&gt;
+
+&lt;p&gt;It is also available to everyone on pypi, In order to install just do:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install cmsplugin-fbalbum
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is under heavy development and still in beta, but can be used. Any sort of contribution is welcome.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vinitcool76/googlecl&quot;&gt;googlecl&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;It is another dear project of mine, it was previously being developed by Google Engineer, Tom.H.Miller. Since he is quite busy nowadays and couldn’t contribute actively, I have decided to maintain this project on GitHub and add features/bugfixes and refactoring.&lt;/p&gt;
+
+&lt;p&gt;I am happy to have these two projects in progress and will open source more of my stuff in future. Though i regret not blogging that often these days.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/new-open-source-projects&quot;&gt;My First flight&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on April 27, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My First flight]]></title>
+  <link rel="alternate" type="text/html" href="/articles/first-flight-and-vacation-after-months" />
+  <id>/articles/first-flight-and-vacation-after-months</id>
+  <published>2013-04-07T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;So finally, I am going for a weeklong vacation and it has finally begun. On Air India flight to Delhi and From Delhi to Ranchi. Well this vacation is special for a lots of good reason. First of all, this is my first flight. Also , this is first vacation since i have started working at Changer Technologies, Pune. &lt;/p&gt;
+
+&lt;p&gt;I have never been to Mumbai and Delhi before, so this trip i will be visiting both of these places. It has been so long since i have been at Home and out of everything i miss my home’s food and family the most. &lt;/p&gt;
+
+&lt;p&gt;Well, according to me there is just one way to live life and that is to live life to fullest. Work hard, and go on vacations. Spend good time with family and friends. There are not many chances we get to do those in  a lifetime. So, life it to fullest, while it lasts.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/first-flight-and-vacation-after-months&quot;&gt;My First flight&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on April 07, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Twitter in NodeJS]]></title>
+  <link rel="alternate" type="text/html" href="/articles/twitter-like-app-in-nodejs" />
+  <id>/articles/twitter-like-app-in-nodejs</id>
+  <published>2013-03-27T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;I am thinking to make a twitter like application as a learning excercise to get better at node. It will on usual nodejs based stack, since i am actively learning that now. More details will be blogged as i progress.&lt;/p&gt;
+
+&lt;p&gt;If you are interested to collaborate or discuss, contact me here&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/vinitcool76&quot;&gt;@vinitcool76&lt;/a&gt;&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/twitter-like-app-in-nodejs&quot;&gt;Twitter in NodeJS&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on March 27, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[My JavaScript love]]></title>
+  <link rel="alternate" type="text/html" href="/articles/my-javascript-love" />
+  <id>/articles/my-javascript-love</id>
+  <published>2013-03-24T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;I started programming JavaScript seriously in Sep 2012 and i never ever wondered that it will affect my life so much. Well, it started with me working on developing a Chrome Extension for a E-commerce/Social media app. Chrome is quite different for development. There are lots of APIs to learn and there are quite a few security restrictions. Also, there is only one language that you can use to develop it i.e JavaScript.&lt;/p&gt;
+
+&lt;p&gt;There are quite a few things i learned programming JavaScript:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Think before you code, think about the whole problem at once.&lt;/li&gt;
+  &lt;li&gt;Keep code clean and use modular structure.&lt;/li&gt;
+  &lt;li&gt;Use Linting and follow good guidelines given by experts.&lt;/li&gt;
+  &lt;li&gt;Read some good books and be aware of what you are into.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Today i work as a JavaScript Engineer at an awesome Dutch startup &lt;a href=&quot;http://changer.nl&quot;&gt;Changer&lt;/a&gt;. I mostly write code for our nodejs based apps and i am still learning a lot everyday.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/my-javascript-love&quot;&gt;My JavaScript love&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on March 24, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Life has changed]]></title>
+  <link rel="alternate" type="text/html" href="/articles/life-has-changed" />
+  <id>/articles/life-has-changed</id>
+  <published>2013-03-24T00:00:00+00:00</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;There are lots of things that have changed in recent past. I have changed from a hardcore Linux user to a Mac lover. I got a high end Macbook pro with 8GB RAM and 256GB SSD. It is just a pleasure to work on. Also, i could carry my mac home to that i could even work on the personal open source projects i work on. Well, i kinda really like my mac. There are many reasons for it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The OS X is quite good and amazingly stable.&lt;/li&gt;
+  &lt;li&gt;UI and UX is quite good once you get used to it.&lt;/li&gt;
+  &lt;li&gt;Almost every applications and tools under the sun is available to you.&lt;/li&gt;
+  &lt;li&gt;No messing up with hardwares, just connect and play.&lt;/li&gt;
+  &lt;li&gt;Awesome battery life, i could easily get 8 hours battery backup with this sweet machine.&lt;/li&gt;
+  &lt;li&gt;13-inch is an awesome form factor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, i recently got myself a HTC Desire X Android Smartphone. It is a lovely piece of hardware. Not big or bulky. At 4-inch screen i have enough screen estate to do whatever i can do. Camera is good as well. All together i am quite satisified with my phone. Did i mention Beats Audio? It is an excellent addition to my phone. I spend quite some time travelling to office and it seems to be a great feeling to listen to music while travelling.&lt;/p&gt;
+
+&lt;p&gt;Though i still love my 2 year old dell and Nokia E5. Some repair and polishing is required and i will sure give them their due in right time.&lt;/p&gt;
+
+&lt;p&gt;I love my hardware and doesn’t everyone else does too.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/life-has-changed&quot;&gt;Life has changed&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on March 24, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>

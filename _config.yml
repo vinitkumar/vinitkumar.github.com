@@ -1,0 +1,45 @@
+title:            Vinit Kumar
+tagline:          My Personal blog
+description:      My Musings with programming life and happiness
+#Comment out url when working locally to resolve base urls correctly
+url:  
+
+# Owner/author information goes here.
+owner:
+  name:           Vinit Kumar
+  avatar:         vinit.jpg
+  bio:            "Javascript/Nodejs hacker, workoholic, learner"
+  email:          vinit.kumar@changer.nl
+  twitter:        "vinitcool76"
+  google_plus:    "https://plus.google.com/106645023605660581419/posts"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-40854387-1
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+timezone:    India/Mumbai
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]

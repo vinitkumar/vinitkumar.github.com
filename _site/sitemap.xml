@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc></loc>
+    </url>
+    
+    
+    <url>
+        <loc>/articles/just-another-good-week-for-learning</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/my-setup</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/single-machine-workflow</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/new-project-planning</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/django-plugin-open-sourced</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/new-open-source-projects</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/first-flight-and-vacation-after-months</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/twitter-like-app-in-nodejs</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/my-javascript-love</loc>
+    </url>
+    
+    <url>
+        <loc>/articles/life-has-changed</loc>
+    </url>
+    
+</urlset>
