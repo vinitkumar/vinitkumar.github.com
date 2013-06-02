@@ -16,6 +16,6 @@ I like writing and meeting interesting people. I also used to do some sketching 
 
 In here, you would mostly find my personal experiences, thoughts or some details about any of my open source projects. I believe in improving myself and working hard everyday.
 
-I also maintain another popular technology Blog named as [Gotchacode](http://www.gotchacode.com). There some interesting post over here and there. So, what you waiting for? Grab some coffee and Enjoy them.
+I also maintain another popular technology Blog named as [Gotchacode](http://www.gotchacode.com). I am sure you would love to read some of them. So, what you waiting for? Grab some coffee and Enjoy them.
 
 
