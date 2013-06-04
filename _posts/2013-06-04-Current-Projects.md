@@ -21,23 +21,23 @@ Right now it has following functionalities:
 ##Here are some screen-shots:
 
 <figure>
-<img src="../images/twitter.png" height="400" width="640">
+<img src="http://vinitkumar.me/images/twitter.png" height="400" width="640">
 </figure>
 
 <figure>
-  <img src="../images/twitter2.png" height="400" width="640">
+  <img src="http://vinitkumar.me/images/twitter2.png" height="400" width="640">
 </figure>
 
 <figure>
-  <img src="../images/twitter3.png" height="400" width="640">
+  <img src="http://vinitkumar.me/images/twitter3.png" height="400" width="640">
 </figure>
 
 <figure>
-  <img src="../images/twitter4.png" height="400" width="640">
+  <img src="http://vinitkumar.me/images/twitter4.png" height="400" width="640">
 </figure>
 
 <figure>
-  <img src="../images/twitter5.png" height="400" width="640">
+  <img src="http://vinitkumar.me/images/twitter5.png" height="400" width="640">
 </figure>
 
 
