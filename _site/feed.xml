@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2013-06-01T17:05:47+00:00</updated>
+<updated>2013-06-04T17:35:20+05:30</updated>
 <id>/</id>
 <author>
   <name>Vinit Kumar</name>
@@ -15,10 +15,50 @@
 
 
 <entry>
+  <title type="html"><![CDATA[My Current Projects]]></title>
+  <link rel="alternate" type="text/html" href="/articles/Current-Projects" />
+  <id>/articles/Current-Projects</id>
+  <published>2013-06-04T00:00:00+05:30</published>
+  
+  <author>
+    <name>Vinit Kumar</name>
+    <uri>/</uri>
+    <email>vinit.kumar@changer.nl</email>
+  </author>
+  <content type="html">&lt;p&gt;These days i was busy working on an a project called as Node Twitter.
+As the name suggest it is a twitter clone written on node. &lt;/p&gt;
+
+&lt;p&gt;Right now it has following functionalities:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Login via Facebook and Github&lt;/li&gt;
+  &lt;li&gt;Tweet Add, Modify, Delete&lt;/li&gt;
+  &lt;li&gt;Comment on Tweet&lt;/li&gt;
+  &lt;li&gt;Favorite a Tweet&lt;/li&gt;
+  &lt;li&gt;See own and another user&amp;#8217;s profile&lt;/li&gt;
+  &lt;li&gt;Follow another User&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am also planning to add all other features present on twitter one by one. Next would be dashboard(timeline), personal profile, retweet and hashtags.&lt;/p&gt;
+
+&lt;p&gt;These features might seem simple but most of them are not that simple and requires some good effort.
+Anyways, you can test it here:
+&lt;code&gt;sh
+$ npm install nwitter
+$ npm start
+&lt;/code&gt;
+Then open your browser and open &lt;code&gt;http://localhost:3000&lt;/code&gt;.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/Current-Projects&quot;&gt;My Current Projects&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on June 04, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Good Week Gone By]]></title>
   <link rel="alternate" type="text/html" href="/articles/just-another-good-week-for-learning" />
   <id>/articles/just-another-good-week-for-learning</id>
-  <published>2013-05-31T00:00:00+00:00</published>
+  <published>2013-05-31T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -32,7 +72,7 @@ reverse engineering it in a different stack.&lt;/p&gt;
 
 &lt;p&gt;Well , the basis of attempting this is that a lot of rails devs are 
 shifting to node and a lot of design architecture in node is being 
-borrowed from rails. Say “Fat models, thin controllers.”&lt;/p&gt;
+borrowed from rails. Say &amp;#8220;Fat models, thin controllers.&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;I will be posting about some special code segments and problems how 
 i tackled them in future post. &lt;/p&gt;
@@ -48,7 +88,7 @@ i tackled them in future post. &lt;/p&gt;
   <title type="html"><![CDATA[My Setup]]></title>
   <link rel="alternate" type="text/html" href="/articles/my-setup" />
   <id>/articles/my-setup</id>
-  <published>2013-05-26T00:00:00+00:00</published>
+  <published>2013-05-26T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -111,7 +151,7 @@ I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
   <title type="html"><![CDATA[Single Machine Workflow]]></title>
   <link rel="alternate" type="text/html" href="/articles/single-machine-workflow" />
   <id>/articles/single-machine-workflow</id>
-  <published>2013-05-07T00:00:00+00:00</published>
+  <published>2013-05-07T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -142,8 +182,8 @@ I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
 &lt;h3 id=&quot;donts&quot;&gt;Donts:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Don’t use a monitor to break this rhythm.&lt;/li&gt;
-  &lt;li&gt;Don’t use a monitor unless you need to show something that can be shown in laptop.&lt;/li&gt;
+  &lt;li&gt;Don&amp;#8217;t use a monitor to break this rhythm.&lt;/li&gt;
+  &lt;li&gt;Don&amp;#8217;t use a monitor unless you need to show something that can be shown in laptop.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -155,7 +195,7 @@ I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
   <title type="html"><![CDATA[New projects]]></title>
   <link rel="alternate" type="text/html" href="/articles/new-project-planning" />
   <id>/articles/new-project-planning</id>
-  <published>2013-04-30T00:00:00+00:00</published>
+  <published>2013-04-30T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -168,7 +208,7 @@ I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Don’t open source a project until the project has got unittest, wikis and sample application (if it is a application project) hosted.&lt;/p&gt;
+    &lt;p&gt;Don&amp;#8217;t open source a project until the project has got unittest, wikis and sample application (if it is a application project) hosted.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Integrate CI like travis and jenkins with all of them.&lt;/p&gt;
@@ -198,7 +238,7 @@ I mostly like minimalistic setup so i guess that would do.&lt;/p&gt;
   <title type="html"><![CDATA[Django plugin open sourced]]></title>
   <link rel="alternate" type="text/html" href="/articles/django-plugin-open-sourced" />
   <id>/articles/django-plugin-open-sourced</id>
-  <published>2013-04-29T00:00:00+00:00</published>
+  <published>2013-04-29T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -255,7 +295,7 @@ python manage.py migrate
   <title type="html"><![CDATA[My First flight]]></title>
   <link rel="alternate" type="text/html" href="/articles/new-open-source-projects" />
   <id>/articles/new-open-source-projects</id>
-  <published>2013-04-27T00:00:00+00:00</published>
+  <published>2013-04-27T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -264,7 +304,7 @@ python manage.py migrate
   </author>
   <content type="html">&lt;p&gt;Maintaining and contributing to an Open Source Project is a very important part of a developers life. Luckily, i am in a Company that gives me full liberty  to contribute and infact we have a Open Source day(Friday) where we could open source reusable components of project we have been working on to the open source audience.&lt;/p&gt;
 
-&lt;p&gt;This is plain awesome, because not only it encourages a healthy culture of giving back to the community, also it improves the overall quality of the project as you just don’t open source anything without getting it better.&lt;/p&gt;
+&lt;p&gt;This is plain awesome, because not only it encourages a healthy culture of giving back to the community, also it improves the overall quality of the project as you just don&amp;#8217;t open source anything without getting it better.&lt;/p&gt;
 
 &lt;p&gt;With that said, I have open source two of my projects:&lt;/p&gt;
 
@@ -281,7 +321,7 @@ python manage.py migrate
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/vinitcool76/googlecl&quot;&gt;googlecl&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;It is another dear project of mine, it was previously being developed by Google Engineer, Tom.H.Miller. Since he is quite busy nowadays and couldn’t contribute actively, I have decided to maintain this project on GitHub and add features/bugfixes and refactoring.&lt;/p&gt;
+&lt;p&gt;It is another dear project of mine, it was previously being developed by Google Engineer, Tom.H.Miller. Since he is quite busy nowadays and couldn&amp;#8217;t contribute actively, I have decided to maintain this project on GitHub and add features/bugfixes and refactoring.&lt;/p&gt;
 
 &lt;p&gt;I am happy to have these two projects in progress and will open source more of my stuff in future. Though i regret not blogging that often these days.&lt;/p&gt;
 
@@ -293,7 +333,7 @@ python manage.py migrate
   <title type="html"><![CDATA[My First flight]]></title>
   <link rel="alternate" type="text/html" href="/articles/first-flight-and-vacation-after-months" />
   <id>/articles/first-flight-and-vacation-after-months</id>
-  <published>2013-04-07T00:00:00+00:00</published>
+  <published>2013-04-07T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -302,7 +342,7 @@ python manage.py migrate
   </author>
   <content type="html">&lt;p&gt;So finally, I am going for a weeklong vacation and it has finally begun. On Air India flight to Delhi and From Delhi to Ranchi. Well this vacation is special for a lots of good reason. First of all, this is my first flight. Also , this is first vacation since i have started working at Changer Technologies, Pune. &lt;/p&gt;
 
-&lt;p&gt;I have never been to Mumbai and Delhi before, so this trip i will be visiting both of these places. It has been so long since i have been at Home and out of everything i miss my home’s food and family the most. &lt;/p&gt;
+&lt;p&gt;I have never been to Mumbai and Delhi before, so this trip i will be visiting both of these places. It has been so long since i have been at Home and out of everything i miss my home&amp;#8217;s food and family the most. &lt;/p&gt;
 
 &lt;p&gt;Well, according to me there is just one way to live life and that is to live life to fullest. Work hard, and go on vacations. Spend good time with family and friends. There are not many chances we get to do those in  a lifetime. So, life it to fullest, while it lasts.&lt;/p&gt;
 
@@ -315,7 +355,7 @@ python manage.py migrate
   <title type="html"><![CDATA[Twitter in NodeJS]]></title>
   <link rel="alternate" type="text/html" href="/articles/twitter-like-app-in-nodejs" />
   <id>/articles/twitter-like-app-in-nodejs</id>
-  <published>2013-03-27T00:00:00+00:00</published>
+  <published>2013-03-27T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -337,7 +377,7 @@ python manage.py migrate
   <title type="html"><![CDATA[My JavaScript love]]></title>
   <link rel="alternate" type="text/html" href="/articles/my-javascript-love" />
   <id>/articles/my-javascript-love</id>
-  <published>2013-03-24T00:00:00+00:00</published>
+  <published>2013-03-24T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -366,7 +406,7 @@ python manage.py migrate
   <title type="html"><![CDATA[Life has changed]]></title>
   <link rel="alternate" type="text/html" href="/articles/life-has-changed" />
   <id>/articles/life-has-changed</id>
-  <published>2013-03-24T00:00:00+00:00</published>
+  <published>2013-03-24T00:00:00+05:30</published>
   
   <author>
     <name>Vinit Kumar</name>
@@ -388,7 +428,7 @@ python manage.py migrate
 
 &lt;p&gt;Though i still love my 2 year old dell and Nokia E5. Some repair and polishing is required and i will sure give them their due in right time.&lt;/p&gt;
 
-&lt;p&gt;I love my hardware and doesn’t everyone else does too.&lt;/p&gt;
+&lt;p&gt;I love my hardware and doesn&amp;#8217;t everyone else does too.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;/articles/life-has-changed&quot;&gt;Life has changed&lt;/a&gt; was originally published by Vinit Kumar at &lt;a href=&quot;&quot;&gt;Vinit Kumar&lt;/a&gt; on March 24, 2013.&lt;/p&gt;</content>
 </entry>
