@@ -18,6 +18,29 @@ Right now it has following functionalities:
 * See own and another user's profile
 * Follow another User
 
+##Here are some screen-shots:
+
+<figure>
+<img src="../images/twitter.png" height="400" width="640">
+</figure>
+
+<figure>
+  <img src="../images/twitter2.png" height="400" width="640">
+</figure>
+
+<figure>
+  <img src="../images/twitter3.png" height="400" width="640">
+</figure>
+
+<figure>
+  <img src="../images/twitter4.png" height="400" width="640">
+</figure>
+
+<figure>
+  <img src="../images/twitter5.png" height="400" width="640">
+</figure>
+
+
 I am also planning to add all other features present on twitter one by one. Next would be dashboard(timeline), personal profile, retweet and hashtags.
 
 These features might seem simple but most of them are not that simple and requires some good effort.
