@@ -1,3 +1,11 @@
+---
+layout: post
+title: "What is on my mind?"
+description: "Things i think about"
+category: articles
+tags: [ post, images, test]
+---
+
 # What is on my mind?
 
 These days i had a great time working on some pretty good projects in both office and home. I will talk about my personal projects for obv reasons. 
