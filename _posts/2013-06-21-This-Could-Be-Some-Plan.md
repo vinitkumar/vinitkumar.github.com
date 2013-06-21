@@ -6,7 +6,7 @@ category: articles
 tags: [projects]
 ---
 
-I just read a blog by Jeff Adwood that there are no Rockstar Programmers, there are people who could write cleaner code, refactort fast etc. faster than other people. 
+I just read a blog by Jeff Adwood that there are no Rockstar Programmers, there are people who could write cleaner code, refactor fast etc. faster than other people. 
 
 Well, here is something that i should do:
 
