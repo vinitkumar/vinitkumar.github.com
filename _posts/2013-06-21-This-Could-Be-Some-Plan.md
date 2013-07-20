@@ -6,8 +6,7 @@ category: articles
 tags: [projects]
 ---
 
-I recently read a blog by Jeff Adwood that there is no such people as Rockstar programmer.
-These are people who could write cleaner code, refactor faster than anyone else, write a lot of tested code and methodology. This means each of one has a scope to get better as a developer.
+I recently read a blog by Jeff Adwood that there is no such people as Rockstar programmer.These are people who could write cleaner code, refactor faster than anyone else, write a lot of tested code and methodology. This means each of one has a scope to get better as a developer.
 
 I am in my first software development job and there is a lot of scope for me to improve and get better.
 

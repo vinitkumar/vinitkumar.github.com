@@ -6,8 +6,7 @@ category: articles
 tags: [projects]
 ---
 
-Last few months has been really exciting for me. Since, i joined [Changer](http://changer.nl)
-on 1st February.
+Last few months has been really exciting for me. Since, i joined [Changer](http://changer.nl) on 1st February.
 Here are some things i learnt in these 5 months:
 
 - I should try to learn and own the stack i am  working on. Trying to do a lot of things at a time is not going to help much.
