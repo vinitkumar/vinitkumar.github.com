@@ -14,13 +14,13 @@ owner:
   twitter:        vinitcool76
   facebook:       vinit.kumar99
   github:         vinitcool76
-  stackexchange:
+  stackexchange:  458929
   linkedin:
-  instagram:
+  instagram:      vinitcool76
   flickr:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:  106645023605660581419
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-40854387-1
@@ -35,9 +35,6 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Gotchacode
-    url: http://www.gotchacode.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    India/Mumbai
