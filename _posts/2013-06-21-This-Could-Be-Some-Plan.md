@@ -4,6 +4,7 @@ title: "This Could Be Some Plan"
 description: "Learning"
 category: articles
 tags: [projects]
+comments: false
 ---
 
 I recently read a blog by Jeff Adwood that there is no such people as Rockstar programmer.These are people who could write cleaner code, refactor faster than anyone else, write a lot of tested code and methodology. This means each of one has a scope to get better as a developer.

@@ -4,6 +4,7 @@ title: "Single Machine Workflow"
 description: "How a laptop based workflow boost productivity"
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 #Single laptop workflow
 

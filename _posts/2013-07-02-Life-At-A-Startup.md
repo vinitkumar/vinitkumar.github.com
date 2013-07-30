@@ -4,6 +4,7 @@ title: "Life At A Startup"
 description: "Learning"
 category: articles
 tags: [projects]
+comments: false
 ---
 
 Last few months has been really exciting for me. Since, i joined [Changer](http://changer.nl) on 1st February.

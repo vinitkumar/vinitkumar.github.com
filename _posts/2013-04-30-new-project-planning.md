@@ -4,6 +4,7 @@ title: "New projects"
 description: "About new projects"
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 In last couple of days, i noticed there was no good planning for my personal projects and there were lots of loose ends. So i finally cleaned up my Github.
 

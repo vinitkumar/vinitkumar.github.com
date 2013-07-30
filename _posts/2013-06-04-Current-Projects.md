@@ -4,6 +4,7 @@ title: "My Current Projects"
 description: "What i am doing these days"
 category: articles
 tags: [projects, JavaScript, Node, Mongod]
+comments: false
 ---
 
 These days i was busy working on an a project called as Node Twitter.

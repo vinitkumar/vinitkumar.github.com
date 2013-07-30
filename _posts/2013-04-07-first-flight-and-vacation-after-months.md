@@ -4,6 +4,7 @@ title: "My First flight"
 description: "Examples and code for displaying images in posts."
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 
 So finally, I am going for a weeklong vacation and it has finally begun. On Air India flight to Delhi and From Delhi to Ranchi. Well this vacation is special for a lots of good reason. First of all, this is my first flight. Also , this is first vacation since i have started working at Changer Technologies, Pune. 

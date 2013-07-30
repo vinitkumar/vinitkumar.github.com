@@ -7,37 +7,32 @@
 {% include head.html %}
 </head>
 
-<body class="page" itemscope itemtype="http://schema.org/WebPage">
+<body id="page" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
-
+{% include browser-upgrade.html %}
 {% include navigation.html %}
 
-{% if page.image.feature %}<div class="image-wrap">
-
-</div><!-- /.image-wrap -->{% endif %}
-
-<div id="main" role="main"  itemprop="mainContentOfPage">
-  <div class="article-author-top">
-    {% include author-bio.html %}
-  </div>
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+      </header>
+      <div class="entry-content" itemprop="description">
+        {{ content }}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
   </article>
-</div><!-- /#index -->
+</div><!-- /#main -->
 
-<div class="footer-wrap">
-  <footer>
+<div class="footer-wrapper">
+  <footer role="contentinfo">
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}
+{% include scripts.html %}          
 
 </body>
 </html>

@@ -4,6 +4,7 @@ title: "Good Week Gone By"
 description: "What happened last week"
 category: articles
 tags: [node, twitter]
+comments: false
 ---
 This week is going to be a particularly good one. I am implementing 
 twitter clone in node.js. It is a  great exercise to just take a look 

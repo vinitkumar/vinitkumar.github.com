@@ -4,6 +4,7 @@ title: "Linux to Mac"
 description: "How to converted from a Linux fan to Mac user"
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 
 A lot of things have changed recently. I converted from a hardcore Linux user 

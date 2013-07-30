@@ -4,6 +4,7 @@ title: "JavaScript is super awesome"
 description: "Why i love JavaScript so much."
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 
 I started programming JavaScript seriously in Sep 2012 and 

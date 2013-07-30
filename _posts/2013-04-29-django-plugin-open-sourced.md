@@ -4,6 +4,7 @@ title: "Django plugin open sourced"
 description: "Examples and code for displaying images in posts."
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 #Facebook Album plugin for Django CMS
 

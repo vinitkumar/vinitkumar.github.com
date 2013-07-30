@@ -4,6 +4,7 @@ title: "Django plugin and Google command line project open sourced"
 description: "Projects I recently worked on and open sourced"
 category: articles
 tags: [sample post, images, test]
+comments: false
 ---
 Maintaining and contributing to an Open Source Project is a very important part of a developers life. 
 Luckily, i am in a Company that gives me full liberty to contribute and infact we have a 
