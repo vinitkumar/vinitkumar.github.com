@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
+title: About
+tags: [Vinit]
 image:
   feature: so-simple-sample-image-4.jpg
 ---
