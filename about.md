@@ -7,11 +7,11 @@ image:
   feature: so-simple-sample-image-4.jpg
 ---
 
-I am Vinit and I am a JavaScript/nodejs/Python developer with an awesome Dutch company known as [Changer](http://changer.nl).
+Hello, I am Vinit. I work at this awesome Dutch company, [Changer](http://changer.nl). I work as a developer on our array of web products. 
+Quite recently, i have been working on our product [Socialschools](http://socialschools.nl).
 
-I contribute a lot to open source and love writing code. I love good coffee, good food and a peaceful life. I am a big fan of classical rock and british rock bands.I write my code on Vim(some ST2 too). Here is more about my setup [here](http://vinitkumar.me/articles/my-setup/).
+In startups, you get to work on lot of interesting technologies. I have mostly self taught myself Python, C/C++, Linux and JavaScript. I love dabbling with good code and frameworks. Nodejs, Django and AngularJS are my recent obsession. I love hacking on them and creating apps.
 
-I also maintain another popular technology blog named as [Gotchacode](http://www.gotchacode.com). I am sure you would love to read some of them.
+I also enjoy doing Maths and Physics and have some interest in Economics, Chess. I keenly follow a variety of sports including Chess, Formala One and Tennis.
 
-**(All the views presented here are my personal and have no connections with my Employers).**
 
