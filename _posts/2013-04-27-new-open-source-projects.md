@@ -7,7 +7,7 @@ tags: [sample post, images, test]
 comments: false
 ---
 Maintaining and contributing to an Open Source Project is a very important part of a developers life. 
-Luckily, i am in a Company that gives me full liberty to contribute and infact we have a 
+Luckily, i am in a Company that gives me full liberty to contribute and in fact we have a 
 Open Source day(Friday) where we could open source reusable components of project 
 we have been working on to the open source audience.
 

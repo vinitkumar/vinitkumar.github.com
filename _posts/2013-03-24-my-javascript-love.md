@@ -7,7 +7,7 @@ tags: [sample post, images, test]
 comments: false
 ---
 
-I started programming JavaScript seriously in Sep 2012 and 
+I started programming JavaScript seriously in September 2012 and 
 i never ever wondered that it will affect my life so much. 
 Well, it started with me working on developing a Chrome Extension for a 
 E-commerce/Social media app. Chrome is quite different for development. 

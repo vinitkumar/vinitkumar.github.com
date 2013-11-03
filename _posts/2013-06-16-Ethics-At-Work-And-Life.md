@@ -15,7 +15,7 @@ Work has a really important part in anyone's life.These are some of the things i
 - Think logically before you make any decision.
 - Keep the communication lines open.
 - You are facing a difficulty admit it, don't let your ego come in between.
-- There are always things that could be difficult, peristent hard work is the only way to crack them.
+- There are always things that could be difficult, persistent hard work is the only way to crack them.
 - Don't fall victim of easy goals, work with full passion whatever you have decided.
 - Don't think much about other things, just concentrate on your work. 
 

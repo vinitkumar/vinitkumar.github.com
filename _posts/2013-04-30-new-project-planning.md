@@ -10,7 +10,7 @@ In last couple of days, i noticed there was no good planning for my personal pro
 
 Here are some of ground rules for projects on Github:
 
-- Don't open source a project until the project has got unittest, wikis and sample application (if it is a application project) hosted.
+- Don't open source a project until the project has got unit test, wikis and sample application (if it is a application project) hosted.
 
 - Integrate CI like travis and jenkins with all of them.
 

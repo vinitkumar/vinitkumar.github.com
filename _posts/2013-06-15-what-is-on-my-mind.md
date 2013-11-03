@@ -9,7 +9,7 @@ comments: false
 
 # What is on my mind?
 
-These days i had a great time working on some pretty good projects in both office and home. I will talk about my personal projects for obv reasons. 
+These days i had a great time working on some pretty good projects in both office and home. I will talk about my personal projects for obvious reasons. 
 Well, the primary goal currently is to fix the existing projects, test them and add CI support for all of them. 
 
 This is single most important thing as of now as these measures improve the code quality.
@@ -19,7 +19,7 @@ Also, i am working on different projects and languages so it might be little tou
 Here is what i have planned.
 
 ## How to get things done?
-- Work in sprint of 30 mins + 3 minutes break. ( No distractions+ no phone calls+ no messaging) Do all those in this 3 mins break.
+- Work in sprint of 30 min + 3 minutes break. ( No distractions+ no phone calls+ no messaging) Do all those in this 3 min break.
 
 ## How many of these sprints?
 - 16 of them in a 9 hours office time. with 18 breaks in between. 
@@ -33,7 +33,7 @@ Be religious about the count.
 - Dart Games.
 - Facebook.
 - Twitter
-- Timepass stuff in skype.
+- Time-pass stuff in Skype.
 
 
 # How to track my day and goals:
@@ -54,7 +54,7 @@ Be religious about the count.
 
 - Evening: Dinner + 3 hours of self study in the same time + break as work.
 - Learn something new or re learn something that you forgot.
-- Experiment as much as you, Think, brainstrom. Write every idea that comes in your mind. Create an issue of the idea.
+- Experiment as much as you, Think, brainstorm. Write every idea that comes in your mind. Create an issue of the idea.
 
 
 Learn, Work, Debug, Iterate!

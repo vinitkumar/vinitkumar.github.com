@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Single Machine Workflow"
-description: "How a laptop based workflow boost productivity"
+title: "Single Machine Work-flow"
+description: "How a laptop based work-flow boost productivity"
 category: articles
 tags: [sample post, images, test]
 comments: false
 ---
-#Single laptop workflow
+#Single laptop work-flow
 
 ##benefits
 
@@ -24,7 +24,7 @@ comments: false
 - Distraction free mode in sublime when required. 
 - Use different desktops for coding, shell and browser.
 
-###Donts:
+### Refrain from these:
 
 - Don't use a monitor to break this rhythm.
 - Don't use a monitor unless you need to show something that can be shown in laptop.

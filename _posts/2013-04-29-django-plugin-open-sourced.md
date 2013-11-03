@@ -11,7 +11,7 @@ comments: false
 There are lot of useful plugins for Django CMS.
 Well, this plugin let you use the images from a Facebook Album. Currently it supports fetching images from Photo Album of a Facebook Page.
 
-All you need to do is to put Facebook Album URL, Access-token and the album name in the plugin fields and you will get a nice thumbnail in the intended place and once clicked big images will open in carousel effects. Sounds nice, take a look at the screenshots below.
+All you need to do is to put Facebook Album URL, Access-token and the album name in the plugin fields and you will get a nice thumbnail in the intended place and once clicked big images will open in carousel effects. Sounds nice, take a look at the screen-shots below.
 
 - Entering the details in plugin form:
 
