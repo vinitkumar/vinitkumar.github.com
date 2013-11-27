@@ -1,0 +1,12 @@
+<div class="header-container">
+    <header class="wrapper clearfix">
+        <a href="/"><h1 class="title">Vinit's Weblog</h1></a>
+        <nav>
+            <ul>
+                {% for link in site.links %}
+                <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+</div

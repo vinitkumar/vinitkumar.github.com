@@ -7,32 +7,24 @@
 {% include head.html %}
 </head>
 
-<body id="page" itemscope itemtype="http://schema.org/WebPage">
+<body>
+{% include header.html %}
 
-{% include browser-upgrade.html %}
-{% include navigation.html %}
-
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
-    <div class="entry-wrapper">
-      <header class="entry-header">
-        <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
-      </header>
-      <div class="entry-content" itemprop="description">
-        {{ content }}
-      </div><!-- /.entry-content -->
-    </div><!-- /.entry-wrapper -->
-  </article>
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+      <article>
+          <header class="entry-header">
+            <h1 itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+          </header>  
+            {{ content }}
+        </article>
+        <aside class="sidebar">
+          <img class="site-logo" src="{{ site.url }}/images/{{site.logo}}" alt="">
+        </aside>
+    </div><!-- /.entry-content -->
+  </div><!-- /.entry-wrapper -->
+  
+{% include footer.html %}
 {% include scripts.html %}          
-
 </body>
 </html>
