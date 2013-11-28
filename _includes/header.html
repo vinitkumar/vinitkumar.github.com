@@ -2,10 +2,13 @@
     <header class="wrapper clearfix">
         <a href="/"><h1 class="title">Vinit's Weblog</h1></a>
         <nav>
-            <ul>
-                {% for link in site.links %}
-                <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
+            <ul> 
+                <li><a href="/about"><i class="fa fa-user"></i> About</a></li>
+                
+                <li><a href="/articles"><i class="fa fa-pagelines"></i> Blog</a></li>
+                
+                <li><a href="http://github.com/vinitkumar"><i class="fa fa-github-alt"></i> Code</a></li>
+                
             </ul>
         </nav>
     </header>
