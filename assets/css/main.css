@@ -59,13 +59,16 @@ h1, h2, h3, h4 {
     font-weight: lighter;
 }
 
+.fa {
+    color: gray;
+}
+
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    font-weight: lighter;
+    font: 16px/26px "Raleway", Arial;
 }
 
 .wrapper {
@@ -134,9 +137,15 @@ nav a {
     background: #fff;
 }
 
+nav > ul > li > a:hover {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+
 nav a:hover,
 nav a:visited {
-    color: #000;
+    color: #4183c4;
 }
 
 nav a:hover {
@@ -236,9 +245,6 @@ nav a:hover {
 .header-container {
   height: 56px;
 }
-    header h1 {
-      font-weight: lighter;
-    }
     .header-container {
         border-bottom: 1px solid #e5e5e5;
     }

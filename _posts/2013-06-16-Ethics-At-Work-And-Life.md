@@ -6,7 +6,7 @@ category: articles
 tags: [Work, Ethics, Life]
 comments: false
 ---
-
+#Work Ethics
 
 Work has a really important part in anyone's life.These are some of the things i feel is very important part of one's professional ethos.
 

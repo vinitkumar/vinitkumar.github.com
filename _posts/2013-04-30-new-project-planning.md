@@ -6,6 +6,8 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
+#New Project Planning
+
 In last couple of days, i noticed there was no good planning for my personal projects and there were lots of loose ends. So i finally cleaned up my Github.
 
 Here are some of ground rules for projects on Github:

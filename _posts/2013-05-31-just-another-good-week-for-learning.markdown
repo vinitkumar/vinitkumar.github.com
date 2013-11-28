@@ -6,6 +6,8 @@ category: articles
 tags: [node, twitter]
 comments: false
 ---
+#Good Week
+
 This week is going to be a particularly good one. I am implementing 
 twitter clone in node.js. It is a  great exercise to just take a look 
 at something trying to guess what is going on behind the scenes and 

@@ -6,6 +6,7 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
+#My JavaScript Love
 
 I started programming JavaScript seriously in September 2012 and 
 i never ever wondered that it will affect my life so much. 

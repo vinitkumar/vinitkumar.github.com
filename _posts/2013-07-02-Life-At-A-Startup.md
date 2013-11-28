@@ -6,6 +6,7 @@ category: articles
 tags: [projects]
 comments: false
 ---
+#Life At A Startup
 
 Last few months has been really exciting for me. Since, i joined [Changer](http://changer.nl) on 1st February.
 Here are some things i learnt in these 5 months:

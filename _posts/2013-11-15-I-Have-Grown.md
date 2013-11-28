@@ -6,6 +6,7 @@ category: articles
 tags: [Development, Growth]
 comments: false
 ---
+#I Have Grown As A Developer
 
 Last few months has been really great for me. I think i am starting to grow as a developer and I know now 
 how important is to keep performing at a certain level. The change started occurring when i gave up my 
