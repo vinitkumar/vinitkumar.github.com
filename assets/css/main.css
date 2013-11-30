@@ -13,15 +13,16 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background: #f6f5ed;
 }
 
 ::-moz-selection {
-    background: #e5e5e5;
+    background: #f6f5ed;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e5e5e5;
+    background: #f6f5ed;
     text-shadow: none;
 }
 
@@ -102,7 +103,7 @@ body {
     }
 }
 .main aside {
-    background: #fff;
+    background: #f6f5ed;
 }
 
 .title {
@@ -139,7 +140,7 @@ nav a {
     font-weight: light;
 
     color: #000;
-    background: #fff;
+    background: #f6f5ed;
 }
 
 nav > ul > li > a:hover {
