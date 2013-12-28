@@ -6,7 +6,6 @@ category: articles
 tags: [projects, JavaScript, Node, Mongod]
 comments: false
 ---
-#Current Projects
 
 These days i was busy working on an a project called as Node Twitter.
 As the name suggest it is a twitter clone written on node. 

@@ -6,7 +6,6 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
-#Single laptop work-flow
 
 ##benefits
 

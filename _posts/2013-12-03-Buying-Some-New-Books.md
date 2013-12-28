@@ -6,9 +6,6 @@ category: articles
 tags: [Hack, Projects]
 comments: false
 ---
-
-# Buying New Computer Science Books
-
 In the span of two days I have ordered three books:
 
 - The Art of Computer Programming (Volume 1, 2 and 3)

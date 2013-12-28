@@ -6,7 +6,6 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
-#Facebook Album plugin for Django CMS
 
 There are lot of useful plugins for Django CMS.
 Well, this plugin let you use the images from a Facebook Album. Currently it supports fetching images from Photo Album of a Facebook Page.

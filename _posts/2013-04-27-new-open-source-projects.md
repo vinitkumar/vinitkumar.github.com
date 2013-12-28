@@ -6,7 +6,6 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
-#New Open Source Projects
 
 Maintaining and contributing to an Open Source Project is a very important part of a developers life. 
 Luckily, i am in a Company that gives me full liberty to contribute and in fact we have a 

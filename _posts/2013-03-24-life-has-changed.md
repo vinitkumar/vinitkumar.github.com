@@ -6,7 +6,6 @@ category: articles
 tags: [sample post, images, test]
 comments: false
 ---
-#Linux to Mac
 
 A lot of things have changed recently. I converted from a hardcore Linux user 
 to Mac lover. I got a high end Macbook from Office. 
