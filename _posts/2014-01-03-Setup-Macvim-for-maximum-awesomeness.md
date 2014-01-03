@@ -47,7 +47,7 @@ IDE optimised for Python/JS/Ruby development.
 
 ##Credits
 
-Credit must be given to @alloy[http://github.com/alloy] and
+Credit must be given to [@alloy](http://github.com/alloy) and
 [@topfunky](http://twitter.com/topfunky) for creating these wonderful
 addons to Vim.
 
