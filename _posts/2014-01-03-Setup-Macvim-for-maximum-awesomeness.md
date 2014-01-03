@@ -15,7 +15,7 @@ work. I am sure some of them are only meant for macs.
 
 Here is the latest screenshot of my macvim:
 
-![Macvim](img/vim.png)
+![Macvim](/public/img/vim.png)
 
 As you can see, it has a nice Filebrowser that is way more clean and
 intuitive than NERDTree and is pretty. Also there is a very clean file
