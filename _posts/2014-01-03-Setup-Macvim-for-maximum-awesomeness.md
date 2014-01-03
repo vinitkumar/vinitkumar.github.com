@@ -21,6 +21,12 @@ As you can see, it has a nice Filebrowser that is way more clean and
 intuitive than NERDTree and is pretty. Also there is a very clean file
 navigation using `\-p`.  
 
+## Installation
+
+First and foremost down this build of Macvim from alloy's fork:
+[Mavim](https://github.com/alloy/macvim/releases/download/snapshot-71/MacVim-71-20130920.zip)
+Unzip it and then put the `Macvim.app` into your `Applications`.
+
 Follow these instructions to have the same in your Mac.
 
 
@@ -31,11 +37,18 @@ $ mkdir .vim
 $ git clone git@github.com:vinitkumar/.vim.git
 ```
 
-Copy all the vimrc file from the repo to the home and then install the
-peepopen app from here: [Peepopen](http://topfunky.github.io/PeepOpen/)
+- Copy all the vimrc file from the repo to the home and then install the
+peepopen app from here: [Peepopen](http://topfunky.github.io/PeepOpen/).
+
+- When installed open peepopen and set MacVim as your default editor.
 
 Once you are done with these steps you have a super awesome development
 IDE optimised for Python/JS/Ruby development.
 
+##Credits
+
+Credit must be given to @alloy[http://github.com/alloy] and
+[@topfunky](http://twitter.com/topfunky) for creating these wonderful
+addons to Vim.
 
 Happy hacking!
