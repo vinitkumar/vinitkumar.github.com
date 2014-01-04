@@ -24,7 +24,7 @@ navigation using `\-p`.
 ## Installation
 
 First and foremost down this build of Macvim from alloy's fork:
-[Mavim](https://github.com/alloy/macvim/releases/download/snapshot-71/MacVim-71-20130920.zip)
+[Macvim](https://github.com/alloy/macvim/releases/download/snapshot-71/MacVim-71-20130920.zip)
 Unzip it and then put the `Macvim.app` into your `Applications`.
 
 Follow these instructions to have the same in your Mac.
@@ -33,8 +33,14 @@ Follow these instructions to have the same in your Mac.
 First of all do this:
 
 ```sh
-$ mkdir .vim
-$ git clone git@github.com:vinitkumar/.vim.git
+$  curl -Lo- https://bit.ly/janus-bootstrap | bash
+$ git clone git@github.com:vinitkumar/.vim.git vimsettings
+$ cp -r vimsettings/janus/vim/* ~/.vim/janus/vim
+$ cp vimsettings/vimrc ~/.vimrc
+$ cp vimsettings/vimrc.after ~/.vimrc.after
+$ cp vimsettings/vimrc.nefore ~/.vimrc.before
+$ cp vimsettings/gvimrc ~/.gvimrc
+$ cp vimsettings/gvimrc.after ~/.gvimrc.after
 ```
 
 - Copy all the vimrc file from the repo to the home and then install the
