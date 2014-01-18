@@ -30,7 +30,7 @@ How to stop wastage of time:
 - Removed Sublime Text2. Complete switch to Macvim and Vim again :)
 - Take a small topic and read it completely end to end. Make notes of it. Use it. 
 - Improve your projects by removing smell from your code.
-- Your your imagination, take risks, experiments, hack but always keep backups.
+- Use your imagination, take risks, experiments, hack but always keep backups.
 - Automate things. Reduce clutter.
 
 
