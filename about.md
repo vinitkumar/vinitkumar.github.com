@@ -9,7 +9,9 @@ An experienced Web Developer with a good knowledge of Python and JavaScript base
 I love doing frontend and backend work alike and building end to end solutions for fun. 
 I do bit of writing as well on my blogs here: http://www.gotchacode.com and http://vinitkumar.me
 
-I currently work at an awesome Dutch company Changer(http://changer.nl) and my job involves building Safe and Secure Social Network for School kids (http://www.socialschools.nl/en/). 
+I currently work at an awesome Dutch company
+[Changer](http://changer.nl) and my job involves building Safe and
+Secure Social Network for School kids : [Socialschools] (http://www.socialschools.nl/en/). 
 
 Contributing to Open Source is one of my passion and most of time you would find me closing issues on Github or reading some good piece of Code.
 
