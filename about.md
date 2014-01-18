@@ -25,9 +25,9 @@ Qualities:
 
 Lead Developer on these projects:
 
-GoogleCL - Google on command line
-Node-Twitter - Nodejs Clone with Nodejs.
-ldb.js - LocalStorage abstraction library.
-Simple - Clean theme for Jekyll.
+- GoogleCL - Google on command line
+- Node-Twitter - Nodejs Clone with Nodejs.
+- ldb.js - LocalStorage abstraction library.
+- Simple - Clean theme for Jekyll.
 
 Also, you could check my github profile for other projects.
