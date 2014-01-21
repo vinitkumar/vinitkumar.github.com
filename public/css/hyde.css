@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 40px;
+  font-size: 32px;
 }
 h2 {
   margin-top: 20px;
@@ -328,6 +328,7 @@ a:focus {
 
 /* Meta data line below post title */
 .post-date {
+  font-size: 12px;
   display: block;
   margin: -10px 0 10px;
   color: #9a9a9a;
@@ -439,7 +440,7 @@ a:focus {
 
 /* Red */
 .theme-base-08 .masthead {
-  background-color: #ac4142;
+  background-color: #55acee;
 }
 .theme-base-08 .container a,
 .theme-base-08 .related-posts li a:hover {
