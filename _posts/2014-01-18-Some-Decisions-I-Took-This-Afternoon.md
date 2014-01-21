@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some decisions I Took This Afternoon"
+title: "Some Decisions I Took This Afternoon"
 description: "Road to awesomeness"
 category: articles
 tags: [life, general]
