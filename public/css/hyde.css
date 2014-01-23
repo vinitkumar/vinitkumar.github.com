@@ -293,6 +293,10 @@ a:focus {
   }
 }
 
+.post > p > img {
+  /* Add max width for the image */ 
+  width: 700px; 
+}
 
 /* Container
  *
