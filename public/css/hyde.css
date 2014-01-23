@@ -285,7 +285,8 @@ a:focus {
     left: 0;
   }
   .masthead h1 {
-    font-size: 64px;
+    font-size: 30px;
+    padding-top: 30px;
   }
   .colophon {
     margin-top: 40px;
