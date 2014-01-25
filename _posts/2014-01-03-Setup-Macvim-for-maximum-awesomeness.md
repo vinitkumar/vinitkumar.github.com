@@ -33,7 +33,7 @@ Follow these instructions to have the same in your Mac.
 First of all do this:
 
 ```sh
-$  curl -Lo- https://bit.ly/janus-bootstrap | bash
+$ curl -Lo- https://bit.ly/janus-bootstrap | bash
 $ git clone git@github.com:vinitkumar/.vim.git vimsettings
 $ cp -r vimsettings/janus/vim/* ~/.vim/janus/vim
 $ cp vimsettings/vimrc ~/.vimrc
