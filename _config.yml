@@ -26,7 +26,7 @@ bing_verify:
 
 
 
-markdown:     rdiscount
+markdown:     redcarpet
 permalink:    pretty
 pygments:     true
 paginate:     5
