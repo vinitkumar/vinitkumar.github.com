@@ -10,7 +10,7 @@ comments: false
 
 Here is an interesting example for Classes in JS. Classes in JS don't have a class keyword.
 
-```js
+```javascript
 function Range(from, to) {
   this.from = from;
   this.to = to;
