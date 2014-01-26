@@ -3,6 +3,7 @@ layout: default
 title: About
 ---
 ## About Me!
+![my-picture](/public/img/vinit.jpg)
 
 An experienced Web Developer with a good knowledge of Python and JavaScript based web development. I love creating products that are good in user experience and user interface. 
 
