@@ -298,6 +298,12 @@ a:focus {
   width: 700px; 
 }
 
+.profile-pic {
+  /* profile picture styling */
+  height:250px; 
+}
+
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
