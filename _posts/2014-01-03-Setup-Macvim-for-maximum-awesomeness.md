@@ -33,14 +33,12 @@ Follow these instructions to have the same in your Mac.
 First of all do this:
 
 ```sh
-$ curl -Lo- https://bit.ly/janus-bootstrap | bash
-$ git clone git@github.com:vinitkumar/.vim.git vimsettings
-$ cp -r vimsettings/janus/vim/* ~/.vim/janus/vim
-$ cp vimsettings/vimrc ~/.vimrc
-$ cp vimsettings/vimrc.after ~/.vimrc.after
-$ cp vimsettings/vimrc.nefore ~/.vimrc.before
-$ cp vimsettings/gvimrc ~/.gvimrc
-$ cp vimsettings/gvimrc.after ~/.gvimrc.after
+git clone git@github.com:vinitkumar/.vim.git ~/.vim
+cd ~/.vim
+git submodule init
+git submodule update
+./install.sh
+vim +BundleInstall +qall
 ```
 
 - Copy all the vimrc file from the repo to the home and then install the
