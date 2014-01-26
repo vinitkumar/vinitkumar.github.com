@@ -40,11 +40,8 @@ git submodule update
 ./install.sh
 vim +BundleInstall +qall
 ```
-
-- Copy all the vimrc file from the repo to the home and then install the
-peepopen app from here: [Peepopen](http://topfunky.github.io/PeepOpen/).
-
-- When installed open peepopen and set MacVim as your default editor.
+Install the peepopen app from here: [Peepopen](http://topfunky.github.io/PeepOpen/).
+When installed open peepopen and set MacVim as your default editor.
 
 Once you are done with these steps you have a super awesome development
 IDE optimised for Python/JS/Ruby development.
