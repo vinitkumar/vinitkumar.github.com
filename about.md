@@ -6,7 +6,7 @@ title: About
 <img src="/public/img/vinit.jpg" class="profile-pic">
 
 
-An experienced Web Developer with a good knowledge of Python and JavaScript based web development. I love creating products that are good in user experience and user interface. 
+An experienced Web Developer with good knowledge of Python and JavaScript based web development. I love creating products that are good in user experience and user interface. 
 
 I love doing frontend and backend work alike and building end to end solutions for fun. 
 I do bit of writing as well on my blogs here: http://www.gotchacode.com and http://vinitkumar.me
