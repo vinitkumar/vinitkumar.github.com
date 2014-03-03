@@ -7,19 +7,15 @@ tags: [life, general]
 comments: false
 ---
 
-I have been using vim for almost 5 years now. For a brief time i even
+I have been using vim for almost 5 years now. For some time, I even
 switched to Sublime text2 but I am finally back to home. Well, the
-following guide is only for macs. Sorry GVIM users, i no longer use
-Linux so I am not very sure about how these plugins will behave or even
-work. I am sure some of them are only meant for macs.
-
+following guide is only for macs. Sorry GVIM users!
 Here is the latest screenshot of my macvim:
 
 ![Macvim](/public/img/vim.png)
 
 As you can see, it has a nice Filebrowser that is way more clean and
-intuitive than NERDTree and is pretty. Also there is a very clean file
-navigation using `\-p`.  
+intuitive than NERDTree.  
 
 ## Installation
 
@@ -28,7 +24,6 @@ First and foremost down this build of Macvim from alloy's fork:
 Unzip it and then put the `Macvim.app` into your `Applications`.
 
 Follow these instructions to have the same in your Mac.
-
 
 First of all do this:
 
