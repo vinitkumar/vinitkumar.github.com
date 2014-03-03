@@ -8,7 +8,7 @@ comments: false
 ---
 
 I have been using vim for almost 5 years now. For some time, I even
-switched to Sublime text2 but I am finally bac home. Well, the
+switched to Sublime text2 but I am finally back home. Well, the
 following guide is only for macs. Sorry GVIM users!
 Here is the latest screenshot of my macvim:
 
