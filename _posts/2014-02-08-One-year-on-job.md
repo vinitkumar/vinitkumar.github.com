@@ -9,7 +9,7 @@ comments: false
 
 I joined Changer on Feb 2013. Today I completed my first year at full time employment. It has been nothing but amazing.
 
-As I get to understand, first year is the toughest. It is hard to adjust working with people, communicating properly and keep your mind sane
+As I get to understand, first year is the toughest. It is hard to adjust working with people, communicating properly and keeping your mind sane
 in lows and highs.
 
 I am very proud of the hard work I put in my projects. I did some mistakes, improved a lot as a person and a programmer.I am totally committed 
