@@ -469,6 +469,11 @@ background-size: 60px 178px; } }
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
 /* Red */
+
+.theme-base-08 {
+	background: url('/public/img/crossword.png');
+}
+
 .theme-base-08 .masthead {
   background-color: #55acee;
 }
