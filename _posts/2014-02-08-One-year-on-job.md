@@ -16,4 +16,4 @@ I am very proud of the hard work I put in my projects. I did some mistakes, impr
 to try harder and do things right in the first time.
 
 Last but not the least, I would like to thank my parents, my girlfriend and my colleagues for being super supportive and nice during this time. 
-I promise, I will make everyone very proud soon. :)
+I promise, I will make everyone very proud soon. :) :satisfied:
