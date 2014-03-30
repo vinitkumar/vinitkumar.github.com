@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 ## About Me!
-<img src="/public/img/vinit.jpg" class="profile-pic">
+<img src="https://avatars3.githubusercontent.com/u/537678?s=460" class="profile-pic">
 <iframe src="http://githubbadge.appspot.com/vinitkumar?s=1&a=0" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
 An experienced Web Developer with good knowledge of Python and JavaScript based web development. I love creating products that are good in user experience and user interface. 
