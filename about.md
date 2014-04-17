@@ -6,9 +6,9 @@ title: About
 <img src="https://avatars3.githubusercontent.com/u/537678?s=460" class="profile-pic">
 <iframe src="http://githubbadge.appspot.com/vinitkumar?s=1&a=0" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
-An experience and sensible web developer with good exposure with JavaScript and Python based development. I invest a lot of thinking and effort in the products I work on, which results in good user experience and user interaction for the product.
+An experienced web developer with good exposure in JavaScript and Python based development. I invest a lot of thinking and effort in the products which results in good user experience and user interaction.
 
-I have written both front-end and backend layers in past, so over the time have acquired a good understanding of building end to end solutions.
+I have been writing both front-end and backend layers, so over the time I acquired a good understanding of building end to end solutions.
 
 Quality programming, maintainable code and automation - These are three things I have high regards for. I play a lot with tooling to make development more productive. I don't use IDE's for programming and could do everything with my Editor (VIM).
 
