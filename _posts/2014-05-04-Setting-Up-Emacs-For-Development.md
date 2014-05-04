@@ -11,7 +11,7 @@ I always wanted to use Emacs. Yesterday, I wanted to have a good JavaScript/Node
 
 Here is a guide that would help you to setup emacs.
 
-First of all, If you are on Mac install emacs for OSX from [here](http://emacsformacosx.com/).  you could easily install the GUI version of Emacs for other platforms too,.
+First of all, If you are on Mac install emacs for OSX from [here](http://emacsformacosx.com/).  you could easily install the GUI version of Emacs for other platforms too.
 
 # My Emacs config
 
