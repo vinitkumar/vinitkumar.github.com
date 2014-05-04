@@ -11,7 +11,7 @@ author:
 owner:
   name:           Vinit Kumar
   avatar:         <your avatar>
-  email:          vinit.kumar@changer.nl  
+  email:          vinit.kumar@changer.nl
   # Social networking links used in footer. Update and remove as you like.
   twitter: vinitkme
   github: vinitkumar
@@ -23,11 +23,6 @@ owner:
 google_analytics: UA-40854387-1
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
-
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
 
 markdown:     redcarpet
 permalink:    pretty
