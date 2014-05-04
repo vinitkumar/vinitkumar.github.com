@@ -7,15 +7,15 @@ tags: [editors, emacs]
 comments: false
 ---
 
-I have always wanted to use Emacs. Last day, I wanted to have a good JavaScript/Node Repl in my editor. Though I had always used Vim since last 5 years but even then setting up a REPL is not very easy. So I decided to give Emacs a try and till now and I am enjoying using Emacs since yesterday.
+I always wanted to use Emacs. Yesterday, I wanted to have a good JavaScript/Node REPL in my editor. Though I had always used Vim since last 5 years still setting up a REPL in Vim is not very easy. So I decided to give Emacs a try and till now I am enjoying using Emacs.
 
-Here is a guide that would help you to setup emacs as well.
+Here is a guide that would help you to setup emacs.
 
-First of all, If you are on Mac install emacs for osx form [here](http://emacsformacosx.com/). For other platforms too, you could install the GUI version of Emacs easily.
+First of all, If you are on Mac install emacs for OSX from [here](http://emacsformacosx.com/).  you could easily install the GUI version of Emacs for other platforms too,.
 
 # My Emacs config
 
-This is my Emac config which could be used for development in following technologies:
+This is my Emacs config which could be used for development in following technologies:
 
 * Ruby / Ruby on Rails
 * CSS / LESS / SASS / SCSS
@@ -172,8 +172,8 @@ overview of the most commonly used shortcuts to get you through this pain:
 * `F1 k   ` Help for a keybinding
 * `F1 r   ` Emacs' extensive documentation
 
-## Credits & Inspriation
+## Credits & Inspiration
 
-This config is totally based on this [repo](https://github.com/purcell/emacs.d.git) by [Mr. Steve Purcell](https://github.com/purcell). But this might diverge with time and my personal intrests/settings.
+This config is totally based on this [repo](https://github.com/purcell/emacs.d.git) by [Mr. Steve Purcell](https://github.com/purcell). But this might diverge with time and my personal taste.
 
-The Survival guide has been taken from .emacs.d repo of [Mr. Magnar Sveen](https://github.com/magnars)
+The Survival guide has been taken from .emacs.d project of [Mr. Magnar Sveen](https://github.com/magnars)
