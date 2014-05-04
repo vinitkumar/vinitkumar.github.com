@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Setting Up Emacs for Development"
