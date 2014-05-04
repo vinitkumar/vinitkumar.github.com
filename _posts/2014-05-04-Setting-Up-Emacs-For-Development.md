@@ -1,9 +1,10 @@
+
 ---
 layout: post
 title: "Setting Up Emacs for Development"
-description: "Setting up Emacs for development"
+description: "A Small guide in setting up Emacs"
 category: articles
-tags: [emacs, editors]
+tags: [editors, emacs]
 comments: false
 ---
 
@@ -175,6 +176,5 @@ overview of the most commonly used shortcuts to get you through this pain:
 ## Credits & Inspriation
 
 This config is totally based on this [repo](https://github.com/purcell/emacs.d.git) by [Mr. Steve Purcell](https://github.com/purcell). But this might diverge with time and my personal intrests/settings.
-
 
 The Survival guide has been taken from .emacs.d repo of [Mr. Magnar Sveen](https://github.com/magnars)
