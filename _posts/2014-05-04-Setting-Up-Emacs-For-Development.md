@@ -64,7 +64,7 @@ packages will be automatically downloaded and installed.
 To add your own customization, use <kbd>M-x customize</kbd> and/or
 create a file `~/.emacs.d/lisp/init-local.el` which looks like this:
 
-```el
+```
 ... your code here ...
 
 (provide 'init-local)
