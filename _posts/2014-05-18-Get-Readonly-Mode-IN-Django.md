@@ -98,7 +98,7 @@ class ReadonlyCarAdmin(CarAdmin):
 
 
      def get_actions(self, request):
-        actions = super(ReadOnlyApplicationAdmin, self).get_actions(request)
+        actions = super(ReadOnlyCarAdmin, self).get_actions(request)
         if request.user.has_perm('car.readonly') and not request.user.is_superuser:
             # This ensures that that user doesn't not have any actions
             if 'delete_selected' in actions:
