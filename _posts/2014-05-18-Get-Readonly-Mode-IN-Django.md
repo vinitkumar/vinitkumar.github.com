@@ -124,8 +124,8 @@ First of all save and cancel button on buttom needs to go as we don't need
 them.
 
 
-For that, create a new template in templates folder.The templates name is change_form.html.
-Hence the full pathname is `carapp/templates/admin/change_form.html`
+For that, create a new template in templates folder.The templates name is ` change_form.html`.
+Hence the full pathname is ` carapp/templates/admin/change_form.html`.
 
 Copy the content from the default django template (/admin/change_form.html) in django project
 add replace this content with this gist:
