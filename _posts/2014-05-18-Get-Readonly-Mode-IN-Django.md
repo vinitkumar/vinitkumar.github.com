@@ -9,7 +9,7 @@ comments: false
 
 Last week, I came across an interesting problem at work. The problem was:
 
-" To get read only users in a Django based application.
+> To get read only users in a Django based application.
 
 But doing so was not very simple because there is no read only mode for users
 in Django. In order to solve this, I first started reading answers on stack
