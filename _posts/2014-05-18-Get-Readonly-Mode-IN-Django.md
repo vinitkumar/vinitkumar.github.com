@@ -66,9 +66,9 @@ class CarAdmin(admin.ModelAdmin):
     list_filter = ('status', 'event_instance',)
     actions = ['accept', 'reject', 'pending']
 
-class ReadonlyCarAdmin(Caradmin):
+class ReadonlyCarAdmin(CarAdmin):
     def __init__(self, model, admin_site):
-      super(Readonlycaradmin, self).__init__(model, admin_site)
+      super(ReadonlyCarAdmin, self).__init__(model, admin_site)
       self.model = model
 
     def has_delete_permission(self, request, obj=None):
