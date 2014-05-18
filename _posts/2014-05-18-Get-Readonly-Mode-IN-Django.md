@@ -128,19 +128,10 @@ For that, create a new template in templates folder.The templates name is change
 Hence the full pathname is `carapp/templates/admin/change_form.html`
 
 Copy the content from the default django template (/admin/change_form.html) in django project
-add replace this content with this
+add replace this content with this gist:
 
-```html
-{% submit_row %}
-```
+<script src="https://gist.github.com/vinitkumar/48a9cd0c2e35e033659c.js"></script>
 
-```html
-{% block submit_buttons_bottom %}
-{% if not request.user.is_superuser and perms.car.readonly %}
-{% else %}
-{% submit_row %}
-{% endif %}
-```
 This will ensure that the selected user with this readonly only permissions won't be able
 get the submit button on his admin page.
 
