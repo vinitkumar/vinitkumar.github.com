@@ -6,7 +6,7 @@ tags: [code, programming, self-improvements]
 comments: false
 ---
 
-Whether you are working for a big software company or a small sized startup, writing good code is pretty much critical to your success. But the catch is it is not very easy to achieve without proper motivation from your site.
+Whether you are working for a big software company or a small sized startup, writing good code is pretty much critical to your success. But the catch is it is not very easy to achieve without proper motivation from your side.
 
 I have been coding professionally for almost 4 years now. First two years were as a freelancing and I mostly followed Get Things Done mode during those time. It was okay then because it was mostly a one time gig and once done you didn't had to do anything with it. Though I never wrote really bad code even at that time but the amount of maturity and knowledge required to write code that is maintainable, DRY and has some documentation was clearly not there.
 
