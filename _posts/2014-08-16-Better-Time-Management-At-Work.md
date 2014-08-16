@@ -10,9 +10,10 @@ Time management is a key quality of any successful person. I have been working
 pretty hard these days to improve me efficiency. Today, I have decided to
 follow this pattern while at work.
 
-Here is the breakdown. Let's assume the net hour spend at work is 8.
+Here is the breakdown. Let's assume the net hour spent at work is 8.
 
-- 50% Time (4 hrs) - Writing Code
+
+- 50% Time (4 hrs) - Writing Code.
 - 5% Time (24 min) - Documentation of the Code I wrote.
 - 5% time (24 min) - Writing test on the Code I wrote.
 - 10% time (48 min) - QA and testing the work I produced.
