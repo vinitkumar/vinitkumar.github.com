@@ -28,11 +28,12 @@ Follow these instructions to have the same in your Mac.
 First of all do this:
 
 ```sh
-git clone git@github.com:vinitkumar/.vim.git ~/.vim
-cd ~/.vim
-git submodule init
-git submodule update
-./install.sh
+git clone git@github.com:vinitkumar/.vim.git
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+cd .vim
+cp vimrc ~/.vimrc
+cp vimrc.before ~/.vimrc.before
+cp vimrc.bundles ~/.vimrc.bundles
 vim +BundleInstall +qall
 ```
 Install the peepopen app from here: [Peepopen](http://topfunky.github.io/PeepOpen/).
