@@ -65,5 +65,6 @@ with open('~/gps.csv') as csvfile:
 
 Run this file in your terminal by and check out the output, you will get freaked out for some moment.  
 ```sh
+
 python track.py
 ```
