@@ -54,4 +54,4 @@ longer need.
 
 Do it very patiently  and backup everything that's important. This guide is for
 very advanced users and  you should only do it if you know what you are doing.
-I am responsible for any data loss. Do it at your own risk.
+I am not responsible for any data loss. Do it at your own risk.
