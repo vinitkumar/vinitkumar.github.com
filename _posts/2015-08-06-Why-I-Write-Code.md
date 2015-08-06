@@ -14,6 +14,6 @@ I enjoy solving tough problems with code. It gives such a great high when I solv
 
 Last year has been very hectic and I haven't given much time on writing code on things I enjoy personally the most(side projects).
 
-Well, I am still figuring out my dreams at the moment but very soon I wil have a clear idea of how and what I want to become in future.
+Well, I am still figuring out my dreams at the moment but very soon I will have a clear idea of how and what I want to become in future.
 
 But there is one thing that is sure, I would change the world for better than how I found it. 
