@@ -3,8 +3,7 @@ layout: default
 title: About
 ---
 ## About Vinit
-<img src="https://avatars3.githubusercontent.com/u/537678?s=460" class="profile-pic">
-<iframe src="http://githubbadge.appspot.com/vinitkumar?s=1&a=0" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<iframe src="http://githubcard.toproduction.ru/card/vinitkumar" frameborder="0" width="570px" scrolling="no" height="220px"></iframe>
 
 Vinit is a Back-end Engineer who has a passion about writing clean, elegant code that scales well. He also has in depth experience in doing front-end programming with a good taste and focus on User Experience.
 
