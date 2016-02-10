@@ -476,11 +476,11 @@ background-size: 60px 178px; } }
 }
 
 .theme-base-08 .masthead {
-  background-color: #55acee;
+  background-color: rebeccapurple;
 }
 .theme-base-08 .container a,
 .theme-base-08 .related-posts li a:hover {
-  color: #55acee;
+  color: rebeccapurple;
 }
 
 /* Orange */
