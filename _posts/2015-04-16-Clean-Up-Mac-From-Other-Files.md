@@ -35,7 +35,7 @@ And Now, start finding the ones which are big one by one.
 Let's say one of the entry was 5.6G, Let's find which one was it. 
 
 ```sh
-du -h | grep '5.6G'
+cat ~/space.log | grep '5.6G'
 #which outputs
 5.6 ./Document/Movie.avi
 ```
