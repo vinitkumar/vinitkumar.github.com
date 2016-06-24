@@ -32,8 +32,7 @@
   <script>try{Typekit.load();}catch(e){}</script>
 
   <title>
-    {% if page.title %}{{ page.title }} &middot; {% endif %}
-    {{ site.tagline }}
+    {% if site.title %}{{ site.title }} &middot; {% endif %}
   </title>
 
   <!-- CSS -->
@@ -43,7 +42,8 @@
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.png">
+  <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/public/img/favicon.ico" type="image/x-icon">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
