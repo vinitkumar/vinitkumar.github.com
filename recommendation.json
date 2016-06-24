@@ -1,0 +1,67 @@
+{
+  "recommendationsReceived":  {
+    "_total": 5,
+    "values":  [
+       {
+        "id": 537696883,
+        "recommendationText": "Vinit is a great developer, and one of a few who has genuine passion for software development. We joined company at same time, And I've always been impressed with his software development methodologies and sound computer science concepts. He is an asset to our company.",
+        "recommendationType":  {
+          "code": "colleague"
+        },
+        "recommender":  {
+          "firstName": "Parth",
+          "id": "OTfXZYJLXy",
+          "lastName": "Desai"
+        }
+      },
+       {
+        "id": 529958293,
+        "recommendationText": "Vinit is an incredibly dedicated and friendly person. His passion for software development is admirable and he is very eager to learn more. ",
+        "recommendationType":  {
+          "code": "colleague"
+        },
+        "recommender":  {
+          "firstName": "Robert",
+          "id": "YZ6GMxR4vt",
+          "lastName": "Korteland"
+        }
+      },
+       {
+        "id": 559742951,
+        "recommendationText": "Vinit is very dynamic. He supports open source technologies. He approaches problems from the base, he plans how to solve the problem before actually getting started to solve it. I liked that he studies about algorithms and stuffs like that. He plays good role in building open source.\r\n\r\nHe has helped me many times in Python. What I liked about him is he likes to learn new technologies, and insipire/help others.",
+        "recommendationType":  {
+          "code": "business-partner"
+        },
+        "recommender":  {
+          "firstName": "Subhojit",
+          "id": "evH0Go1Yxi",
+          "lastName": "Paul"
+        }
+      },
+       {
+        "id": 525196723,
+        "recommendationText": "I have seen Vinit growing as a professional at Changer. He asks the right questions, has a problem solving mind and works hard. He contributed greatly in the support activities we worked on together, which has led to customer satisfaction.",
+        "recommendationType":  {
+          "code": "colleague"
+        },
+        "recommender":  {
+          "firstName": "Henk-Jan",
+          "id": "8usdylWHsn",
+          "lastName": "Verkerk"
+        }
+      },
+       {
+        "id": 506959793,
+        "recommendationText": "Vinit is fantastic to work with. We've co-developed a couple different open source projects together and he's always been helpful, knowledgeable, friendly, and committed. He's a great partner and I'd recommend him to any team that's looking for a productive and engaged developer.",
+        "recommendationType":  {
+          "code": "business-partner"
+        },
+        "recommender":  {
+          "firstName": "Piper",
+          "id": "nuSXcyWCgW",
+          "lastName": "Chester"
+        }
+      }
+    ]
+  }
+}
