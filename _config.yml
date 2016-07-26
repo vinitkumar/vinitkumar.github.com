@@ -1,16 +1,16 @@
 title:        Vinit Kumar
-description:  'Blog about Web & Programming'
+description:  'Python, Django, JavaScript, Go developer with intrest in Backend and System Engineering'
 url:          http://vinitkumar.me
-version:      1.1.0
+version:      2.0.0
 author:
   name:       'Vinit Kumar'
-  email:      'vinit.kumar@changer.nl'
+  email:      'vinit1414.08@bitmesra.ac.in'
 
 # owner/author information
 owner:
   name:           Vinit Kumar
   avatar:         <your avatar>
-  email:          vinit.kumar@changer.nl
+  email:      vinit1414.08@bitmesra.ac.in
   # Social networking links used in footer. Update and remove as you like.
   twitter: vinitkme
   github: vinitkumar
