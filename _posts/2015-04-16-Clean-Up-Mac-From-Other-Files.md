@@ -35,9 +35,13 @@ And Now, start finding the ones which are big one by one.
 Let's say one of the entry was 5.6G, Let's find which one was it. 
 
 ```sh
-cat ~/space.log | grep '5.6G'
-#which outputs
-5.6 ./Document/Movie.avi
+ cat ~/space.log | fgrep -f highspace.log
+ 
+ #It will give something like this:
+ 
+1.2G	./.android/avd/Nexus_6_API_21.avd
+2.7G	./.android/avd
+2.7G	./.android
 ```
 
 Now, if you feel the file is not needed and you want to delete it. Do the
