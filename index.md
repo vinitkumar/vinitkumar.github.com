@@ -2,12 +2,14 @@
 layout: default-index
 title: About
 ---
-<img src="https://cldup.com/iBiAh_VnyX-3000x3000.png" style="margin-top: 40px">
 
 ## About
 
-Vinit is a Senior Engineer at Socialschools with expertise in writing scalable backend systems. He has written Python, Golang, JavaScript based backend systems and  also enjoys writing clean frontend using BackboneJS, AngularJS, ReactJS and even vanilla Javascript with ease.
+Vinit is a Senior Backend & Systems Engineer at Socialschools B.V. His expertise lies in writing scalable backend systems in Python, Golang & Node.js.
+He has also written React/Backbone/Angular in many projects and have a good understanding of Android programming.
 
-At Socialschools, he has been working on Performance, scalability and security aspects as well as rapidly building new features that add value to the product. He has architected and built a Multi-Tenant CMS that has helped in pushing out features to multiple clients in less time and satisfy all their website requirements.
+He enjoys solving difficult problems, debugging and coming up with simple solutions.
 
-Vinit has also done lot of consulting work in Python/Django, JavaScript, Node.js and PHP in the past. You can get in touch with him using the links in the right sidebar.
+At Socialschools, he has worked on APIs, performance, scaling and security of the complete application. With over 5 years of experience in Python/Django he is able to rapidly build features and debug nasty bugs.
+
+Vinit has also done lot of consulting work in Python/Django, JavaScript, Node.js. You can get in touch with him using the links in the right sidebar.

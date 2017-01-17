@@ -5,7 +5,7 @@ Also, i optimized it a bit using Google pagespeed module so it should be very fa
 
 ##Usage:
 
-First, clone this repo to your own github account and rename the repo as <githubusernmae>.github.com
+First, clone this repo to your own github account and rename the repo as <username>.github.io
 
 In-order to use the theme, go to `.config.yml`  and replace all of the fields with your own content:
 
