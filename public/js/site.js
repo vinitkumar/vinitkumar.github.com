@@ -1,6 +1,6 @@
 $(function () {
   var recommendationContainer = $('.recommendation-container');
-  $.getJSON("recommendation.json", function (data) {
+  $.getJSON("/recommendation.json", function (data) {
     renderRecommendation(data);
   });
   var renderRecommendation = function (data) {
