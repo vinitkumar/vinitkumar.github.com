@@ -6,7 +6,7 @@ title: About
 ## About
 
 Vinit is a Senior Backend & Systems Engineer at Socialschools B.V. His expertise lies in writing scalable backend systems in Python, Golang & Node.js.
-He has also written React/Backbone/Angular in many projects and has a decent understanding of development.
+He has also written React/Backbone/Angular in many projects and has a decent understanding of mobile development.
 
 He enjoys solving difficult problems, debugging and coming up with simple solutions.
 
