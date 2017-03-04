@@ -16,19 +16,17 @@ I joined Socialschools(then Changer) at the same date in 2013. It's has been qui
 Then, I was only a fresh graduate dreaming of making a dent in the universe. Today, I am writing code for one of the fastest
 growing Communication platform for Education in The Netherlands.
 
-
 First I would like to thank Ruben, Jonathan, Jos for giving me the chance to work at Changer. Next, the four years at Socialschools would have never been possible if it was not for my colleagues. I had worked with Robert for the most of the time during this journey. He has always been the most friendly person and share the same passion and fire to do amazing work for Socialschools. Aashish has been a great mentor, friend and guide and we have spent countless hours building new features, fixing nasty bugs and coffee. Bert has been a great part of Socialschools and has been a driving force is growing us to the next level. Marieke has been pretty amazing at implementation and putting users interest and perspective in the product. And ofcourse, Jos has been an amazing mentor and techinical guide in my growth as an Engineer. The newer team members like Edwin, Harry, Shanice, Trui have been great too and are doing a great job in their field.
 
-I would also like to thanks my parents and especially my wife Rituparna who have supported me at each and every step and shared the joys and difficulties together. I wouldn't be here if it wasn't for them.
+I would also like to thanks to my Ma, Moma,Papa, Baba, Jhunu and especially my wife Rituparna who have supported me at each and every step and shared the joys and difficulties together. I wouldn't be here if it wasn't for them.
 
 I would also like to summarize the core of what I have learnt during this four years:
 
 - Any work you do, You do it with pride. This is something I learn from Ruben early on in my career. We sometimes run after big achievements and stop enjoying small jobs that are always there. Never shy away from work, however small and do it with utmost pride. Even a small css change that brings joy to your customer is worth it and you should be happy to do it.
-Thanks Ruben.
+Thanks Ruben :)
 
 - Think from users pespective and build for your users and use what you build. 
-- Writing clean, maintainable, testable code requires thinking and it is a very good investment. Jos has been very thorough and pragmatic and I always learn tonnes from him everytime I work with him. Thanks Jos. :)
-- UX is very important and sometimes the soul of your product. I was basically an UX Noob and knew hardly anything about it but after working with Robert for this long time, I can find/suggest some good UX ideas and it has been great. Thanks Robert.
-- You need to have passion and vision when building a product. It will have it lows too and you need someone to motivate, innovate and think out of the box for the product. Bert has been one such person since he joined Socialschools. I like the energy he brings to the team and it really helps. Thanks Bert :)
-- You need to be pragmatic while writing code and it's not only the quantity of code that matters but what you deliver as a product is what really matters. Aashish is one person with whom I have written code for the longest time. He is thorough, writes great code and his suggestions/reviews has been very crucial to my growth as an Engineer. We would never have iterated so quickly, written so many features in time and with great quality if it was not for Aashish. He has also been a good friend and mentor and there is tonnes to learn from him. Thanks Aashish.
+- Writing clean, maintainable, testable code requires thinking and it is a very good investment.
+- You need to have passion and vision when building a product. It will have it lows too and you need someone to motivate, innovate and think out of the box for the product. 
+- You need to be pragmatic while writing code and it's not only the quantity of code that matters but what you deliver as a product is what really matters.
 - Enjoy what you do and do what you enjoy!
