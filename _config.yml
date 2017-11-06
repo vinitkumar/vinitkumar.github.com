@@ -5,7 +5,7 @@ about: >
     Vinit is a Senior Engineer at <a href="http://www.socialschools.nl/">Socialschools B.V.</a> who likes writing code that scales well. He has written a good amount of code in building a Social Network, Multi-tenant Content Management System and Websites and their architecture. He is an active member of the Free & Open Source Software community and has contributed to many projects. He is an avid book reader and reads a lot of technical books for fun.
 
 master_repo: false
-url: "http://vinitkumar.me/white-paper"
+url: "http://vinitkumar.me"
 markdown: kramdown
 highlighter: rouge
 
