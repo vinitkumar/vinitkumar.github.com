@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+<title>Vinit Kumar
+</title>
+<meta name="description" content="Examples and code for displaying images in posts.">
+<meta name="keywords" content="sample post, images, test">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Django plugin open sourced &#8211; ">
+<meta name="twitter:description" content="Examples and code for displaying images in posts.">
+<meta name="twitter:creator" content="@https://twitter.com/vinitkme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="http://localhost:4000/images/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Django plugin open sourced &#8211; ">
+<meta property="og:description" content="Examples and code for displaying images in posts.">
+<meta property="og:url" content="http://localhost:4000/articles/2013/04/29/django-plugin-open-sourced.html">
+<meta property="og:site_name" content="">
+
+<!-- Webmaster Tools verfication -->
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/articles/2013/04/29/django-plugin-open-sourced.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.min.css" type="text/css" />
+
+
+
+<link rel="stylesheet" href=" /css/main.min.css" type="text/css" />
+
+
+</head>
+<body>
+  <div class="header-container">
+  <header>
+      <ul class="nav">
+        <!--Change the  URL here if working on an absolute domain-->
+        <li><a href="http://localhost:4000"><i class="fa fa-home" aria-hidden="true" style="margin-right: 6px;"></i>Home</a></li>
+        <li><a href="http://localhost:4000/about"><i class="fa fa-user" aria-hidden="true" style="margin-right: 6px;"></i>About</a></li>
+        <li><a href="https://github.com/vinitkumar" target="_blank"><i class="fa fa-terminal" aria-hidden="true" style="margin-right: 6px;"></i>Projects</a></li>
+        <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-rss" aria-hidden="true" style="margin-right: 6px;"></i>RSS</a></li>
+      </ul>
+  </header>
+</div>
+
+  <div class="container">
+  <h2>Django plugin open sourced</h2>
+<p class="meta">29 Apr 2013</p>
+
+<div class="post">
+<p>There are lot of useful plugins for Django CMS.
+Well, this plugin let you use the images from a Facebook Album. Currently it supports fetching images from Photo Album of a Facebook Page.</p>
+
+<p>All you need to do is to put Facebook Album URL, Access-token and the album name in the plugin fields and you will get a nice thumbnail in the intended place and once clicked big images will open in carousel effects. Sounds nice, take a look at the screen-shots below.</p>
+
+<ul>
+  <li>Entering the details in plugin form:</li>
+</ul>
+
+<p><img src="http://vinitcool76.github.io/images/admin.png" alt="Admin Page" /></p>
+
+<ul>
+  <li>Thumbnail view of plugin:</li>
+</ul>
+
+<p>![Small View] (http://vinitcool76.github.io/imagessmallview.png)</p>
+
+<ul>
+  <li>Image slideshow in carousel</li>
+</ul>
+
+<p><img src="http://vinitcool76.github.io/images/bigview.png" alt="Carousel" /></p>
+
+<p>#Installation</p>
+
+<p>Installation is dead simple. First start your virtualenv</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ workon sample
+(sample)$ pip install cmsplugin-fbalbum
+</code></pre>
+</div>
+
+<p>You might need to do this if you are getting some sort of database error.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>python manage.py syncdb
+python manage.py migrate
+</code></pre>
+</div>
+
+<p>In case you face any problems, file issues and if you want to contribute take a look at the existing issues and send a pull request.</p>
+
+
+</div>
+
+
+    <div class="keep-in-touch">
+      <p>
+        Tweet me <a href="https://twitter.com/https://twitter.com/vinitkme">@https://twitter.com/vinitkme</a> if you like this post.
+      </p>
+    </div>
+
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="https://twitter.com/vinitkme" data-size="large" data-hashtags="White Paper">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </div><!-- /.main -->
+</body>
+</html>

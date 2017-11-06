@@ -1,0 +1,36 @@
+name: White Paper
+description: >
+    Vinit Kumar
+about: >
+    Vinit is a Senior Engineer at <a href="http://www.socialschools.nl/">Socialschools B.V.</a> who likes writing code that scales well. He has written a good amount of code in building a Social Network, Multi-tenant Content Management System and Websites and their architecture. He is an active member of the Free & Open Source Software community and has contributed to many projects. He is an avid book reader and reads a lot of technical books for fun.
+
+master_repo: false
+url: "http://vinitkumar.me/white-paper"
+markdown: kramdown
+highlighter: rouge
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 4
+
+logo:             logo.png
+disqus_shortname:
+
+rtl: false
+owner:
+  name:           Vinit Kumar
+  avatar:         "https://avatars1.githubusercontent.com/u/537678?s=240&v=4"
+  email:          "vinit1414.08@bitmesra.ac.in"
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: https://twitter.com/vinitkme
+  github: https://github.com/vinitkumar
+  stackexchange: https://stackoverflow.com/users/859112/vinit-kumar?tab=profile
+  linkedin: https://www.linkedin.com/in/vinitatlinkedin
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
