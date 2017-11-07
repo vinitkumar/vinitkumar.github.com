@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/vinitkme
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vinitkumar.me
+  * I am vinitkme (https://keybase.io/vinitkme) on keybase.
+  * I have a public key with fingerprint DE80 DBA2 61B4 2F31 A44A  9916 B35E 7420 9C7B 453C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fb425554ec82a4c05b8af2b5eb315d16591d737ea44f7e9fc375bcbe31a691aa0a",
+            "fingerprint": "de80dba261b42f31a44a9916b35e74209c7b453c",
+            "host": "keybase.io",
+            "key_id": "b35e74209c7b453c",
+            "kid": "0101fb425554ec82a4c05b8af2b5eb315d16591d737ea44f7e9fc375bcbe31a691aa0a",
+            "uid": "288d5a3bfe9edf0ad5e238f1856bad19",
+            "username": "vinitkme"
+        },
+        "service": {
+            "hostname": "vinitkumar.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469210646,
+    "expire_in": 157680000,
+    "prev": "cf6b89a9fb0b014c48d6e9d8b87f78acc238e0b8e1d0153084dcc730f1a55952",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXlYxFZBWpKkkwysaOQvcu/ee+7FCCSjYqBmgBQ253HPvucuFZXfd
+vbDgRkTCgHyYRZEToWDmRlg0ZDooiB85jq1MBInYOFNDNMJQE1EoNVt2L1M/muln
+588573ue5znP8845GLZApw/6ZLcS/Y53c2KQfxLqnns9b70Xgw6xDDN7sUI0vyGb
+iNyKpVAWMTOGEzghQcoEAKCQwJp4SsABZHnJBAGCJAFEggYcITIkg3iKkhjESQLJ
+AChARBI8zRE8j/OYEZNkuxW5nC7ZrqiyImJxEfImmlC1JRVIUTzHETQkAWIoE84J
+DKQAKajEfIdbY6jmIO9G8bJD7amFZd7ef+D/Z9/F83ImlhUBT0IJcUiUcF4EyESy
+EsECGvIiwWlAN3LZ+SKkoktku6wUqsdyI6Z2S2QBaYPVkvwLUVzEu+LV2og5XQ7F
+IThs6lW+ojjdZo2qlDk1rAdBy98qFijbRXWQKqMEudyyw46ZCRUpKLImS1A0ZyJw
+mqKNGCp1yi5kkTUEYGgWV5f2DipRJQWJhiyXw3MSxCFOUALFijTiRBayjMSwvCCo
+6RAOWUSIOAFInKVEQWBIXCJ4ADhgwrRge+wOzAxUn7xV1XTLVjuvFLvU1Ev366MW
+6oL0ukXBeu2L6ZYuuf+ffxc2G/7HCmdSsnvftWx3JyOc8BWP+Kqt41l3Kxpj913C
+/RE/t1TH+B/LOZCcnLBm9si7E/UH91d1RWP163tSWkPl3rBNnk/H+qZtjUeVn64b
+unxPtI6PJrxp6vni/YrS20/p1wYHut+KpB/wJj6ZnVL+UkvZPWoLYjJfTPLtTG32
+9H0YdPYhW/vEov6R6cTgI7rUaxd7f0i/fKVvXWBnxPBG/dTG0SazuSfu9msVn7Xt
+vRp8t8jwe1rHrjshWHgg4KvMbCu4ekcX8J+eWD7W3hManZkiZOfqLFudj6CVz0/E
+DQWOnfrm8Mzq1IRlsbPnvstwks4WvJQeOH/Db5s6BCrX/HnSOCwPNX/ubd3ufTgi
+sjG31pZt7b+XF7O390zWtk6lpWxlc/iqnrkxcsZZ9QIdsvaDC5nmxEH94BJ73Zdk
+fM7qj+t++aopfbCtf2jm0XbX5GSSix09aRzZELJj2fSVdXmRKOH0q7sjglfUHo8f
+7ujdUu+wFCBri6chqvf44o++r/EydRli08AzXFR5WmVYd0z+UcPF8eaZm/KYR1ez
+vZM4tnkxG5W1sNz39bN72rZlEL96ps4bLl+Yu85vmL0Veq77QTy34e03Xk7bMXHp
+5lzN1qqGVWcM6XWYHuEd4wX3edNLvQtOfRuImY0z3Bg4tOm9p6NuHS5g/NWP/1jR
+dYI9W2vZFfvK8t8M4C8=
+=gp63
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vinitkme
+
+==================================================================
