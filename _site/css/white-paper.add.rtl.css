@@ -31,13 +31,21 @@ a img{ border:none; }
   Main Layout
 ----------------------------------------------------------------------------*/
 
+@font-face {
+    font-family: AvenirLTStd;
+    src: url("AvenirLTStd-Book.otf") format("opentype");
+}
+
 body {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 17px;
-  line-height: 1.4;
+  font-family: "AvenirLTStd", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14.5px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
   border-top: 4px solid #556270;
+}
+
+p {
+  color: #222;
 }
 
 strong {
@@ -184,7 +192,6 @@ ul.nav li.logo a {
 }
 
 .listing .post.other .icon {
- font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   float: right;
   margin-top: -3px;
   margin-right: -35px;
@@ -226,7 +233,6 @@ p.date {
 }
 
 p.intro {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 32px;
   line-height: 1.2;
   text-align: justify;
@@ -430,7 +436,6 @@ pre {
 }
 code{
   padding: 0 4px;
-  font-family: "Source Code Pro", "Courier New", Courier, sans-serif;
   font-size: 0.9em;
   color: #556270;
   background: #F4FAFF;
