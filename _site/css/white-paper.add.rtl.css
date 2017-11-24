@@ -41,7 +41,6 @@ body {
   font-size: 14.5px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
-  border-top: 4px solid #556270;
 }
 
 p {
@@ -87,9 +86,9 @@ header {
 }
 
 ul.nav {
-  background-color: #eee;
+  background-color: black;
   margin: 0;
-  padding: 12px 0 10px 0;
+  padding: 5px 0 5px 0;
   list-style-type: none;
   line-height: 30px;
 }
@@ -117,7 +116,7 @@ ul.nav li {
   }
 }
 ul.nav li a {
-  color: #000;
+  color: white;
   text-decoration: none;
   font-weight: lighter;
 }
