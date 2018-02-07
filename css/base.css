@@ -32,7 +32,9 @@ a img{ border:none; }
 
 @font-face {
     font-family: AvenirLTStd;
+    font-style: normal;
     src: url("AvenirLTStd-Book.otf") format("opentype");
+    font-display: swap;
 }
 
 body {
@@ -187,7 +189,7 @@ ul.nav li.logo a {
 }
 
 .listing .post h2 a {
-  color: #55acee;
+  color: #000;
   text-decoration: none;
   font-size: 40px;
 }
@@ -211,7 +213,10 @@ ul.nav li.logo a {
   font-weight: lighter;
 }
 .listing .post.other h2 a {
-  color: #55acee;
+  color: #000;
+}
+.listing .post.other h2 a:hover {
+  color: deepskyblue;
 }
 .listing .post.other p:last-child {
   margin-bottom: 0;
