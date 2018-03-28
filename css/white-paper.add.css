@@ -29,16 +29,8 @@ a img{ border:none; }
 /*----------------------------------------------------------------------------
   Main Layout
 ----------------------------------------------------------------------------*/
-
-@font-face {
-    font-family: AvenirLTStd;
-    font-style: normal;
-    src: url("AvenirLTStd-Book.otf") format("opentype");
-    font-display: swap;
-}
-
 body {
-  font-family: "AvenirLTStd", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: 'Lato', sans-serif;;
   font-size: 14.5px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
@@ -46,7 +38,7 @@ body {
 
 p {
   color: #222;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 a.top-link {
@@ -58,7 +50,7 @@ a.top-link {
 
 a.top-link:hover {
   margin-top: 40px;
-  color: black;
+  color: rebeccapurple;
   font-size: 60px;
   text-decoration: none;
 }
@@ -220,6 +212,10 @@ ul.nav li.logo a {
 }
 .listing .post.other p:last-child {
   margin-bottom: 0;
+}
+
+ul.nav li a:hover {
+  color: deepskyblue;
 }
 
 .listing .post.other .icon {
@@ -523,7 +519,7 @@ code.html span.doctype {
 .social-media-icons  {
   float: left;
   margin-right: 6px;
-  color: black;
+  color: rebeccapurple;
 }
 
 
