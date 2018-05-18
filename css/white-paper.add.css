@@ -30,7 +30,7 @@ a img{ border:none; }
   Main Layout
 ----------------------------------------------------------------------------*/
 body {
-  font-family: 'Lato', sans-serif;;
+  font-family: 'Merriweather', serif;
   font-size: 14.5px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
