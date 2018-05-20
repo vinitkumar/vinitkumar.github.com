@@ -3,7 +3,7 @@ layout: post
 title: "One Month Hacking"
 description: "What will i hack this month"
 category: articles
-tags: [Hack, Projects]
+tags: Hack Projects
 comments: false
 ---
 

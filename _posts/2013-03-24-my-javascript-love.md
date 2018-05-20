@@ -3,7 +3,7 @@ layout: post
 title: "JavaScript is super awesome"
 description: "Why i love JavaScript so much."
 category: articles
-tags: [sample post, images, test]
+tags: images
 comments: false
 ---
 

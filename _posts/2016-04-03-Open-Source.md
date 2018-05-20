@@ -3,7 +3,7 @@ layout: post
 title: "Open Source"
 description: "What Open Source has taught me"
 category: articles
-tags: [sample post, images, test]
+tags: oss general
 comments: false
 ---
 

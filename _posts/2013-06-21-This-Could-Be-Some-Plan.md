@@ -3,7 +3,7 @@ layout: post
 title: "This Could Be Some Plan"
 description: "Learning"
 category: articles
-tags: [projects]
+tags: projects
 comments: false
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Why I Write Code"
 description: "My Why"
-tags: [code, programming, self-improvements]
+tags: code programming self-improvements
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Setting Up Emacs for Development"
 description: "A Small guide in setting up Emacs"
 category: articles
-tags: [editors, emacs]
+tags: editors emacs
 comments: false
 ---
 

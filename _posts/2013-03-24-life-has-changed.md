@@ -3,7 +3,7 @@ layout: post
 title: "Linux to Mac"
 description: "How to converted from a Linux fan to Mac user"
 category: articles
-tags: [sample post, images, test]
+tags: images
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "I Have Grown"
 description: "My growth as a developer"
 category: articles
-tags: [Development, Growth]
+tags: Development Growth
 comments: false
 ---
 

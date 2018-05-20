@@ -2,7 +2,7 @@
 layout: post
 title: "Better Time Management At Work"
 description: "Time Management"
-tags: [code, programming, self-improvements]
+tags: code programming self-improvements
 comments: false
 ---
 

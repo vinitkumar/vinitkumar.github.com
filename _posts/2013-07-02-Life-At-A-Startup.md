@@ -3,7 +3,7 @@ layout: post
 title: "Life At A Startup"
 description: "Learning"
 category: articles
-tags: [projects]
+tags: projects
 comments: false
 ---
 

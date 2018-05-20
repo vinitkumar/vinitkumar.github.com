@@ -3,7 +3,7 @@ layout: post
 title: "Single Machine Work-flow"
 description: "How a laptop based work-flow boost productivity"
 category: articles
-tags: [sample post, images, test]
+tags: coding development
 comments: false
 ---
 

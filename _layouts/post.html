@@ -8,6 +8,13 @@ layout: default
 {{ content }}
 </div>
 
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
+
 <style type="text/css">
     #twitter-widget-0 {
         float: left;
@@ -15,10 +22,11 @@ layout: default
     }
 </style>
 
+
 {% if site.owner.twitter %}
     <div class="keep-in-touch">
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="large" style="float: left;
-    margin-top: 10px;" data-hashtags="{{site.name}}">Tweet</a>
+    margin-top: 10px;" data-hashtags="{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }} {% endfor %}">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
       <p>

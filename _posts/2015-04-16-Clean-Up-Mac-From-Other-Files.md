@@ -3,7 +3,7 @@ layout: post
 title: "Clean Up Your Mac From Other Files"
 description: "How to cleanup Your Mac From Other Files"
 category: articles
-tags: [mac, cleanup, commandline, expert]
+tags: mac cleanup commandline expert
 comments: false
 ---
 

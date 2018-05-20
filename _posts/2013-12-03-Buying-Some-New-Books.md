@@ -3,7 +3,7 @@ layout: post
 title: "Buying New Books "
 description: "New Computer Science Books"
 category: articles
-tags: [Hack, Projects]
+tags: Hack Projects
 comments: false
 ---
 In the span of two days I have ordered three books:

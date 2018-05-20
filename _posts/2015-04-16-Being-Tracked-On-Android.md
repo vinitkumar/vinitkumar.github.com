@@ -3,7 +3,7 @@ layout: post
 title: "GPS Tracking on Android"
 description: "Finding how you are tracked on Android"
 category: articles
-tags: [android, gps, python]
+tags: android gps python
 comments: false
 ---
 

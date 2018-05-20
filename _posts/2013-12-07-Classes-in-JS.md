@@ -3,7 +3,7 @@ layout: post
 title: "Classes in JS"
 description: "About new projects"
 category: articles
-tags: [sample post, images, test]
+tags: coding javascript
 comments: false
 ---
 

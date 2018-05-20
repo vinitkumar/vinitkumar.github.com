@@ -3,7 +3,7 @@ layout: post
 title: "New projects"
 description: "About new projects"
 category: articles
-tags: [sample post, images, test]
+tags: project
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Simplicity in things"
 description: "Why simplicity is so much important"
 category: articles
-tags: [software, general]
+tags: software general
 comments: false
 ---
 

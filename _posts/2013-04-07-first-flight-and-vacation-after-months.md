@@ -3,7 +3,7 @@ layout: post
 title: "My First flight"
 description: "Examples and code for displaying images in posts."
 category: articles
-tags: [sample post, images, test]
+tags: life
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Setup Macvim for Maximum awesomeness"
 description: "How did I setup macvim for super awesomeness"
 category: articles
-tags: [life, general]
+tags: vim macvim development
 comments: false
 ---
 

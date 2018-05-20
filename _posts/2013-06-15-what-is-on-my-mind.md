@@ -3,7 +3,7 @@ layout: post
 title: "What is on my mind?"
 description: "Things i think about"
 category: articles
-tags: [ post, images, test]
+tags: life
 comments: false
 ---
 

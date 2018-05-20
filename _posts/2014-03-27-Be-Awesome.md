@@ -3,7 +3,7 @@ layout: post
 title: "Be Awesome"
 description: "Being an Awesome Human being"
 category: articles
-tags: [life, general]
+tags: life general
 comments: false
 ---
 

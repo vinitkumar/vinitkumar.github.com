@@ -3,7 +3,7 @@ layout: post
 title: "Some New Learnings"
 description: "Some new Learnings"
 category: articles
-tags: [life]
+tags: life
 comments: false
 ---
 

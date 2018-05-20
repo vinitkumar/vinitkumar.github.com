@@ -3,7 +3,7 @@ layout: post
 title: "How it went?"
 description: "Reflections on time spent when I was on Radio silence"
 category: articles
-tags: [sample post, images, test]
+tags: life happy
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Important Values"
 description: "Some core values that I believe in"
 category: articles
-tags: [value, life]
+tags: value life
 comments: false
 ---
 

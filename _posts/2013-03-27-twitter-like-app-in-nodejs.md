@@ -3,7 +3,7 @@ layout: post
 title: "Twitter in NodeJS"
 description: "Writing a twitter clone in Node"
 category: articles
-tags: [Node, Twitter]
+tags: Node Twitter
 comments: false
 ---
 

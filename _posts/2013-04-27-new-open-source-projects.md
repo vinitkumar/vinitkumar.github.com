@@ -3,7 +3,7 @@ layout: post
 title: "Django plugin and Google command line project open sourced"
 description: "Projects I recently worked on and open sourced"
 category: articles
-tags: [sample post, images, test]
+tags: oss opensource
 comments: false
 ---
 

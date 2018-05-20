@@ -3,7 +3,7 @@ layout: post
 title: "One Year at Job"
 description: "My Experience in past on year"
 category: articles
-tags: [life, general]
+tags: life general
 comments: false
 ---
 

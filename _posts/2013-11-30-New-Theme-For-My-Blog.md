@@ -3,7 +3,7 @@ layout: post
 title: "New Theme For My Blog"
 description: "Why i wrote a new theme for my blog"
 category: articles
-tags: [sample post, images, test]
+tags: theme jekyll coding
 comments: false
 ---
 
