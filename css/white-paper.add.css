@@ -46,6 +46,7 @@ a.top-link {
   margin-top: 40px;
   font-size: 60px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 a.top-link:hover {
