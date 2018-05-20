@@ -41,6 +41,14 @@ p {
   font-size: 18px;
 }
 
+li {
+  font-size: 18px;
+}
+
+.post ul, .container ul {
+  margin-right: 16px;
+}
+
 a.top-link {
   color: black;
   margin-top: 40px;
