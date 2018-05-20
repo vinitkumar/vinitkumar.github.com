@@ -8,16 +8,25 @@ layout: default
 {{ content }}
 </div>
 
+<style type="text/css">
+    #twitter-widget-0 {
+        float: left;
+        margin-top: 15px;
+    }
+</style>
+
 {% if site.owner.twitter %}
     <div class="keep-in-touch">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="large" style="float: left;
+    margin-top: 10px;" data-hashtags="{{site.name}}">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
       <p>
-        Tweet me <a href="https://twitter.com/{{site.owner.twitter}}">@{{ site.owner.twitter }}</a> if you like this post.
+        For comments, feel free to tweet <a target='_blank' href="https://twitter.com/{{site.owner.twitter}}">@{{ site.owner.twitter }}</a>
       </p>
     </div>
 {% endif %}
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.owner.twitter }}" data-size="large" data-hashtags="{{site.name}}">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 {% if site.disqus_shortname %}
 {% include disqus_comments.html %}
