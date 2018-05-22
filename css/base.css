@@ -29,8 +29,14 @@ a img{ border:none; }
 /*----------------------------------------------------------------------------
   Main Layout
 ----------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: Avenir Next;
+    src: url("AvenirNext-Regular.ttf") format("truetype");
+}
+
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Avenir Next', serif;
   font-size: 14.5px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
