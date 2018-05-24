@@ -74,13 +74,11 @@ Now, the good folks at djangoCMS are kind enough to make a note of it in their d
 This is their suggested solution:
 
 ```js
-<script>
-  // catch the cms-content-refresh event and use it
-  // to trigger actions that are not done due to to Hot SWAP of the HTML
-  CMS.$(window).on('cms-content-refresh', function () {
-    // Render React Again?
-  });
-</script>
+// catch the cms-content-refresh event and use it
+// to trigger actions that are not done due to to Hot SWAP of the HTML
+CMS.$(window).on('cms-content-refresh', function () {
+  // Render React Again?
+});
 ```
 
 Now, though this solution gives us the first clue of how to go about fixing it, the code is not just drop-in replacement and won't work right away in the React and similar apps. You will need to do following to get it working on your React app and similar frameworks.
