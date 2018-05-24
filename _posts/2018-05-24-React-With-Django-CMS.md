@@ -26,7 +26,7 @@ So even though the functionality is very nice and is very good UX for our end us
 Let's say you have a simple React application that looks something like this:
 
 
-```js
+```jsx
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
@@ -102,7 +102,7 @@ The logic to look for "DomContentLoaded" event is that the global variable `CMS`
 Following is the updated React App code after accomodating changes for this event handling.
 
 
-```js
+```jsx
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
