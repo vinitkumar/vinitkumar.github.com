@@ -139,11 +139,13 @@ ReactDOM.render(<App/>, document.getElementByID("root"))
 
 document.addEventListener("DOMContentLoaded", function() {
   // Handler when the DOM is fully loaded
-  window.CMS.$(window).on('cms-content-refresh', function () {
-    // render react or call for actions that were skipped because of the
-    // change in how djangoCMS behaves now.
-    ReactDOM.render(<App/>, document.getElementByID("root"))
-  });
+  if (window.CMS !== undefined) {
+    window.CMS.$(window).on('cms-content-refresh', function () {
+      // render react or call for actions that were skipped because of the
+      // change in how djangoCMS behaves now.
+      ReactDOM.render(<App/>, document.getElementByID("root"))
+    });
+  }
 });
 
 ```
