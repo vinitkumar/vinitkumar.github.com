@@ -5,8 +5,8 @@ title: About Vinit Kumar
 
 <img src="https://avatars1.githubusercontent.com/u/537678?s=120&amp;v=4" alt="user-avatar" style="float: right;">
 
-Vinit is a Senior Engineer at [Socialschools B.V](https://www.socialschools.nl/) with over 5 years of experience
-building scalable backend systems in Python, Django, Golang and Node.js. He also loves writing modular
+Vinit is a Senior Engineer at [Socialschools B.V](https://www.socialschools.nl/) with over 6 years of experience
+building scalable backend systems in Python, Django. He also does Golang and Node.js. He also loves writing modular
 frontend using React.
 
 Core Skills:
