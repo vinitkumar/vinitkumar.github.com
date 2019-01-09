@@ -38,7 +38,7 @@ a img{ border:none; }
 }
 
 body {
-  background: black;
+  background: rgb(22, 22, 22);
   font-family: "AvenirLTStd", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 14.5px;
   : #333;
@@ -47,7 +47,7 @@ body {
 
 ul li, p {
   color: white;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 a.top-link {
@@ -120,7 +120,7 @@ ul.nav {
 ul.nav li {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
 }
 @media only screen and (max-width: 520px) {
@@ -536,6 +536,14 @@ code.html span.doctype {
 /* @end */
 .user-avatar {
   border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+.about-container {
+  text-align: center;
 }
 
 .highlight .hll { background-color: #49483e }
