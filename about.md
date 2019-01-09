@@ -3,7 +3,7 @@ layout: default
 title: About Vinit Kumar
 ---
 
-<img src="https://avatars1.githubusercontent.com/u/537678?s=120&amp;v=4" alt="user-avatar" style="float: right;">
+<img src="https://avatars1.githubusercontent.com/u/537678?s=120&amp;v=4" class="user-avatar" alt="user-avatar" style="float: right;">
 
 Vinit is a Senior Engineer at [Socialschools B.V](https://www.socialschools.nl/) with over 6 years of experience
 building scalable backend systems in Python, Django. He also does Golang and Node.js. He also loves writing modular
@@ -13,11 +13,11 @@ Core Skills:
 
 - Fast learner with the ability to grasp new technology quickly and apply them to on-going projects
 - Dedicated to the improvement of self, others, and involved processes.
--  Proven ability in working alone or as part of a distributed remote team.
--  Developed problem-solving and analytical skills.
--  Resourceful and efficient, with a talent for improvisation.
--  Strong written and verbal English competency.
--  Empathetic and ethical in personal and professional contexts.
+- Proven ability in working alone or as part of a distributed remote team.
+- Developed problem-solving and analytical skills.
+- Resourceful and efficient, with a talent for improvisation.
+- Strong written and verbal English competency.
+- Empathetic and ethical in personal and professional contexts.
 
 
 <div class="pagination">

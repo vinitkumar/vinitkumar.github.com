@@ -1,0 +1,17 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about.html
+
+- title: Resume
+  url: https://vinitkumar.me/vinit_kumar.pdf
+
+- title: Projects
+  url: https://github.com/vinitkumar
+
+- title: RSS
+  url: /feed.xml

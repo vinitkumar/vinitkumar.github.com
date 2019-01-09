@@ -1,16 +1,22 @@
 <div class="header-container container">
   <header>
     <a href="{{ site.url }}" class="top-link">{{ site.name }}</a>
-      <ul class="nav">
-        <!--Change the  URL here if working on an absolute domain-->
-        <li><a href="{{ site.url }}">Home</a></li>
-        <li><a href="{{ site.url }}/about">About</a></li>
-        <li><a href="{{ site.url }}/vinit_kumar.pdf">Resume</a></li>
-
-        {% if site.owner.github %}
-          <li><a href="{{ site.owner.github }}" target="_blank">Projects</a></li>
-        {% endif %}
-        <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
-      </ul>
+     <ul class="nav">
+      {% for item in site.data.samplelist.docs %}
+        {% if item.title == "About" %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ site.url }}/about.html">{{ item.title }}</a>
+          </li>
+        {% elsif item.title == "Home" %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ site.url }}">{{ item.title }}</a>
+          </li>
+        {% else %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
   </header>
 </div>
