@@ -30,18 +30,19 @@ a img{ border:none; }
   Main Layout
 ----------------------------------------------------------------------------*/
 
-@font-face {
-    font-family: AvenirLTStd;
-    font-style: normal;
-    src: url("AvenirLTStd-Book.otf") format("opentype");
-    font-display: swap;
-}
+/* @font-face { */
+/*     font-family: AvenirLTStd; */
+/*     font-style: normal; */
+/*     src: url("AvenirLTStd-Book.otf") format("opentype"); */
+/*     font-display: swap; */
+/* } */
 
 body {
   background: rgb(22, 22, 22);
-  font-family: "AvenirLTStd", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 14.5px;
-  : #333;
+  font-family: acuta,serif;
+  font-family: acuta,serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
