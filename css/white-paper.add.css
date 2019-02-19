@@ -39,22 +39,28 @@ a img{ border:none; }
 
 body {
   background: rgb(22, 22, 22);
-  font-family: acuta,serif;
-  font-family: acuta,serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
 
 ul li, p {
-  color: white;
+  color: #f2f3f4;
   font-size: 21px;
 }
 
+p {
+  word-break: break-word;
+  font-weight: 400;
+}
+
 a.top-link {
-  color : #2382c8;
+  font-family: 'Montserrat', sans-serif;
+  color : #3ee7ad;
   margin-top: 40px;
   font-size: 60px;
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -70,7 +76,7 @@ strong {
 }
 
 a {
-  color: #2382c8;
+  color: #3ee7ad;
   text-decoration: none;
 }
 a:hover {
@@ -141,14 +147,14 @@ ul.nav li {
   }
 }
 ul.nav li a {
-  color: white;
+  color: #f2f3f4;
   margin-right: 10px;
   text-decoration: none;
   font-weight: lighter;
 }
 
 ul.nav li.active a {
-  color: deepskyblue;
+  color: #3ee7ad;
 }
 
 ul.nav li.logo {
@@ -188,19 +194,22 @@ ul.nav li.logo a {
 }
 
 .listing .post h2 {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 -20px 0;
   font-size: 30px;
   border: none;
 }
 
 h2, .listing .post h2 a {
-  color: #2382c8;
+  font-family: 'Montserrat', sans-serif;
+  color: #3ee7ad;
   text-decoration: none;
-  font-size: 40px;
+  text-transform: uppercase;
+  font-size: 28px;
 }
 
 .listing .post h2 i {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .listing .post .post-summary {
@@ -218,9 +227,9 @@ h2, .listing .post h2 a {
   font-weight: lighter;
 }
 .listing .post.other h2 a {
-  color: #2382c8;
+  color: #3ee7ad;
 }
-.listing .post.other h2 a:hover {
+.listing .post.other h2 a:hover, .nav li a:hover, a.social-media-icons:hover {
   color: deepskyblue;
 }
 .listing .post.other p:last-child {
@@ -294,7 +303,7 @@ h1.link {
 }
 h1.link .desc {
   font-weight: normal;
-  : white;
+  : #f2f3f4;
 }
 @media only screen and (max-width: 700px) {
   h1 {
@@ -306,7 +315,7 @@ h1.link .desc {
 /* h2 { */
 /*   margin: 2.0em 0 -0.5em 0; */
 /*   font-size: 40px; */
-/*   color: white; */
+/*   color: #f2f3f4; */
 /* } */
 
 h3 {
@@ -320,7 +329,7 @@ h3 a:hover, h2 a:hover{ :#000; border:none; }
 h4 {
   font-size: 1em;
   font-weight: normal;
-  color: white;
+  color: #f2f3f4;
 }
 
 .pagination  {
@@ -370,7 +379,7 @@ table {
   width: 100%;
   border-top: 1px solid #CCCCCC;
   border-bottom: 2px solid #CCC;
-  color: white;
+  color: #f2f3f4;
   background: #fff;
   border-collapse: separate;
   font-size: 11px;
@@ -527,7 +536,7 @@ code.html span.doctype {
 .social-media-icons  {
   float: left;
   margin-right: 6px;
-  color: white;
+  color: #f2f3f4;
 }
 
 
@@ -536,7 +545,7 @@ code.html span.doctype {
 }
 /* @end */
 .user-avatar {
-  border-radius: 50%;
+  border-radius: 12px;%
 }
 
 ul {
@@ -544,7 +553,7 @@ ul {
 }
 
 .about-container {
-  text-align: center;
+  text-align: left;
 }
 
 .highlight .hll { background-color: #49483e }
