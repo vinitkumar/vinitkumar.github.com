@@ -13,6 +13,7 @@ some new ways to do the same thing and you are blown by it. But only after some 
 the real hard problem in Computer Science. Some of them are:
 
 - Race conditions
+
 - Caching
 
 I have had some very nasty experiences with race conditions. But it opened my eyes to a new
