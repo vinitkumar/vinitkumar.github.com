@@ -18,14 +18,23 @@ First of all, If you are on Mac install emacs for OSX from [here](http://emacsfo
 This is my Emacs config which could be used for development in following technologies:
 
 * Ruby / Ruby on Rails
+
 * CSS / LESS / SASS / SCSS
+
 * HAML / Markdown / Textile / ERB
+
 * Clojure (via nrepl)
+
 * Javascript / Coffeescript
+
 * Python
+
 * PHP
+
 * Haskell
+
 * Erlang
+
 * Common Lisp (with Slime)
 
 In particular, there's a nice config for *tab autocompletion*, and
