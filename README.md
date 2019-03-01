@@ -2,13 +2,25 @@
 
 **White Paper** is a theme for Jekyll. It is built keeping content in focus and is best for writers/developers who also like to share code with their essays.
 
+## Note: Dark Paper out now
+
+> Inspired by MacOS dark mode, a new dark theme is out now. Check out [Dark Paper github](https://github.com/vinitkumar/dark-paper) and it's live demo here: [dark paper website](https://vinitkumar.me/dark-paper)
+
+# White Paper in Action
+
+### Home page
+
+![home](https://cldup.com/nAr0lOBTTJ.png)
+
+### Post Detail View
+
+![post detail](https://cldup.com/kP54KLISpn-3000x3000.png)
+
 ## How to use White Paper
 
 Fork the repo to your account by clicking the button on the top right as shown in the image:
 
 ![fork](https://cldup.com/vOF0oaUkh5-3000x3000.png) and then where you want to fork it as shown below.
-
-<img src="https://cldup.com/QMGPJDlayN-3000x3000.png" height="300" width="300">
 
 Next, Go the the project settings and change the repository name to `<username>.github.io` where username is your username.
 
@@ -23,11 +35,14 @@ Also, change this line in head.html [link](https://github.com/vinitkumar/white-p
 <link rel="stylesheet" href=" {{ '/css/main.min.css' | absolute_url }}" type="text/css" />
 
 ```
+
+
 This will make sure that the path of CSS is correct and the theme loads correctly.
 
 ```yml
 master_repo: false
 url: "<username>.github.io"
+rtl: false  # change to true if posts is in Arabic/other Right to left language.
 ```
 Also, change all other fields in the `_config.yml` file to your choice.
 
@@ -49,7 +64,7 @@ sudo npm install -g grunt-cli  #to get the task runner for grunt.
 bundle install
 jekyll serve
 
-# on running the serve script, the site will be live on 
+# on running the serve script, the site will be live on
 http://127.0.0.1:4000
 ```
 This theme uses grunt to concat & minify the css for best performance. In order to prepare the css build. Run `grunt`
@@ -85,27 +100,15 @@ concat: {
 }
 ```
 
-# White Paper in Action
-
-- Home page
-
-![home](https://cldup.com/Ml53I1dCm4-3000x3000.png)
-
-
-- Post Detail View
-
-![post detail](https://cldup.com/T9R_1bU8BM-3000x3000.png)
-
-## License 
+## License
 * see [LICENSE](https://github.com/vinitkumar/white-paper/blob/gh-pages/LICENSE) file
 
-## Version 
-* Version 2.1.0
+## Version
+* Version 4.0.0
 
 ## Contact
 #### Developer
+
 * Homepage: http://vinitkumar.me
 * e-mail: vinit1414.08@bitmesra.ac.in
 * Twitter: [@vinitkme](https://twitter.com/vinitkme "vinitkme on twitter")
-
-
