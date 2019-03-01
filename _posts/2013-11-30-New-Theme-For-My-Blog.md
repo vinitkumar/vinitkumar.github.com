@@ -13,12 +13,14 @@ inspired to write anymore. This was odd because in general I love
 writing posts on my blog.
 
 I felt the design was taking too much attention and the content has
-taken a back seat. 
+taken a back seat.
 
 There are few good things about this new theme i created:
 
-- More emphasis is given to the content.
+- More emphasis is given to the content
+
 - Good fonts has been applied and it looks pretty on all devices.
+
 - The structure is pretty simple and there are mainly three tabs.
 
 
