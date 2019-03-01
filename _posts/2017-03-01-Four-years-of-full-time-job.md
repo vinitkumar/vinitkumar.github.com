@@ -36,7 +36,11 @@ I would also like to summarize the core of what I have learned during this four 
 Thanks, Ruben :)
 
 - Think of users perspective and build for your users and use what you build.
+
 - Writing clean, maintainable, testable code requires thinking and it is a very good investment.
+
 - You need to have passion and vision when building a product. It will have its lows too and you need someone to motivate, innovate and think out of the box for the product.
+
 - You need to be pragmatic while writing code and it's not only the quantity of code that matters but what you deliver as a product is what really matters.
+
 - Enjoy what you do and do what you enjoy!
