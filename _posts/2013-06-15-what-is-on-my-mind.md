@@ -7,12 +7,12 @@ tags: life
 comments: false
 ---
 
-These days i had a great time working on some pretty good projects in both office and home. I will talk about my personal projects for obvious reasons. 
-Well, the primary goal currently is to fix the existing projects, test them and add CI support for all of them. 
+These days i had a great time working on some pretty good projects in both office and home. I will talk about my personal projects for obvious reasons.
+Well, the primary goal currently is to fix the existing projects, test them and add CI support for all of them.
 
 This is single most important thing as of now as these measures improve the code quality.
 
-Also, i am working on different projects and languages so it might be little tough to adapt and plan  my work. 
+Also, i am working on different projects and languages so it might be little tough to adapt and plan  my work.
 
 Here is what i have planned.
 
@@ -20,17 +20,23 @@ Here is what i have planned.
 - Work in sprint of 30 min + 3 minutes break. ( No distractions+ no phone calls+ no messaging) Do all those in this 3 min break.
 
 ## How many of these sprints?
-- 16 of them in a 9 hours office time. with 18 breaks in between. 
+
+- 16 of them in a 9 hours office time. with 18 breaks in between.
 Be religious about the count.
 
 ## When to plan a day and how to plan?
 - Plan one night before the day and also give priorities to new issues or request from Bitbucket, Github.
 
 ## What shouldn't be done?
+
 - Useless arguments.
+
 - Dart Games.
+
 - Facebook.
+
 - Twitter
+
 - Time-pass stuff in Skype.
 
 
@@ -51,7 +57,9 @@ Be religious about the count.
 - Morning : Gym + Breakfast
 
 - Evening: Dinner + 3 hours of self study in the same time + break as work.
+
 - Learn something new or re learn something that you forgot.
+
 - Experiment as much as you, Think, brainstorm. Write every idea that comes in your mind. Create an issue of the idea.
 
 
