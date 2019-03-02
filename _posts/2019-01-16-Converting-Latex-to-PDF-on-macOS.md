@@ -9,6 +9,7 @@ comments: false
 
 I have been writing my resume in LaTeX for more than a decade now. Writing your resume in LaTex has it's own benefits.
 You can check it out here:
+
 - [benefits of doing the resume in latex](https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex)
 
 Now, writing your resume in all LaTex is all well and good but converting it into pdf on macOS is a task on it's own. The MacTeX package is a BIG download of around 6GB and it's not worth spending so much time and energy for only trying to convert your resume from LaTex to PDF. Well, you can ofcourse use one of the online latex-to-pdf converter or you can install the `basictex` package and set your local mac environment capable of converting to PDF.
