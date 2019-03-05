@@ -11,7 +11,7 @@ in writing modern UI using __React__ and modern JavaScript.
 
 <h2>Skills</h2>
 
-- Fast __learner__ who grasp new tech quickly and apply them to on-going projects.
+- Fast __learner__ who can grasp new tech quickly and apply them to on-going projects.
 
 - __Dedicated__ to the improvement of self, others, and involved processes.
 
