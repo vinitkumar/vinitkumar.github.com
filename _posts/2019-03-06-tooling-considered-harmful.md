@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tooling Considered Harmful
+tags: programming tooling editors
 date: 2019-03-06 16:30 +0530
 ---
 

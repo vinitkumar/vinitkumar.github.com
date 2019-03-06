@@ -26,4 +26,5 @@ Nobody can look very far in the future and say what they are going to do but at 
 Some past posts about the same:
 
 - [Four years of full time job](https://vinitkumar.me/articles/2017/03/01/Four-years-of-full-time-job.html)
+
 - [One year at job](https://vinitkumar.me/articles/2014/02/08/One-year-on-job.html)
