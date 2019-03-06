@@ -16,7 +16,7 @@ But now, my thinking has totally changed. Right now, only three things matter to
 
 - stability: is the tool stable enough and has a good stable ecosystem?
 
-- performance: is the tool performant enough, or is it going to each away my RAM and CPU cycles?
+- performance: is the tool performant enough, or is it going to eat away my RAM and CPU cycles?
 
 - speed: is the fast enough so as to match my thoughts and do not block me while I am working?
 
