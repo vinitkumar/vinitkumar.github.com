@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vinit Kumar
+description: Vinit is a senior engineer with expertise in Python, Django, Go, Node.js, Postgres, MongoDB. API development, performance and design for scalability are his core strength
 ---
 
 <img src="https://avatars1.githubusercontent.com/u/537678?s=120&amp;v=4" class="user-avatar" alt="user-avatar">

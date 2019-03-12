@@ -1,6 +1,6 @@
 <div class="header-container container">
   <header>
-    <a href="{{ site.url }}" class="top-link">{{ site.name }}</a>
+    <h1 class="title"><a href="{{ site.url }}" class="top-link">{{ site.name }}</a></h1>
      <ul class="nav">
       {% for item in site.data.samplelist.docs %}
           <li class="{% if item.url == page.url %}active{% endif %}">

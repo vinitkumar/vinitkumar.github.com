@@ -282,6 +282,10 @@ p.intro a {
 h1 {
   margin-left: 20px;
 }
+
+h1.title {
+  margin-left: 0px;
+}
 h1.words {
   color: #DB2C17;
 }
