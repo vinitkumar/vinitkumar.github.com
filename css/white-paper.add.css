@@ -62,11 +62,10 @@ strong {
 }
 
 a {
-  color: deepskyblue;
+  color: rgb(0, 0, 238);
   text-decoration: none;
 }
 a:hover {
-  color: #2382c8;
   text-decoration: underline;
 }
 
@@ -106,6 +105,19 @@ header {
   /* text-align: right; */
 }
 
+ul.nav li {
+  margin-right: 0;
+}
+
+ul.nav li:after {
+  content: "|";
+}
+
+ul.nav li:last-child:after {
+  content: "";
+}
+
+
 ul.nav {
   margin: 0;
   padding: 8px 0 8px 0;
@@ -134,13 +146,9 @@ ul.nav li {
   }
 }
 ul.nav li a {
-  color: deepskyblue;
-  margin-right: 10px;
+  color: rgb(0, 0, 238);
   text-decoration: none;
   font-weight: 600;
-}
-ul.nav li a:hover {
-  color: #2382c8;
 }
 
 ul.nav li.logo {
@@ -188,7 +196,7 @@ ul.nav li.logo a {
 
 .listing .post h2 a {
   /* color: #2382c8; */
-  color: deepskyblue;
+  color: rgb(0, 0, 238);
   text-decoration: none;
   font-size: 30px;
   font-weight: 500;
@@ -213,7 +221,7 @@ ul.nav li.logo a {
   font-weight: lighter;
 }
 .listing .post.other h2 a {
-  color: deepskyblue;
+  color: rgb(0, 0, 238);
 }
 
 .listing .post.other h2 a:hover {
