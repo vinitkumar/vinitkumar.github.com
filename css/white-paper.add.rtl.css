@@ -285,6 +285,7 @@ h1 {
 
 h1.title {
   margin-right: 0px;
+  margin-bottom: 0px;
 }
 h1.words {
   color: #DB2C17;
@@ -324,6 +325,7 @@ h4 {
 
 .pagination  {
   text-align: left;
+  margin-top: 30px;
 }
 .figure {
   margin: 19px 0 19px 0;
