@@ -541,6 +541,11 @@ code.html span.doctype {
   border-radius: 12px;
 }
 
+
+ul {
+  margin-left: 18px;
+}
+
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #008800; font-style: italic } /* Comment */
