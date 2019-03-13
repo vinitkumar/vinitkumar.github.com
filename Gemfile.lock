@@ -35,7 +35,6 @@ GEM
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -80,7 +79,6 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed
   jekyll-gist
-  jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
   rouge
