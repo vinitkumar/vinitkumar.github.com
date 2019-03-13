@@ -7,19 +7,20 @@ tags: Work Ethics Life
 comments: false
 ---
 
-Work has a really important part in anyone's life. These are some of the things i feel is very important part of one's professional ethos.
+Work has a really important role in anyone's life. I feel there are some things that really help us
+do our work nicely.
 
-- Arrive on time.
+- Arrive on time. Don't be late without giving a heads up to the other party.
 
-- Think logically before you make any decision.
+- Think logically before making any decision.
 
 - Keep the communication lines open.
 
-- You are facing a difficulty admit it, don't let your ego come in between.
+- If you are facing a difficulty admit it, don't let your ego come in between.
 
 - There are always things that could be difficult, persistent hard work is the only way to crack them.
 
-- Don't fall victim of easy goals, work with full passion whatever you have decided.
+- Don't fall victim of easy goals, work with full passion on whatever you have decided.
 
 - Don't think much about other things, just concentrate on your work.
 
