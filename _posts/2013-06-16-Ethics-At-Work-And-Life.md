@@ -29,7 +29,7 @@ do our work nicely.
 
 - No work is too small, everything teaches you something new.
 
-- Life to too small to waste on useless arguments.
+- Life is too small to waste on useless arguments.
 
 - Keep your mouth shut when you don't have something useful to contribute.
 
