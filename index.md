@@ -8,14 +8,14 @@ description: Vinit is a senior engineer with expertise in Python, Django, Go, No
 
 <img src="https://avatars1.githubusercontent.com/u/537678?s=240&amp;v=4" height="120" width="120" class="user-avatar" alt="user-avatar">
 
-Vinit Kumar is a __Senior Engineer__ at [Socialschools B.V](https://www.socialschools.nl/) with over 6 years of experience
-building __fast__ and __scalable__ backend systems in Python (__Django__, __flask__), Go and Node.js.
+Vinit Kumar is a __Senior Engineer__ at [Socialschools B.V](https://www.socialschools.nl/) with over 7 years of experience
+writing  __fast__ and __scalable__ backend in Python (__Django__, __flask__), Go and Node.js.
 
-He is good at solving difficult problems such as performance, security, scalablity. He has an affinity towards writing quality code and admires code that shows good __taste__.
+He is very good at solving difficult problems. His main areas of intrest are performance, security, scalablity. He has an affinity towards writing quality code and admires code that shows good __taste__.
 
-He also has expertise in writing fast and performant UI using __React__.
+He is also proficient with the latest in frontend landscapeas with expertise in beautiful and functional UI using __React__.
 
-<h2>Skills</h2>
+<h2>Core Values and Skills</h2>
 
 - Fast __learner__ who can grasp new tech quickly and apply them to on-going projects.
 
