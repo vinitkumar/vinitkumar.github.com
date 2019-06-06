@@ -31,6 +31,10 @@ He is also proficient with the latest in frontend landscapeas with expertise in 
 
 - __Empathetic__ and __ethical__ in personal and professional contexts.
 
+ <h2>Contact</h2>
+
+Vinit is always happy to talk technology, programming languages and finding solutions to hard problems. If you want to get in touch with him, use the links at the bottom of the page.
+
 <div class="pagination">
   {% if site.owner.linkedin %}
     <a href="{{ site.owner.linkedin }}" class="social-media-icons"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
