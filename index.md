@@ -13,7 +13,7 @@ writing  __fast__ and __scalable__ backend in Python (__Django__, __flask__), Go
 
 He is very good at solving difficult problems. His main areas of intrest are performance, security, scalablity. He has an affinity towards writing quality code and admires code that shows good __taste__.
 
-He is also proficient with the latest in frontend landscapeas with expertise in beautiful and functional UI using __React__.
+He has expertise in beautiful and functional UI using __React__.
 
 <h2>Core Values and Skills</h2>
 
