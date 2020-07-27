@@ -1,0 +1,35 @@
+I"�<p>I have been writing my resume in LaTeX for more than a decade now. Writing your resume in LaTex has it’s own benefits.
+You can check it out here:</p>
+
+<ul>
+  <li><a href="https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex">benefits of doing the resume in latex</a></li>
+</ul>
+
+<p>Now, writing your resume in all LaTex is all well and good but converting it into pdf on macOS is a task on it’s own. The MacTeX package is a BIG download of around 6GB and it’s not worth spending so much time and energy for only trying to convert your resume from LaTex to PDF. Well, you can ofcourse use one of the online latex-to-pdf converter or you can install the <code class="language-plaintext highlighter-rouge">basictex</code> package and set your local mac environment capable of converting to PDF.</p>
+
+<p>Follow these steps to get it working:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># install basictex using brew #NOTE your password might be required
+brew cask install basictex
+# try to install texlivefly, it complains about tlmgr outdated
+sudo tlmgr install texliveonfly
+# update tlmgr
+sudo tlmgr update --self
+# now install textliveonfly
+sudo tlmgr install texliveonfly
+
+# use the commands using sudo.
+# for eg: if your resume file name is vinit_kumar.tex
+
+sudo texliveonfly vinit_kumar.tex
+
+# this outputs a file named vinit_kumar.pdf in the same directory
+# now, open this file like this to check if all your changes made it through.
+
+open vinit_kumar.pdf
+</code></pre></div></div>
+
+<p>Credits where it’s due: <a href="https://www.apptic.me/blog/get-mactex-faster-easily-using-basictex.php">Get Mactex Faster</a></p>
+
+<p>The idea came from this website, though the issue was it was not working without <code class="language-plaintext highlighter-rouge">sudo</code>. Hence, wrote this post more of an reminder of how to get LaTex to PDF working on macOS</p>
+:ET

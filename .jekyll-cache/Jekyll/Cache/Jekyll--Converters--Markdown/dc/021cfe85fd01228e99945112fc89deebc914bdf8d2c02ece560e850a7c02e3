@@ -1,0 +1,42 @@
+I"7<p>I have been using vim for almost 5 years now. For some time, I even
+switched to Sublime text2 but I am finally back home. Well, the
+following guide is only for macs. Sorry GVIM users!
+Here is the latest screenshot of my macvim:</p>
+
+<p><img src="/public/img/vim.png" alt="Macvim" /></p>
+
+<p>As you can see, it has a nice Filebrowser that is way more clean and
+intuitive than NERDTree.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>First and foremost down this build of Macvim from alloy’s fork:
+<a href="https://github.com/alloy/macvim/releases/download/snapshot-71/MacVim-71-20130920.zip">Macvim</a>
+Unzip it and then put the <code class="language-plaintext highlighter-rouge">Macvim.app</code> into your <code class="language-plaintext highlighter-rouge">Applications</code>.</p>
+
+<p>Follow these instructions to have the same in your Mac.</p>
+
+<p>First of all do this:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:vinitkumar/.vim.git
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+<span class="nb">cd</span> .vim
+<span class="nb">cp </span>vimrc ~/.vimrc
+<span class="nb">cp </span>vimrc.before ~/.vimrc.before
+<span class="nb">cp </span>vimrc.bundles ~/.vimrc.bundles
+vim +BundleInstall +qall
+</code></pre></div></div>
+<p>Install the peepopen app from here: <a href="http://topfunky.github.io/PeepOpen/">Peepopen</a>.
+When installed open peepopen and set MacVim as your default editor.</p>
+
+<p>Once you are done with these steps you have a super awesome development
+IDE optimised for Python/JS/Ruby development.</p>
+
+<p>##Credits</p>
+
+<p>Credit must be given to <a href="http://github.com/alloy">@alloy</a> and
+<a href="http://twitter.com/topfunky">@topfunky</a> for creating these wonderful
+addons to Vim.</p>
+
+<p>Happy hacking!</p>
+:ET

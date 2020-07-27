@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<title>Vinit Kumar
+</title>
+<meta name="description" content="Vinit Kumar
+">
+<meta name="keywords" content="tech, coding, advice, puregold">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Coding principles every engineer should know &#8211; ">
+<meta name="twitter:description" content="Vinit Kumar
+">
+<meta name="twitter:creator" content="@https://twitter.com/vinitkme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="http://localhost:4000/images/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Coding principles every engineer should know &#8211; ">
+<meta property="og:description" content="Vinit Kumar
+">
+<meta property="og:url" content="http://localhost:4000/2019/04/08/cross-post-coding-principles-every-engineer-should-know.html">
+<meta property="og:site_name" content="">
+
+<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="8MNkN6ZUg-Zc8RNjU_g2G4MRQ5fmOt57SCg2kmX2nIc">
+
+
+
+<link rel="canonical" href="http://localhost:4000/2019/04/08/cross-post-coding-principles-every-engineer-should-know.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,400;0,900;1,100;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/main.min.css" type="text/css" />
+
+
+</head>
+<body>
+  <div class="header-container container">
+  <header>
+    <h1 class="title"><a href="http://localhost:4000" class="top-link">Vinit Kumar</a></h1>
+     <ul class="nav">
+      
+          <li class="">
+            <a href="/blog.html">Blog</a>
+          </li>
+      
+          <li class="">
+            <a href="https://vinitkumar.me/vinit_kumar.pdf">Resume</a>
+          </li>
+      
+          <li class="">
+            <a href="https://github.com/vinitkumar">Projects</a>
+          </li>
+      
+          <li class="">
+            <a href="/feed.xml">RSS</a>
+          </li>
+      
+    </ul>
+  </header>
+</div>
+
+  <div class="container">
+  <h2 style="margin-bottom: -20px;">Coding principles every engineer should know</h2>
+<p class="post-date">08 Apr 2019</p>
+
+<div class="post">
+<h3 id="important-cross-posting-from-this-medium-article-httpsmediumcomsschillacecoding-principles-every-engineer-should-know-b946b48cc946-since-i-do-not-like-medium-as-a-platform-and-i-do-not-want-to-loose-this-port-in-matrix-">IMPORTANT: Cross posting from this medium article https://medium.com/@sschillace/coding-principles-every-engineer-should-know-b946b48cc946 since I do not like medium as a platform and I do not want to loose this port in matrix :)</h3>
+<h3 id="the-post-has-been-written-by-sam-schillace-and-all-references-to-mei-is-referenced-to-mr-sam">The post has been written by <a href="https://medium.com/@sschillace">Sam Schillace</a> and all references to me/I is referenced to Mr. Sam</h3>
+
+<p>Throughout my engineering career, I’ve had the opportunity work alongside and learn from many incredibly talented people, solve some serious technical challenges, and scale several successful companies. Recently, I was talking with the engineering team at Box about what I’ve learned along this journey, and what came out of that conversation were my personal engineering principals. These aren’t rules or engineering guidelines. They’re simply the principles that I pay attention to when I write and operate code.</p>
+
+<h2 id="be-paranoid">Be paranoid.</h2>
+
+<p>This one comes naturally to me. Since I’m mostly self-taught as a programmer, I never trust computers. I never trust that the system I just launched is really up. That the bug I fixed is really fixed. That code really does work the way I think it does without a test. I don’t trust anything. I don’t even trust myself! I never trust that I understand anything as well as I think I do until I check more than once. Paranoia is my friend, and it should be your friend, too. Always try to find a way to test assumptions along some other path, or get a second set of eyes to see what you’ve missed. Most of the time it’s not needed. Sometimes it’s really important.</p>
+<h2 id="dont-lie-to-the-computer">Don’t lie to the computer.</h2>
+<p>Another way to say this is “avoid leaky abstractions.” Don’t use systems in ways they’re not meant to be used. Don’t count on side effects. Don’t do things that won’t be obvious to the next person because the system wasn’t designed for them or they’re undocumented. If usage is three orders of magnitude more than current usage, then you should probably rethink the design. If the contract implies, but doesn’t guarantee, your use, you should change the component and the contract to be aligned. Computers are nasty things. They always bite when lied to, eventually.</p>
+
+<h2 id="keep-it-simple">Keep it simple.</h2>
+
+<p>We like building things and solving problems. That’s why we do what we do. But a lot of the time, just because we can see a problem that could be solved, doesn’t mean it’s useful to solve it right now. I always think of myself as a fairly dumb programmer — I like clean, simple designs that are easy to understand. And this is a high challenge — anyone can solve a problem in a complex way, but only good programmers can solve problems in simple, understandable ways. It’s much harder to really think through the problem and solve only what needs to be solved in a simple, robust manner. Making yourself understood is the most important thing. Most time in code is spent maintaining, not creating.</p>
+
+<h2 id="first-rule-of-optimizing-dont">First rule of optimizing: don’t.</h2>
+
+<p>This is from a good book by John Bentley called Programming Pearls. (It’s explicitly meant to help you learn to think like an experienced programmer. It may be an old book but most of the lessons are incredibly relevant today.) Optimization can take many forms: speed, future-proofing, potential scale, possible uses, etc. The problem is, most optimization is ultimately never used, and, more or less by definition, optimization makes designs more complicated. So, first rule of thumb is don’t optimize until it’s really clear that you understand the problem completely. (His second rule: “don’t optimize, yet.” Meaning, even if you do understand it, don’t optimize until you really need to.)</p>
+
+<h2 id="dont-just-fix-the-bug-fix-all-possibility-of-it-ever-happening-again">Don’t just fix the bug; fix all possibility of it ever happening again.</h2>
+
+<p>Don’t be sorry if you made a mistake — be angry and make it something you never have to think about again. I hate bugs. I hate systems that let me create bugs. I hate it when my own software lets my fragile human brain down and I create a bug that could have been avoided. And I really, really hate fixing the same bug twice. So I try as much as I can, every single time I fix a bug, to think about the following: where else might this bug be happening now? Where might it happen in the future? What are the adjacent patterns that create similar bugs? And how can I kill all the bastards at once, right now?</p>
+
+<h2 id="question-assumptions-constantly">Question assumptions constantly.</h2>
+
+<p>Because I have spent most of my time in my own startups, I’ve gotten in the habit of asking myself constantly “Why am I doing this? What problem does it solve? Is there a better way? Is there something else I could do instead that’s more important?” You should have that attitude all the time. Constantly be questioning the assumptions given to you. What’s the real problem you’re solving? Did someone ask you to solve an effect rather than the root cause? Is the solution complete? Over-complete? Is the impact worthwhile?</p>
+
+<h2 id="think-long-term-slow-down-it-goes-faster">Think long term. Slow down, it goes faster.</h2>
+
+<p>This might be one of the most important ones. It’s easy to hack things out. As engineers, we like efficiency; we like to build as many things as we can. But if we don’t build for the long term, eventually it gets harder and harder to build anything. Sometimes we don’t understand the problem at first and we write code that we later have to back out. Sometimes we do things that are easy for our local problem, but make things worse or harder for someone else or for a larger problem. Sometimes we rush and don’t finish the design, and this causes much more time later on for someone to fix. Sometimes we don’t bother to write it the right way, we just make a copy or hack something in because we’re under time pressure or don’t want to really think it through. I’ve seen all these things too many times. Others have said this better than I have. But I’ll repeat — the goal is building the largest number of great features, reaching the largest number users over time. The area under the curve for a given day doesn’t add much, no matter how much gets done on that day, relative to all the days added together. Think long term.</p>
+
+<h2 id="care-about-your-code">Care about your code.</h2>
+
+<p>I guess this one doesn’t need much explanation, but it’s still something I see people missing from time to time. Take pride in your work! Care about the code you produce! I usually think of my poor future self, having to deal with my crappy code, when I’m tempted to be lazy and cut a corner. You don’t have to take this to an extreme — I used to joke at Google that other engineers treated their code like a pet, where my relationship with mine was more like a ranchers — pragmatic, not sentimental. But even still, I always hate it if my code isn’t well designed, doesn’t work well, isn’t readable, all that stuff.</p>
+<h2 id="cheap-fast-rightpick-two">Cheap, fast, right — pick two.</h2>
+
+<p>This is the iron triangle of software. This is the way the world of software engineering works. But it’s not an excuse for complacency. In fact, this is your opponent every single day. The difference between good and great programmers is often measured in how well they navigate the iron triangle. And really great ones find ways to bend it and get some of all three, more often than not. Try to be that kind of programmer — can you find a more elegant design that’s faster to build and is still right? Can you relax some constraint in the spec to get to the goal more quickly? You might not always be able to do that; in fact, you won’t beat the triangle. But if nothing else, make sure you understand what compromise you are choosing, and why, and that it’s the right one for the current situation.</p>
+
+<h2 id="conclusion-be-curious-learn-as-much-as-you-can-all-the-time">Conclusion: Be curious. Learn as much as you can, all the time.</h2>
+
+<p>Okay, this one is more career advice than anything else. But if you’re not curious and don’t really care that much about learning new things as an engineer and don’t care about new tech or new languages or new ideas, then why are you here? By no means are my principles perfect or an absolute representation of thinking/acting like a successful engineer, but I’m willing to bet there’s a fair amount of overlap with what others might be thinking. I’d love to hear your thoughts.</p>
+
+
+</div>
+
+<a class="twitter-share-button"
+   href="https://twitter.com/intent/tweet?text=Coding principles every engineer should know"
+   data-hashtags="tech, coding, advice, puregold"
+   data-via="vinitkme"
+   data-size="large">Tweet</a>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+
+
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40854387-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </div><!-- /.main -->
+</body>
+</html>

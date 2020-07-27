@@ -1,0 +1,144 @@
+I"�<<p>React is one of the most useful frontend library out there. At Socialschools, we use React to render some content using our API from App server. It has been in production since June last year and it is really amazing building neat stuff using both React and djangoCMS.</p>
+
+<p>djangoCMS provides us the best Hybrid experience possible, we render say 70% of the content from server rendered pages and it provides us good support for even running React et. al without any hiccups. The latest version of djangoCMS 3.5.x series came up with a neat feature that allows the content to be refreshed as you edit without need of a reload.</p>
+
+<p>This is from the <a href="http://docs.django-cms.org/en/latest/topics/frontend-integration.html">djangoCMS documentation</a>:</p>
+
+<blockquote>
+  <p>Generally speaking, django CMS is wholly frontend-agnostic. It doesn’t care what your site’s frontend is built on or uses.</p>
+</blockquote>
+
+<blockquote>
+  <p>The exception to this is when editing your site, as the django CMS toolbar and editing controls use their own frontend code, and this can sometimes affect or be affected by your site’s code.</p>
+</blockquote>
+
+<blockquote>
+  <p>The content reloading introduced in django CMS 3.5 for plugin operations (when moving/adding/deleting etc) pull markup changes from the server. This may require a JS widget to be reinitialised, or additional CSS to be loaded, depending on your own frontend set-up.</p>
+</blockquote>
+
+<p>So even though the functionality is very nice and is very good UX for our end users it introduces a serious issue with the frontend frameworks like React. Let me explain:</p>
+
+<p>Let’s say you have a simple React application that looks something like this:</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span><span class="nx">Component</span><span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">ReactDOM</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-dom</span><span class="dl">'</span><span class="p">;</span>
+
+
+<span class="kd">class</span> <span class="nx">App</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+  <span class="kd">constructor</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">state</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="na">data</span><span class="p">:</span> <span class="kc">null</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+
+  <span class="nx">componentDidMount</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// do a fetch to the API resources and set the data in the state</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span><span class="na">data</span><span class="p">:</span> <span class="nx">data</span> <span class="p">})</span>
+
+  <span class="p">}</span>
+
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">(</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">"container"</span><span class="p">&gt;</span>
+      <span class="si">{</span> <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">data</span> <span class="o">&amp;&amp;</span>  <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">element</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span>
+          <span class="p">&lt;</span><span class="nt">span</span> <span class="na">key</span><span class="p">=</span><span class="si">{</span><span class="nx">key</span><span class="si">}</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">element</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+      <span class="p">))</span><span class="si">}</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">)</span>
+
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(&lt;</span><span class="nc">App</span><span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementByID</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>This used to work perfectly with the old djangoCMS since everytime you edit a content, there would be a reload and because of that the <code class="language-plaintext highlighter-rouge">componentDidMount()</code> will be called and hence there would be an API call and the React app would be rendered.</p>
+
+<p>However, due to the change in the way frontend editing works now, this is no longer the case by default and it cause strange behaviour to occur.</p>
+
+<p>For eg: You filled up the djangoCMS plugin that implemented this React Plugin and it is rendered properly. Now, you wanted to do change in other plugin like Text Plugin. So as a result, as soon as you submit save button for the text plugin after doing the change, the CMS javascript sends a request for the server rendered HTML and replace it in place for the page. The problem here is that there was no page reload, so the react app was never triggered and mounted, so you properly working filled up React app just vanishes from the site.</p>
+
+<p>In case if it’s not clear, the reason for this is: <strong>React needs to mount the component to do the API request</strong>. Since, the HTML was hot swapped, it never for the opportunity to do so and hence the React plugin gets empty after the edit.</p>
+
+<p>Now, the good folks at djangoCMS are kind enough to make a note of it in their documentation but somehow I missed it before while reading the release notes for djangoCMS 3.5.x</p>
+
+<p>This is their suggested solution:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// catch the cms-content-refresh event and use it</span>
+<span class="c1">// to trigger actions that are not done due to to Hot SWAP of the HTML</span>
+<span class="nx">CMS</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">cms-content-refresh</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Render React Again?</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Now, though this solution gives us the first clue of how to go about fixing it, the code is not just drop-in replacement and won’t work right away in the React and similar apps. You will need to do following to get it working on your React app and similar frameworks.</p>
+
+<p>Here is a more complete solution to get it done.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">DOMContentLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Handler when the DOM is fully loaded</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">CMS</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">cms-content-refresh</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// render react or call for actions that were skipped because of the</span>
+    <span class="c1">// change in how djangoCMS behaves now.</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>So if you look at the above piece of code, notice that I used plain JS to look for <code class="language-plaintext highlighter-rouge">document.ready</code> event of jQuery, since in most the React apps we do not use jQuery and also, it doesn’t make sense to add more files to your App bundle size when you can get away with it.</p>
+
+<p>The logic to look for “DomContentLoaded” event is that the global variable <code class="language-plaintext highlighter-rouge">CMS</code> won’t be available unless all content is loaded and we require it to watch for the <code class="language-plaintext highlighter-rouge">cms-content-refresh</code> event. So as a solution we <strong>hook up the ReactDOM render method whenever we get catch a refresh event from the CMS.</strong></p>
+
+<p>Following is the updated React App code after accomodating changes for this event handling.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span><span class="nx">Component</span><span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">ReactDOM</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-dom</span><span class="dl">'</span><span class="p">;</span>
+
+
+<span class="kd">class</span> <span class="nx">App</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+  <span class="kd">constructor</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">state</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="na">data</span><span class="p">:</span> <span class="kc">null</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+
+  <span class="nx">componentDidMount</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// do a fetch to the API resources and set the data in the state</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span><span class="na">data</span><span class="p">:</span> <span class="nx">data</span> <span class="p">})</span>
+
+  <span class="p">}</span>
+
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span><span class="p">(</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">"container"</span><span class="p">&gt;</span>
+      <span class="si">{</span> <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">data</span> <span class="o">&amp;&amp;</span>  <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">element</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span>
+          <span class="p">&lt;</span><span class="nt">span</span> <span class="na">key</span><span class="p">=</span><span class="si">{</span><span class="nx">key</span><span class="si">}</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">element</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+      <span class="p">))</span><span class="si">}</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">)</span>
+
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(&lt;</span><span class="nc">App</span><span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementByID</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">))</span>
+
+
+<span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">DOMContentLoaded</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Handler when the DOM is fully loaded</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">CMS</span> <span class="o">!==</span> <span class="kc">undefined</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">CMS</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">cms-content-refresh</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="c1">// render react or call for actions that were skipped because of the</span>
+      <span class="c1">// change in how djangoCMS behaves now.</span>
+      <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(&lt;</span><span class="nc">App</span><span class="p">/&gt;,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementByID</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">))</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+</code></pre></div></div>
+
+<p>Now, you can just compile your React app and change the files in your template for djangoCMS app and it would not have disappearing content during frontend editing.</p>
+
+:ET

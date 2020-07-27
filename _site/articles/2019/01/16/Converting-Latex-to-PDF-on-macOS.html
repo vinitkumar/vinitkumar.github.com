@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<title>Vinit Kumar
+</title>
+<meta name="description" content="Setup Mac for editing Latex">
+<meta name="keywords" content="latex, macos, pdf">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Converting LaTex to PDF on macOS &#8211; ">
+<meta name="twitter:description" content="Setup Mac for editing Latex">
+<meta name="twitter:creator" content="@https://twitter.com/vinitkme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="http://localhost:4000/images/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Converting LaTex to PDF on macOS &#8211; ">
+<meta property="og:description" content="Setup Mac for editing Latex">
+<meta property="og:url" content="http://localhost:4000/articles/2019/01/16/Converting-Latex-to-PDF-on-macOS.html">
+<meta property="og:site_name" content="">
+
+<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="8MNkN6ZUg-Zc8RNjU_g2G4MRQ5fmOt57SCg2kmX2nIc">
+
+
+
+<link rel="canonical" href="http://localhost:4000/articles/2019/01/16/Converting-Latex-to-PDF-on-macOS.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,400;0,900;1,100;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/main.min.css" type="text/css" />
+
+
+</head>
+<body>
+  <div class="header-container container">
+  <header>
+    <h1 class="title"><a href="http://localhost:4000" class="top-link">Vinit Kumar</a></h1>
+     <ul class="nav">
+      
+          <li class="">
+            <a href="/blog.html">Blog</a>
+          </li>
+      
+          <li class="">
+            <a href="https://vinitkumar.me/vinit_kumar.pdf">Resume</a>
+          </li>
+      
+          <li class="">
+            <a href="https://github.com/vinitkumar">Projects</a>
+          </li>
+      
+          <li class="">
+            <a href="/feed.xml">RSS</a>
+          </li>
+      
+    </ul>
+  </header>
+</div>
+
+  <div class="container">
+  <h2 style="margin-bottom: -20px;">Converting LaTex to PDF on macOS</h2>
+<p class="post-date">16 Jan 2019</p>
+
+<div class="post">
+<p>I have been writing my resume in LaTeX for more than a decade now. Writing your resume in LaTex has it’s own benefits.
+You can check it out here:</p>
+
+<ul>
+  <li><a href="https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex">benefits of doing the resume in latex</a></li>
+</ul>
+
+<p>Now, writing your resume in all LaTex is all well and good but converting it into pdf on macOS is a task on it’s own. The MacTeX package is a BIG download of around 6GB and it’s not worth spending so much time and energy for only trying to convert your resume from LaTex to PDF. Well, you can ofcourse use one of the online latex-to-pdf converter or you can install the <code class="language-plaintext highlighter-rouge">basictex</code> package and set your local mac environment capable of converting to PDF.</p>
+
+<p>Follow these steps to get it working:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># install basictex using brew #NOTE your password might be required
+brew cask install basictex
+# try to install texlivefly, it complains about tlmgr outdated
+sudo tlmgr install texliveonfly
+# update tlmgr
+sudo tlmgr update --self
+# now install textliveonfly
+sudo tlmgr install texliveonfly
+
+# use the commands using sudo.
+# for eg: if your resume file name is vinit_kumar.tex
+
+sudo texliveonfly vinit_kumar.tex
+
+# this outputs a file named vinit_kumar.pdf in the same directory
+# now, open this file like this to check if all your changes made it through.
+
+open vinit_kumar.pdf
+</code></pre></div></div>
+
+<p>Credits where it’s due: <a href="https://www.apptic.me/blog/get-mactex-faster-easily-using-basictex.php">Get Mactex Faster</a></p>
+
+<p>The idea came from this website, though the issue was it was not working without <code class="language-plaintext highlighter-rouge">sudo</code>. Hence, wrote this post more of an reminder of how to get LaTex to PDF working on macOS</p>
+
+</div>
+
+<a class="twitter-share-button"
+   href="https://twitter.com/intent/tweet?text=Converting LaTex to PDF on macOS"
+   data-hashtags="latex, macos, pdf"
+   data-via="vinitkme"
+   data-size="large">Tweet</a>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+
+
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40854387-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </div><!-- /.main -->
+</body>
+</html>

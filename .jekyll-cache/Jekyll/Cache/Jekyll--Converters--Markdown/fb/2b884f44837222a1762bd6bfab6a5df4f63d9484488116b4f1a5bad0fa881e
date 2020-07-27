@@ -1,0 +1,45 @@
+I"E<p>These days i was busy working on an a project called as Node Twitter.
+As the name suggest it is a twitter clone written on node.</p>
+
+<p>Right now it has following functionalities:</p>
+
+<ul>
+  <li>Login via Facebook and Github</li>
+  <li>Tweet Add, Modify, Delete</li>
+  <li>Comment on Tweet</li>
+  <li>Favorite a Tweet</li>
+  <li>See own and another user’s profile</li>
+  <li>Follow another User</li>
+</ul>
+
+<p>###Here are some screen-shots:</p>
+
+<figure>
+<img src="http://vinitkumar.me/images/twitter.png" height="400" width="640" />
+</figure>
+
+<figure>
+  <img src="http://vinitkumar.me/images/twitter2.png" height="400" width="640" />
+</figure>
+
+<figure>
+  <img src="http://vinitkumar.me/images/twitter3.png" height="400" width="640" />
+</figure>
+
+<figure>
+  <img src="http://vinitkumar.me/images/twitter4.png" height="400" width="640" />
+</figure>
+
+<figure>
+  <img src="http://vinitkumar.me/images/twitter5.png" height="400" width="640" />
+</figure>
+
+<p>I am also planning to add all other features present on twitter one by one. Next would be dashboard(timeline), personal profile, retweet and hashtags.</p>
+
+<p>These features might seem simple but most of them are not that simple and requires some good effort.
+Anyways, you can test it here:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm <span class="nb">install </span>nwitter
+<span class="nv">$ </span>npm start
+</code></pre></div></div>
+<p>Then open your browser and open <code class="language-plaintext highlighter-rouge">http://localhost:3000</code>.</p>
+:ET

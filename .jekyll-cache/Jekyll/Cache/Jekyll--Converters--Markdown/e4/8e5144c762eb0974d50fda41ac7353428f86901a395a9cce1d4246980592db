@@ -1,0 +1,27 @@
+I"…<p>Here is an interesting example for Classes in JS. Classes in JS donâ€™t have a class keyword.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">Range</span><span class="p">(</span><span class="k">from</span><span class="p">,</span> <span class="nx">to</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="k">from</span> <span class="o">=</span> <span class="k">from</span><span class="p">;</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">to</span> <span class="o">=</span> <span class="nx">to</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nx">Range</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span>  <span class="p">{</span>
+  <span class="na">includes</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="k">from</span> <span class="o">&lt;=</span><span class="nx">x</span> <span class="o">&amp;&amp;</span> <span class="nx">x</span> <span class="o">&lt;=</span> <span class="k">this</span><span class="p">.</span><span class="nx">to</span><span class="p">;</span>
+  <span class="p">},</span>
+  <span class="na">foreach</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">f</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">x</span><span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="k">from</span><span class="p">);</span> <span class="nx">x</span> <span class="o">&lt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">to</span><span class="p">;</span> <span class="nx">x</span><span class="o">++</span><span class="p">)</span><span class="nx">f</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+  <span class="p">},</span>
+  <span class="na">toString</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">(</span><span class="dl">'</span><span class="o">+</span><span class="k">this</span><span class="p">.</span><span class="k">from</span><span class="o">+</span><span class="dl">'</span><span class="s1">.......</span><span class="dl">'</span><span class="o">+</span><span class="k">this</span><span class="p">.</span><span class="nx">to</span><span class="o">+</span><span class="dl">'</span><span class="s1">)</span><span class="dl">'</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+ 
+<span class="kd">var</span> <span class="nx">r</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Range</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">20</span><span class="p">);</span>
+<span class="nx">r</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+<span class="nx">r</span><span class="p">.</span><span class="nx">foreach</span><span class="p">(</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">r</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>It is pretty simple and clean way to create a class</p>
+:ET

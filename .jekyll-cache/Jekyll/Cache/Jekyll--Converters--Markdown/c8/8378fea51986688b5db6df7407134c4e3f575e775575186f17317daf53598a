@@ -1,0 +1,41 @@
+I"ã<p>Infra is one of the most host topics in the Software development these days. There are so many tools,
+so much to learn that very few people actually know what to do and what the best practises. Everyone wants
+to jump on the microservice bandwagon. However, itâ€™s not as easy as it seems. I medidated quite a bit on this
+and have come up with these points that I think are maybe some good to follow tips:</p>
+
+<ul>
+  <li>
+    <p>Use standard, stable and well documented platform.</p>
+  </li>
+  <li>
+    <p>Use multi-zone DB to embrace for regional failures and quick failovers.</p>
+  </li>
+  <li>
+    <p>Have DB backups scheduled to a different cloud service securily (for eg: s3 in case the db is hosted on GCE/GKE)</p>
+  </li>
+  <li>
+    <p>Test the restore and snapshots. Maintain automatic backups.</p>
+  </li>
+  <li>
+    <p>Backup Database, put apps and services on maintainence while doing major upgrades/migrations.</p>
+  </li>
+  <li>
+    <p>The Config should definitely be version controlled and tags are maintained. (follow semantic versioning)</p>
+  </li>
+  <li>
+    <p>Performance, security and stability of the cluster are the corner stones to live by.</p>
+  </li>
+  <li>
+    <p>While evaluating any new service, library refer the above and ask yourself if it is going to make it better or is it going to make it better.</p>
+  </li>
+  <li>
+    <p>Tradeoffs if any needs to be documented and made very clear.</p>
+  </li>
+  <li>
+    <p>Maintain better dev prod parity. Ideally, the apps should checklist all the columns of 12 factor apps. Refer this(https://12factor.net)</p>
+  </li>
+  <li>
+    <p>Test new tech, plugins in local -&gt; staging -&gt; production. Push code to production only whent there are no known bugs or issues.</p>
+  </li>
+</ul>
+:ET

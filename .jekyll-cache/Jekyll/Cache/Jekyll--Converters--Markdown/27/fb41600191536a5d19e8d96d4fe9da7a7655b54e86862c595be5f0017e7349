@@ -1,0 +1,56 @@
+I"h<p>Like everybody else, I have an Android phone too. If you are a developer you must have noticed a file called as GPS.LOG. It is 
+the one file which has all your GPS logs in it. This weekend I spend couple of hours hacking with it. He is the outcome.</p>
+
+<h2 id="how-you-get-tracked">How you get tracked</h2>
+
+<p>First of all, connect your Android device to your computer and copy the gps.log file into your desktop:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> /Volumes/NO<span class="se">\ </span>NAME/GPS.LOG ~/projects/gps.log
+</code></pre></div></div>
+
+<p>Now, we need to find the good data that contain gps coordinates:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> ~/projects/gps.log | <span class="nb">grep</span> <span class="s1">'position'</span> <span class="o">&gt;</span> ~/cleangps.log
+</code></pre></div></div>
+
+<p>The cleangps.log file contains only data that has coordinates on it.</p>
+
+<p>Now, create a log file that only contains coordinates:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> ~/cleangps.log | <span class="nb">awk</span> <span class="s1">'{print $3, $4}'</span> <span class="o">&gt;</span> ~/gpscord.log
+<span class="c"># notice the new file is nothing but values seperated by commas, hence write them as csv</span>
+<span class="nb">cat</span> ~/gpscord.log <span class="o">&gt;</span> ~/gps.csv
+</code></pre></div></div>
+<p>This csv file is the basis we use to find that location the GPS log was taken.</p>
+
+<p>Prepare virtualenv and install googlemaps:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkvirtualenv maps
+pip <span class="nb">install</span> <span class="nt">-U</span> googlemaps
+</code></pre></div></div>
+
+<p>Also, follow the clear instructions at https://github.com/googlemaps/google-maps-services-python#api-keys to find your API key.</p>
+
+<p>Here is the python file <code class="language-plaintext highlighter-rouge">track.py</code> that would find what these coordinate means and how they related to your daily life and place you are frequent to.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#! /usr/bin/python
+</span><span class="kn">import</span> <span class="nn">googlemaps</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+
+<span class="n">gmaps_client</span> <span class="o">=</span> <span class="n">googlemaps</span><span class="p">.</span><span class="n">Client</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s">'&lt;Your Server Key Here&gt;'</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'~/gps.csv'</span><span class="p">)</span> <span class="k">as</span> <span class="n">csvfile</span><span class="p">:</span>
+    <span class="n">gps</span> <span class="o">=</span> <span class="n">csv</span><span class="p">.</span><span class="n">reader</span><span class="p">(</span><span class="n">csvfile</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">gps</span><span class="p">:</span>
+        <span class="n">lat</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">longit</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">reverse_geocode_result</span> <span class="o">=</span> <span class="n">gmaps_client</span><span class="p">.</span><span class="n">reverse_geocode</span><span class="p">((</span><span class="n">lat</span><span class="p">,</span> <span class="n">longit</span><span class="p">))</span>
+        <span class="n">formatted_address</span> <span class="o">=</span> <span class="n">reverse_geocode_result</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s">'formatted_address'</span><span class="p">]</span>
+        <span class="k">print</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">formatted_address</span>
+        <span class="k">print</span> <span class="s">"="</span> <span class="o">*</span> <span class="mi">150</span>
+</code></pre></div></div>
+
+<p>Run this file in your terminal by and check out the output, you will get freaked out for some moment.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python track.py
+</code></pre></div></div>
+:ET

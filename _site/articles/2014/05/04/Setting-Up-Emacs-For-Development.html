@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<title>Vinit Kumar
+</title>
+<meta name="description" content="A Small guide in setting up Emacs">
+<meta name="keywords" content="editors, emacs">
+<!-- Twitter Card and Open Graph tags -->
+<meta name="twitter:title" content="Setting Up Emacs for Development &#8211; ">
+<meta name="twitter:description" content="A Small guide in setting up Emacs">
+<meta name="twitter:creator" content="@https://twitter.com/vinitkme">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="http://localhost:4000/images/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Setting Up Emacs for Development &#8211; ">
+<meta property="og:description" content="A Small guide in setting up Emacs">
+<meta property="og:url" content="http://localhost:4000/articles/2014/05/04/Setting-Up-Emacs-For-Development.html">
+<meta property="og:site_name" content="">
+
+<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="8MNkN6ZUg-Zc8RNjU_g2G4MRQ5fmOt57SCg2kmX2nIc">
+
+
+
+<link rel="canonical" href="http://localhost:4000/articles/2014/05/04/Setting-Up-Emacs-For-Development.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,400;0,900;1,100;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/main.min.css" type="text/css" />
+
+
+</head>
+<body>
+  <div class="header-container container">
+  <header>
+    <h1 class="title"><a href="http://localhost:4000" class="top-link">Vinit Kumar</a></h1>
+     <ul class="nav">
+      
+          <li class="">
+            <a href="/blog.html">Blog</a>
+          </li>
+      
+          <li class="">
+            <a href="https://vinitkumar.me/vinit_kumar.pdf">Resume</a>
+          </li>
+      
+          <li class="">
+            <a href="https://github.com/vinitkumar">Projects</a>
+          </li>
+      
+          <li class="">
+            <a href="/feed.xml">RSS</a>
+          </li>
+      
+    </ul>
+  </header>
+</div>
+
+  <div class="container">
+  <h2 style="margin-bottom: -20px;">Setting Up Emacs for Development</h2>
+<p class="post-date">04 May 2014</p>
+
+<div class="post">
+<p>I always wanted to use Emacs. Yesterday, I wanted to have a good JavaScript/Node REPL in my editor. Though I had always used Vim since last 5 years still setting up a REPL in Vim is not very easy. So I decided to give Emacs a try and till now I am enjoying using Emacs.</p>
+
+<p>Here is a guide that would help you to setup emacs.</p>
+
+<p>First of all, If you are on Mac install emacs for OSX from <a href="http://emacsformacosx.com/">here</a>.  you could easily install the GUI version of Emacs for other platforms too.</p>
+
+<h1 id="my-emacs-config">My Emacs config</h1>
+
+<p>This is my Emacs config which could be used for development in following technologies:</p>
+
+<ul>
+  <li>
+    <p>Ruby / Ruby on Rails</p>
+  </li>
+  <li>
+    <p>CSS / LESS / SASS / SCSS</p>
+  </li>
+  <li>
+    <p>HAML / Markdown / Textile / ERB</p>
+  </li>
+  <li>
+    <p>Clojure (via nrepl)</p>
+  </li>
+  <li>
+    <p>Javascript / Coffeescript</p>
+  </li>
+  <li>
+    <p>Python</p>
+  </li>
+  <li>
+    <p>PHP</p>
+  </li>
+  <li>
+    <p>Haskell</p>
+  </li>
+  <li>
+    <p>Erlang</p>
+  </li>
+  <li>
+    <p>Common Lisp (with Slime)</p>
+  </li>
+</ul>
+
+<p>In particular, there’s a nice config for <em>tab autocompletion</em>, and
+flycheck is used to immediately highlight syntax errors in Ruby, HAML,
+Python, Javascript, PHP and a number of other languages.</p>
+
+<h2 id="demo">Demo</h2>
+
+<p>This is my emacs live in action:</p>
+
+<p><img src="https://i.cloudup.com/WbWR5pblgM.gif" /></p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>Emacs 23 or greater (note that Emacs 24 is required for some
+functionality, and will likely become the minimum required version
+some time soon.)</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>To install, clone this repo to <code class="language-plaintext highlighter-rouge">~/.emacs.d</code>, i.e. ensure that the
+<code class="language-plaintext highlighter-rouge">init.el</code> contained in this repo ends up at <code class="language-plaintext highlighter-rouge">~/.emacs.d/init.el</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/vinitkumar/.emacs.d.git ~/.emacs.d
+</code></pre></div></div>
+
+<p>Upon starting up Emacs for the first time, further third-party
+packages will be automatically downloaded and installed.</p>
+
+<h2 id="adding-your-own-customization">Adding your own customization</h2>
+
+<p>To add your own customization, use <kbd>M-x customize</kbd> and/or
+create a file <code class="language-plaintext highlighter-rouge">~/.emacs.d/lisp/init-local.el</code> which looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>... your code here ...
+
+(provide 'init-local)
+</code></pre></div></div>
+
+<h2 id="tips-for-using-these-emacs-settings">Tips for using these emacs settings</h2>
+
+<p>If you want to use my settings straight out of the box, here are some things to note:</p>
+
+<ul>
+  <li>
+    <p>I recommend starting with a blank emacs +
+<a href="https://github.com/technomancy/better-defaults">Technomancy’s better-defaults package</a>,
+and then dig through this repo for useful nuggets, instead of forking it directly.</p>
+  </li>
+  <li>
+    <p>The key bindings are optimized for a norwegian keyboard layout.</p>
+  </li>
+  <li>
+    <p>Start by reading up on all the cool stuff in key-bindings.el.</p>
+  </li>
+  <li>
+    <p>You quit emacs with <code class="language-plaintext highlighter-rouge">C-x r q</code>, mnemonic <em>Really Quit</em>.</p>
+  </li>
+  <li>
+    <p>Find file in project with <code class="language-plaintext highlighter-rouge">C-x o</code>, in dir with <code class="language-plaintext highlighter-rouge">C-x C-f</code>, recent with <code class="language-plaintext highlighter-rouge">C-x f</code></p>
+  </li>
+  <li>
+    <p>Add your user- and project-specific stuff in .emacs.d/users/[machine name]/*.el</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">C-h</code> is rebound to backspace, like in the shell. Get help on <code class="language-plaintext highlighter-rouge">F1</code> instead.</p>
+  </li>
+  <li>
+    <p>Autocomplete with <code class="language-plaintext highlighter-rouge">C-.</code> (autocomplete entire lines with <code class="language-plaintext highlighter-rouge">C-:</code>)</p>
+  </li>
+  <li>
+    <p>expand-region is your friend. Find its bound key by doing <code class="language-plaintext highlighter-rouge">F1 f er/expand-region</code></p>
+  </li>
+  <li>
+    <p>Undo with <code class="language-plaintext highlighter-rouge">C-_</code> and redo with <code class="language-plaintext highlighter-rouge">M-_</code>. Watch the undo-tree with <code class="language-plaintext highlighter-rouge">C-x u</code></p>
+  </li>
+  <li>
+    <p>Quickly jump anywhere in the buffer with <code class="language-plaintext highlighter-rouge">C-ø</code> then the starting letter of a word.</p>
+  </li>
+  <li>
+    <p>Indent and clean up white space in the entire buffer with <code class="language-plaintext highlighter-rouge">C-c n</code></p>
+  </li>
+  <li>
+    <p>On a mac, the Meta key <code class="language-plaintext highlighter-rouge">M</code> is bound to Command.</p>
+  </li>
+  <li>
+    <p>I recommend rebinding Caps Lock to Ctrl and use that instead of the often badly placed Ctrl-key.</p>
+  </li>
+  <li>
+    <p>Watch <a href="http://emacsrocks.com">emacsrocks.com</a></p>
+  </li>
+</ul>
+
+<h2 id="survival-guide-for-the-first-week-of-emacs">Survival guide for the first week of emacs</h2>
+
+<p>When you start using emacs for the first time, your habits fight you every inch
+of the way. Your fingers long for the good old familiar keybindings. Here’s an
+overview of the most commonly used shortcuts to get you through this pain:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C      </code> Shorthand for the ctrl-key</li>
+  <li><code class="language-plaintext highlighter-rouge">M      </code> Shorthand for the meta-key (bound to cmd on my mac settings)</li>
+  <li><code class="language-plaintext highlighter-rouge">S      </code> Shorthand for the shift-key</li>
+</ul>
+
+<h3 id="files">Files</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-f</code> Open a file. Starts in the current directory</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x f  </code> Open a recently visited file</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x o  </code> Open a file in the current project (based on .git ++)</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-s</code> Save this file</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-w</code> Save as …</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-j</code> Jump to this files’ current directory</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x b  </code> Switch to another open file (buffer)</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-b</code> List all open files (buffers)</li>
+</ul>
+
+<h3 id="cut-copy-and-paste">Cut copy and paste</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C-space</code> Start marking stuff. C-g to cancel.</li>
+  <li><code class="language-plaintext highlighter-rouge">C-w    </code> Cut (aka kill)</li>
+  <li><code class="language-plaintext highlighter-rouge">C-k    </code> Cut till end of line</li>
+  <li><code class="language-plaintext highlighter-rouge">M-w    </code> Copy</li>
+  <li><code class="language-plaintext highlighter-rouge">C-y    </code> Paste (aka yank)</li>
+  <li><code class="language-plaintext highlighter-rouge">M-y    </code> Cycle last paste through previous kills</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-y</code> Choose what to paste from previous kills</li>
+  <li><code class="language-plaintext highlighter-rouge">C-@    </code> Mark stuff quickly. Press multiple times</li>
+</ul>
+
+<h3 id="general">General</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C-g    </code> Quit out of whatever mess you’ve gotten yourself into</li>
+  <li><code class="language-plaintext highlighter-rouge">M-x    </code> Run a command by name</li>
+  <li><code class="language-plaintext highlighter-rouge">C-.    </code> Autocomplete</li>
+  <li><code class="language-plaintext highlighter-rouge">C-_    </code> Undo</li>
+  <li><code class="language-plaintext highlighter-rouge">M-_    </code> Redo</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x u  </code> Show the undo-tree</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x m  </code> Open magit. It’s a magical git interface for emacs</li>
+</ul>
+
+<h3 id="navigation">Navigation</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C-arrow</code> Move past words/paragraphs</li>
+  <li><code class="language-plaintext highlighter-rouge">C-a    </code> Go to start of line</li>
+  <li><code class="language-plaintext highlighter-rouge">C-e    </code> Go to end of line</li>
+  <li><code class="language-plaintext highlighter-rouge">M-g M-g</code> Go to line number</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x C-i</code> Go to symbol</li>
+  <li><code class="language-plaintext highlighter-rouge">C-s    </code> Search forward. Press <code class="language-plaintext highlighter-rouge">C-s</code> again to go further.</li>
+  <li><code class="language-plaintext highlighter-rouge">C-r    </code> Search backward. Press <code class="language-plaintext highlighter-rouge">C-r</code> again to go further.</li>
+</ul>
+
+<h3 id="window-management">Window management</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">C-x 0  </code> Close this window</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x 1  </code> Close other windows</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x 2  </code> Split window horizontally</li>
+  <li><code class="language-plaintext highlighter-rouge">C-x 3  </code> Split window vertically</li>
+  <li><code class="language-plaintext highlighter-rouge">S-arrow</code> Jump to window to the left/right/up/down</li>
+</ul>
+
+<h3 id="help">Help</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">F1 t   </code> Basic tutorial</li>
+  <li><code class="language-plaintext highlighter-rouge">F1 k   </code> Help for a keybinding</li>
+  <li><code class="language-plaintext highlighter-rouge">F1 r   </code> Emacs’ extensive documentation</li>
+</ul>
+
+<h2 id="credits--inspiration">Credits &amp; Inspiration</h2>
+
+<p>This config is totally based on this <a href="https://github.com/purcell/emacs.d.git">repo</a> by <a href="https://github.com/purcell">Mr. Steve Purcell</a>. But this might diverge with time and my personal taste.</p>
+
+<p>The Survival guide has been taken from .emacs.d project of <a href="https://github.com/magnars">Mr. Magnar Sveen</a></p>
+
+</div>
+
+<a class="twitter-share-button"
+   href="https://twitter.com/intent/tweet?text=Setting Up Emacs for Development"
+   data-hashtags="editors, emacs"
+   data-via="vinitkme"
+   data-size="large">Tweet</a>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+
+
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40854387-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </div><!-- /.main -->
+</body>
+</html>

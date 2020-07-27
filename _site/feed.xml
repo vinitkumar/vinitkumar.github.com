@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-27T20:35:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vinit Kumar</title><subtitle>Vinit Kumar
+</subtitle><entry><title type="html">Coding principles every engineer should know</title><link href="http://localhost:4000/2019/04/08/cross-post-coding-principles-every-engineer-should-know.html" rel="alternate" type="text/html" title="Coding principles every engineer should know" /><published>2019-04-08T18:18:00+05:30</published><updated>2019-04-08T18:18:00+05:30</updated><id>http://localhost:4000/2019/04/08/cross-post-coding-principles-every-engineer-should-know</id><content type="html" xml:base="http://localhost:4000/2019/04/08/cross-post-coding-principles-every-engineer-should-know.html">&lt;h3 id=&quot;important-cross-posting-from-this-medium-article-httpsmediumcomsschillacecoding-principles-every-engineer-should-know-b946b48cc946-since-i-do-not-like-medium-as-a-platform-and-i-do-not-want-to-loose-this-port-in-matrix-&quot;&gt;IMPORTANT: Cross posting from this medium article https://medium.com/@sschillace/coding-principles-every-engineer-should-know-b946b48cc946 since I do not like medium as a platform and I do not want to loose this port in matrix :)&lt;/h3&gt;
+&lt;h3 id=&quot;the-post-has-been-written-by-sam-schillace-and-all-references-to-mei-is-referenced-to-mr-sam&quot;&gt;The post has been written by &lt;a href=&quot;https://medium.com/@sschillace&quot;&gt;Sam Schillace&lt;/a&gt; and all references to me/I is referenced to Mr. Sam&lt;/h3&gt;
+
+&lt;p&gt;Throughout my engineering career, I’ve had the opportunity work alongside and learn from many incredibly talented people, solve some serious technical challenges, and scale several successful companies. Recently, I was talking with the engineering team at Box about what I’ve learned along this journey, and what came out of that conversation were my personal engineering principals. These aren’t rules or engineering guidelines. They’re simply the principles that I pay attention to when I write and operate code.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-paranoid&quot;&gt;Be paranoid.&lt;/h2&gt;
+
+&lt;p&gt;This one comes naturally to me. Since I’m mostly self-taught as a programmer, I never trust computers. I never trust that the system I just launched is really up. That the bug I fixed is really fixed. That code really does work the way I think it does without a test. I don’t trust anything. I don’t even trust myself! I never trust that I understand anything as well as I think I do until I check more than once. Paranoia is my friend, and it should be your friend, too. Always try to find a way to test assumptions along some other path, or get a second set of eyes to see what you’ve missed. Most of the time it’s not needed. Sometimes it’s really important.&lt;/p&gt;
+&lt;h2 id=&quot;dont-lie-to-the-computer&quot;&gt;Don’t lie to the computer.&lt;/h2&gt;
+&lt;p&gt;Another way to say this is “avoid leaky abstractions.” Don’t use systems in ways they’re not meant to be used. Don’t count on side effects. Don’t do things that won’t be obvious to the next person because the system wasn’t designed for them or they’re undocumented. If usage is three orders of magnitude more than current usage, then you should probably rethink the design. If the contract implies, but doesn’t guarantee, your use, you should change the component and the contract to be aligned. Computers are nasty things. They always bite when lied to, eventually.&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-it-simple&quot;&gt;Keep it simple.&lt;/h2&gt;
+
+&lt;p&gt;We like building things and solving problems. That’s why we do what we do. But a lot of the time, just because we can see a problem that could be solved, doesn’t mean it’s useful to solve it right now. I always think of myself as a fairly dumb programmer — I like clean, simple designs that are easy to understand. And this is a high challenge — anyone can solve a problem in a complex way, but only good programmers can solve problems in simple, understandable ways. It’s much harder to really think through the problem and solve only what needs to be solved in a simple, robust manner. Making yourself understood is the most important thing. Most time in code is spent maintaining, not creating.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-rule-of-optimizing-dont&quot;&gt;First rule of optimizing: don’t.&lt;/h2&gt;
+
+&lt;p&gt;This is from a good book by John Bentley called Programming Pearls. (It’s explicitly meant to help you learn to think like an experienced programmer. It may be an old book but most of the lessons are incredibly relevant today.) Optimization can take many forms: speed, future-proofing, potential scale, possible uses, etc. The problem is, most optimization is ultimately never used, and, more or less by definition, optimization makes designs more complicated. So, first rule of thumb is don’t optimize until it’s really clear that you understand the problem completely. (His second rule: “don’t optimize, yet.” Meaning, even if you do understand it, don’t optimize until you really need to.)&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-just-fix-the-bug-fix-all-possibility-of-it-ever-happening-again&quot;&gt;Don’t just fix the bug; fix all possibility of it ever happening again.&lt;/h2&gt;
+
+&lt;p&gt;Don’t be sorry if you made a mistake — be angry and make it something you never have to think about again. I hate bugs. I hate systems that let me create bugs. I hate it when my own software lets my fragile human brain down and I create a bug that could have been avoided. And I really, really hate fixing the same bug twice. So I try as much as I can, every single time I fix a bug, to think about the following: where else might this bug be happening now? Where might it happen in the future? What are the adjacent patterns that create similar bugs? And how can I kill all the bastards at once, right now?&lt;/p&gt;
+
+&lt;h2 id=&quot;question-assumptions-constantly&quot;&gt;Question assumptions constantly.&lt;/h2&gt;
+
+&lt;p&gt;Because I have spent most of my time in my own startups, I’ve gotten in the habit of asking myself constantly “Why am I doing this? What problem does it solve? Is there a better way? Is there something else I could do instead that’s more important?” You should have that attitude all the time. Constantly be questioning the assumptions given to you. What’s the real problem you’re solving? Did someone ask you to solve an effect rather than the root cause? Is the solution complete? Over-complete? Is the impact worthwhile?&lt;/p&gt;
+
+&lt;h2 id=&quot;think-long-term-slow-down-it-goes-faster&quot;&gt;Think long term. Slow down, it goes faster.&lt;/h2&gt;
+
+&lt;p&gt;This might be one of the most important ones. It’s easy to hack things out. As engineers, we like efficiency; we like to build as many things as we can. But if we don’t build for the long term, eventually it gets harder and harder to build anything. Sometimes we don’t understand the problem at first and we write code that we later have to back out. Sometimes we do things that are easy for our local problem, but make things worse or harder for someone else or for a larger problem. Sometimes we rush and don’t finish the design, and this causes much more time later on for someone to fix. Sometimes we don’t bother to write it the right way, we just make a copy or hack something in because we’re under time pressure or don’t want to really think it through. I’ve seen all these things too many times. Others have said this better than I have. But I’ll repeat — the goal is building the largest number of great features, reaching the largest number users over time. The area under the curve for a given day doesn’t add much, no matter how much gets done on that day, relative to all the days added together. Think long term.&lt;/p&gt;
+
+&lt;h2 id=&quot;care-about-your-code&quot;&gt;Care about your code.&lt;/h2&gt;
+
+&lt;p&gt;I guess this one doesn’t need much explanation, but it’s still something I see people missing from time to time. Take pride in your work! Care about the code you produce! I usually think of my poor future self, having to deal with my crappy code, when I’m tempted to be lazy and cut a corner. You don’t have to take this to an extreme — I used to joke at Google that other engineers treated their code like a pet, where my relationship with mine was more like a ranchers — pragmatic, not sentimental. But even still, I always hate it if my code isn’t well designed, doesn’t work well, isn’t readable, all that stuff.&lt;/p&gt;
+&lt;h2 id=&quot;cheap-fast-rightpick-two&quot;&gt;Cheap, fast, right — pick two.&lt;/h2&gt;
+
+&lt;p&gt;This is the iron triangle of software. This is the way the world of software engineering works. But it’s not an excuse for complacency. In fact, this is your opponent every single day. The difference between good and great programmers is often measured in how well they navigate the iron triangle. And really great ones find ways to bend it and get some of all three, more often than not. Try to be that kind of programmer — can you find a more elegant design that’s faster to build and is still right? Can you relax some constraint in the spec to get to the goal more quickly? You might not always be able to do that; in fact, you won’t beat the triangle. But if nothing else, make sure you understand what compromise you are choosing, and why, and that it’s the right one for the current situation.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-be-curious-learn-as-much-as-you-can-all-the-time&quot;&gt;Conclusion: Be curious. Learn as much as you can, all the time.&lt;/h2&gt;
+
+&lt;p&gt;Okay, this one is more career advice than anything else. But if you’re not curious and don’t really care that much about learning new things as an engineer and don’t care about new tech or new languages or new ideas, then why are you here? By no means are my principles perfect or an absolute representation of thinking/acting like a successful engineer, but I’m willing to bet there’s a fair amount of overlap with what others might be thinking. I’d love to hear your thoughts.&lt;/p&gt;</content><author><name></name></author><category term="tech" /><category term="coding" /><category term="advice" /><category term="puregold" /><summary type="html">IMPORTANT: Cross posting from this medium article https://medium.com/@sschillace/coding-principles-every-engineer-should-know-b946b48cc946 since I do not like medium as a platform and I do not want to loose this port in matrix :) The post has been written by Sam Schillace and all references to me/I is referenced to Mr. Sam</summary></entry><entry><title type="html">How To Manage Infra in 2019</title><link href="http://localhost:4000/2019/04/05/How-to-Manage-Infra-in-2019.html" rel="alternate" type="text/html" title="How To Manage Infra in 2019" /><published>2019-04-05T12:49:00+05:30</published><updated>2019-04-05T12:49:00+05:30</updated><id>http://localhost:4000/2019/04/05/How-to-Manage-Infra-in-2019</id><content type="html" xml:base="http://localhost:4000/2019/04/05/How-to-Manage-Infra-in-2019.html">&lt;p&gt;Infra is one of the most host topics in the Software development these days. There are so many tools,
+so much to learn that very few people actually know what to do and what the best practises. Everyone wants
+to jump on the microservice bandwagon. However, it’s not as easy as it seems. I medidated quite a bit on this
+and have come up with these points that I think are maybe some good to follow tips:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use standard, stable and well documented platform.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use multi-zone DB to embrace for regional failures and quick failovers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Have DB backups scheduled to a different cloud service securily (for eg: s3 in case the db is hosted on GCE/GKE)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Test the restore and snapshots. Maintain automatic backups.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Backup Database, put apps and services on maintainence while doing major upgrades/migrations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Config should definitely be version controlled and tags are maintained. (follow semantic versioning)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Performance, security and stability of the cluster are the corner stones to live by.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;While evaluating any new service, library refer the above and ask yourself if it is going to make it better or is it going to make it better.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tradeoffs if any needs to be documented and made very clear.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Maintain better dev prod parity. Ideally, the apps should checklist all the columns of 12 factor apps. Refer this(https://12factor.net)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Test new tech, plugins in local -&amp;gt; staging -&amp;gt; production. Push code to production only whent there are no known bugs or issues.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tech" /><category term="infra" /><category term="cloud" /><category term="devops" /><summary type="html">Infra is one of the most host topics in the Software development these days. There are so many tools, so much to learn that very few people actually know what to do and what the best practises. Everyone wants to jump on the microservice bandwagon. However, it’s not as easy as it seems. I medidated quite a bit on this and have come up with these points that I think are maybe some good to follow tips:</summary></entry><entry><title type="html">Tooling Considered Harmful</title><link href="http://localhost:4000/2019/03/06/tooling-considered-harmful.html" rel="alternate" type="text/html" title="Tooling Considered Harmful" /><published>2019-03-06T16:30:00+05:30</published><updated>2019-03-06T16:30:00+05:30</updated><id>http://localhost:4000/2019/03/06/tooling-considered-harmful</id><content type="html" xml:base="http://localhost:4000/2019/03/06/tooling-considered-harmful.html">&lt;p&gt;We are a big fan of tools. We use them daily in almost everything, but at one point in time, they pollute our mental space so much that we just forget to think and do as the tools dictate. A common example could be smart-phone. It was meant to keep us mobile and connected but now, it has become so dominant and addictive that it is more of a bane than boon.&lt;/p&gt;
+
+&lt;p&gt;Similarly, in programming, we use so many tools and IDEs, but we rarely master a subset of these. It is a sad situation in my opinion. I was one of those guys who will try every tool or software that comes out. But now, my thinking has totally changed. Right now, only three things matter to me while selecting a tool:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stability: is the tool stable enough and has a good stable ecosystem?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Performance: is the tool performant enough, or is it going to eat away my RAM and CPU cycles?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Speed: is fast enough so as to match my thoughts and do not block me while I am working?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keeping these in mind, only one tool that I use passes all these tests and that is &lt;a href=&quot;https://www.vim.org&quot;&gt;Vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cldup.com/A35GFuVx77.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My vim is configured to be fast, functional and as a mere extension to my thoughts. My muscle memory in vim is strong enough now so that I do not have to remember keybindings to edit text, replace or write good code. The core of the plugins I use is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YouCompleteMe&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ale&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fugitive&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I have gone cold turkey with Vim so there is no fallback editor in case I struggle to do something in Vim. It has helped me learn a lot of good shortcuts and tricks for editing code in Vim. Also, watching the live stream of experience vim veterans like Armin and Gary has helped a lot. This post is not about IDE bashing or anything like that. It is mostly about what works for me and why? If you use an IDE, spend some time mastering it and learning as much as you can about it. In my opinion, the goal should be to get better at the tool you use and get very good at that. So good that the tool becomes an extension of your mind and you do not have to have an overhead while using that tool.&lt;/p&gt;
+
+&lt;p&gt;Life and time are both limited commodities, and we should optimize our tooling to make sure we enjoy them to the fullest and without wasting time on bloated tools.&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="tooling" /><category term="editors" /><summary type="html">We are a big fan of tools. We use them daily in almost everything, but at one point in time, they pollute our mental space so much that we just forget to think and do as the tools dictate. A common example could be smart-phone. It was meant to keep us mobile and connected but now, it has become so dominant and addictive that it is more of a bane than boon.</summary></entry><entry><title type="html">6 years of full time job</title><link href="http://localhost:4000/articles/2019/02/01/6-years-of-full-time-job.html" rel="alternate" type="text/html" title="6 years of full time job" /><published>2019-02-01T12:01:00+05:30</published><updated>2019-02-01T12:01:00+05:30</updated><id>http://localhost:4000/articles/2019/02/01/6-years-of-full-time-job</id><content type="html" xml:base="http://localhost:4000/articles/2019/02/01/6-years-of-full-time-job.html">&lt;p&gt;Today, I am completing 6 years of my full time employment with &lt;a href=&quot;https://socialschools.nl&quot;&gt;Socialschools&lt;/a&gt;. It has been an incredibly long time and there has been highs and lows but mostly it has been a great experience writing code and having fun while doing it. I am very proud of the product I have helped build and make it succeed.&lt;/p&gt;
+
+&lt;p&gt;There are various factor that led me stay with this company for this long:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;People&lt;/strong&gt;: I was lucky enough to be working with the best people who are friendly, empathetic and have impeccable professionalism.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Work Life Balance&lt;/strong&gt;: People realize that everyone has a life outside the work and respect that.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Quality of Work&lt;/strong&gt;: I have been very lucky in being able to work on very hard problems and solve them. This doesn’t happen too often with many companies.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Trust&lt;/strong&gt;: You are more motivated to do things in the best possible way when your teammates trust you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ownership&lt;/strong&gt;: You are given ownership of a part of product and people trust you that you will make the best possible decision for it and the team.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nobody can look very far in the future and say what they are going to do but at this point of time, I feel incredibly lucky and full of gratitude to everyone who has played a part in my journey.&lt;/p&gt;
+
+&lt;p&gt;Some past posts about the same:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://vinitkumar.me/articles/2017/03/01/Four-years-of-full-time-job.html&quot;&gt;Four years of full time job&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://vinitkumar.me/articles/2014/02/08/One-year-on-job.html&quot;&gt;One year at job&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="articles" /><category term="job" /><category term="life" /><category term="general" /><summary type="html">Today, I am completing 6 years of my full time employment with Socialschools. It has been an incredibly long time and there has been highs and lows but mostly it has been a great experience writing code and having fun while doing it. I am very proud of the product I have helped build and make it succeed.</summary></entry><entry><title type="html">Converting LaTex to PDF on macOS</title><link href="http://localhost:4000/articles/2019/01/16/Converting-Latex-to-PDF-on-macOS.html" rel="alternate" type="text/html" title="Converting LaTex to PDF on macOS" /><published>2019-01-16T00:00:00+05:30</published><updated>2019-01-16T00:00:00+05:30</updated><id>http://localhost:4000/articles/2019/01/16/Converting-Latex-to-PDF-on-macOS</id><content type="html" xml:base="http://localhost:4000/articles/2019/01/16/Converting-Latex-to-PDF-on-macOS.html">&lt;p&gt;I have been writing my resume in LaTeX for more than a decade now. Writing your resume in LaTex has it’s own benefits.
+You can check it out here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex&quot;&gt;benefits of doing the resume in latex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, writing your resume in all LaTex is all well and good but converting it into pdf on macOS is a task on it’s own. The MacTeX package is a BIG download of around 6GB and it’s not worth spending so much time and energy for only trying to convert your resume from LaTex to PDF. Well, you can ofcourse use one of the online latex-to-pdf converter or you can install the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;basictex&lt;/code&gt; package and set your local mac environment capable of converting to PDF.&lt;/p&gt;
+
+&lt;p&gt;Follow these steps to get it working:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# install basictex using brew #NOTE your password might be required
+brew cask install basictex
+# try to install texlivefly, it complains about tlmgr outdated
+sudo tlmgr install texliveonfly
+# update tlmgr
+sudo tlmgr update --self
+# now install textliveonfly
+sudo tlmgr install texliveonfly
+
+# use the commands using sudo.
+# for eg: if your resume file name is vinit_kumar.tex
+
+sudo texliveonfly vinit_kumar.tex
+
+# this outputs a file named vinit_kumar.pdf in the same directory
+# now, open this file like this to check if all your changes made it through.
+
+open vinit_kumar.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Credits where it’s due: &lt;a href=&quot;https://www.apptic.me/blog/get-mactex-faster-easily-using-basictex.php&quot;&gt;Get Mactex Faster&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea came from this website, though the issue was it was not working without &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo&lt;/code&gt;. Hence, wrote this post more of an reminder of how to get LaTex to PDF working on macOS&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="latex" /><category term="macos" /><category term="pdf" /><summary type="html">I have been writing my resume in LaTeX for more than a decade now. Writing your resume in LaTex has it’s own benefits. You can check it out here:</summary></entry><entry><title type="html">Using React with djangoCMS 3.5.2</title><link href="http://localhost:4000/articles/2018/05/24/React-With-Django-CMS.html" rel="alternate" type="text/html" title="Using React with djangoCMS 3.5.2" /><published>2018-05-24T00:00:00+05:30</published><updated>2018-05-24T00:00:00+05:30</updated><id>http://localhost:4000/articles/2018/05/24/React-With-Django-CMS</id><content type="html" xml:base="http://localhost:4000/articles/2018/05/24/React-With-Django-CMS.html">&lt;p&gt;React is one of the most useful frontend library out there. At Socialschools, we use React to render some content using our API from App server. It has been in production since June last year and it is really amazing building neat stuff using both React and djangoCMS.&lt;/p&gt;
+
+&lt;p&gt;djangoCMS provides us the best Hybrid experience possible, we render say 70% of the content from server rendered pages and it provides us good support for even running React et. al without any hiccups. The latest version of djangoCMS 3.5.x series came up with a neat feature that allows the content to be refreshed as you edit without need of a reload.&lt;/p&gt;
+
+&lt;p&gt;This is from the &lt;a href=&quot;http://docs.django-cms.org/en/latest/topics/frontend-integration.html&quot;&gt;djangoCMS documentation&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Generally speaking, django CMS is wholly frontend-agnostic. It doesn’t care what your site’s frontend is built on or uses.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The exception to this is when editing your site, as the django CMS toolbar and editing controls use their own frontend code, and this can sometimes affect or be affected by your site’s code.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The content reloading introduced in django CMS 3.5 for plugin operations (when moving/adding/deleting etc) pull markup changes from the server. This may require a JS widget to be reinitialised, or additional CSS to be loaded, depending on your own frontend set-up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So even though the functionality is very nice and is very good UX for our end users it introduces a serious issue with the frontend frameworks like React. Let me explain:&lt;/p&gt;
+
+&lt;p&gt;Let’s say you have a simple React application that looks something like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ReactDOM&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react-dom&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+  &lt;span class=&quot;nx&quot;&gt;componentDidMount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// do a fetch to the API resources and set the data in the state&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;ReactDOM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementByID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This used to work perfectly with the old djangoCMS since everytime you edit a content, there would be a reload and because of that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;componentDidMount()&lt;/code&gt; will be called and hence there would be an API call and the React app would be rendered.&lt;/p&gt;
+
+&lt;p&gt;However, due to the change in the way frontend editing works now, this is no longer the case by default and it cause strange behaviour to occur.&lt;/p&gt;
+
+&lt;p&gt;For eg: You filled up the djangoCMS plugin that implemented this React Plugin and it is rendered properly. Now, you wanted to do change in other plugin like Text Plugin. So as a result, as soon as you submit save button for the text plugin after doing the change, the CMS javascript sends a request for the server rendered HTML and replace it in place for the page. The problem here is that there was no page reload, so the react app was never triggered and mounted, so you properly working filled up React app just vanishes from the site.&lt;/p&gt;
+
+&lt;p&gt;In case if it’s not clear, the reason for this is: &lt;strong&gt;React needs to mount the component to do the API request&lt;/strong&gt;. Since, the HTML was hot swapped, it never for the opportunity to do so and hence the React plugin gets empty after the edit.&lt;/p&gt;
+
+&lt;p&gt;Now, the good folks at djangoCMS are kind enough to make a note of it in their documentation but somehow I missed it before while reading the release notes for djangoCMS 3.5.x&lt;/p&gt;
+
+&lt;p&gt;This is their suggested solution:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// catch the cms-content-refresh event and use it&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// to trigger actions that are not done due to to Hot SWAP of the HTML&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;CMS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;cms-content-refresh&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Render React Again?&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, though this solution gives us the first clue of how to go about fixing it, the code is not just drop-in replacement and won’t work right away in the React and similar apps. You will need to do following to get it working on your React app and similar frameworks.&lt;/p&gt;
+
+&lt;p&gt;Here is a more complete solution to get it done.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;DOMContentLoaded&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Handler when the DOM is fully loaded&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CMS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;cms-content-refresh&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// render react or call for actions that were skipped because of the&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// change in how djangoCMS behaves now.&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So if you look at the above piece of code, notice that I used plain JS to look for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.ready&lt;/code&gt; event of jQuery, since in most the React apps we do not use jQuery and also, it doesn’t make sense to add more files to your App bundle size when you can get away with it.&lt;/p&gt;
+
+&lt;p&gt;The logic to look for “DomContentLoaded” event is that the global variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMS&lt;/code&gt; won’t be available unless all content is loaded and we require it to watch for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cms-content-refresh&lt;/code&gt; event. So as a solution we &lt;strong&gt;hook up the ReactDOM render method whenever we get catch a refresh event from the CMS.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Following is the updated React App code after accomodating changes for this event handling.&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ReactDOM&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;react-dom&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+  &lt;span class=&quot;nx&quot;&gt;componentDidMount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// do a fetch to the API resources and set the data in the state&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;ReactDOM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementByID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;DOMContentLoaded&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Handler when the DOM is fully loaded&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CMS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;CMS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;cms-content-refresh&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// render react or call for actions that were skipped because of the&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// change in how djangoCMS behaves now.&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;ReactDOM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementByID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, you can just compile your React app and change the files in your template for djangoCMS app and it would not have disappearing content during frontend editing.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="react" /><category term="django" /><summary type="html">React is one of the most useful frontend library out there. At Socialschools, we use React to render some content using our API from App server. It has been in production since June last year and it is really amazing building neat stuff using both React and djangoCMS.</summary></entry><entry><title type="html">Important Values</title><link href="http://localhost:4000/articles/2018/05/19/Value-System.html" rel="alternate" type="text/html" title="Important Values" /><published>2018-05-19T00:00:00+05:30</published><updated>2018-05-19T00:00:00+05:30</updated><id>http://localhost:4000/articles/2018/05/19/Value-System</id><content type="html" xml:base="http://localhost:4000/articles/2018/05/19/Value-System.html">&lt;p&gt;As humans, I think it is pretty important that we sometimes look deep into the soul and see what defines us
+and what is the value-system we believe in.&lt;/p&gt;
+
+&lt;p&gt;Here are values I believe in. Remember this is not an all exhaustive list and I might update it later.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Spread love, not hate.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Empathy is a very important quality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do not engage in useless arguments, name calling, trolling.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Life is too short to stay angry on anyone or anything for too long.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be punctual and respect other’s time as well.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do not reply in haste, especially when you are angry.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be easy on yourself.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Life is one of the greatest gifts, value it, cherish it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Smile often, care about those around you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Never leave an opportunity for a random act of kindness.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Surround yourself with what you love and block all negativity that bothers you.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="articles" /><category term="value" /><category term="life" /><summary type="html">As humans, I think it is pretty important that we sometimes look deep into the soul and see what defines us and what is the value-system we believe in.</summary></entry><entry><title type="html">Four years of Full time job</title><link href="http://localhost:4000/articles/2017/03/01/Four-years-of-full-time-job.html" rel="alternate" type="text/html" title="Four years of Full time job" /><published>2017-03-01T00:00:00+05:30</published><updated>2017-03-01T00:00:00+05:30</updated><id>http://localhost:4000/articles/2017/03/01/Four-years-of-full-time-job</id><content type="html" xml:base="http://localhost:4000/articles/2017/03/01/Four-years-of-full-time-job.html">&lt;p&gt;So on 1st February 2017, I completed my fourth year working for Socialschools.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today I complete my 4th year at my full time job. Thankful to everyone I worked with. cc: &lt;a href=&quot;https://twitter.com/stolker&quot;&gt;@stolker&lt;/a&gt; &lt;a href=&quot;https://twitter.com/changer&quot;&gt;@changer&lt;/a&gt;  &lt;a href=&quot;https://twitter.com/SocialSchools&quot;&gt;@SocialSchools&lt;/a&gt;&lt;/p&gt;&amp;mdash; Vinit Kumar (@vinitkme) &lt;a href=&quot;https://twitter.com/vinitkme/status/826694838456303616&quot;&gt;February 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I joined Socialschools(then Changer) at the same date in 2013. It’s has been quite an honor working with many awesome people.
+Then, I was only a fresh graduate dreaming of making a dent in the universe. Today, I am writing code for one of the fastest
+growing Communication platform for Education in The Netherlands.&lt;/p&gt;
+
+&lt;p&gt;First I would like to thank Ruben, Jonathan, Jos for giving me the chance to work at Changer. Next, the four years at Socialschools would have never been possible if it was not for my colleagues.&lt;/p&gt;
+
+&lt;p&gt;I had worked with Robert for the most of the time during this journey. He has always been the most friendly person and shares the same passion and fire to do amazing work for Socialschools.&lt;/p&gt;
+
+&lt;p&gt;Aashish has been a great mentor, friend, and guide and we have spent countless hours building new features, fixing nasty bugs and coffee.&lt;/p&gt;
+
+&lt;p&gt;Bert has been a great part of Socialschools and has been a driving force is growing us to the next level.&lt;/p&gt;
+
+&lt;p&gt;Marieke has been pretty amazing at implementation and putting users interest and perspective in the product. i&lt;/p&gt;
+
+&lt;p&gt;And of course, Jos has been an amazing mentor and technical guide in my growth as an Engineer. The newer team members like Edwin, Harry, Shanice &amp;amp; Trui have been great too and are doing a great job in their field.&lt;/p&gt;
+
+&lt;p&gt;I would also like to thanks to my Ma, Moma, Papa, Baba, Jhunu and especially my wife Rituparna who have supported me at each and every step and shared the joys and difficulties together. I wouldn’t be here if it wasn’t for them.&lt;/p&gt;
+
+&lt;p&gt;I would also like to summarize the core of what I have learned during this four years:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Any work you do, You do it with pride. This is something I learn from Ruben early on in my career. We sometimes run after big achievements and stop enjoying small jobs that are always there. Never shy away from work, however small and do it with utmost pride. Even a small CSS change that brings joy to your customer is worth it and you should be happy to do it.
+Thanks, Ruben :)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Think of users perspective and build for your users and use what you build.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Writing clean, maintainable, testable code requires thinking and it is a very good investment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to have passion and vision when building a product. It will have its lows too and you need someone to motivate, innovate and think out of the box for the product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to be pragmatic while writing code and it’s not only the quantity of code that matters but what you deliver as a product is what really matters.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enjoy what you do and do what you enjoy!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="articles" /><category term="job" /><category term="work" /><category term="life" /><summary type="html">So on 1st February 2017, I completed my fourth year working for Socialschools.</summary></entry><entry><title type="html">Some New Learnings</title><link href="http://localhost:4000/articles/2016/06/22/Some-New-Learnings.html" rel="alternate" type="text/html" title="Some New Learnings" /><published>2016-06-22T00:00:00+05:30</published><updated>2016-06-22T00:00:00+05:30</updated><id>http://localhost:4000/articles/2016/06/22/Some-New-Learnings</id><content type="html" xml:base="http://localhost:4000/articles/2016/06/22/Some-New-Learnings.html">&lt;p&gt;Software Engineering comes with a lot of good learning opportunities. First you learn
+how to write something by reading tutorials, watching videos etc, Then down the time you learn
+some new ways to do the same thing and you are blown by it. But only after some days you actually encounter
+the real hard problem in Computer Science. Some of them are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Race conditions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Caching&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have had some very nasty experiences with race conditions. But it opened my eyes to a new
+set of bugs that could be introduced. Your code to work fine 99% of the time but that remaining 1%
+could only happen under very rare circumstances. I think being aware and looking out for ways where
+conditions might occur could be a good way to minimise if not totally prevent race conditions.&lt;/p&gt;
+
+&lt;p&gt;About Caching, it is very important that you understand what you are caching, why you are caching and how
+exactly your caching is going to work. Just setting up memcached and using a plugin will not help when you encounter
+a nasty bug caused by caching and you only realise after wasting hours debugging the issue.&lt;/p&gt;
+
+&lt;p&gt;Lately, I have been hacking a lot on new things and writing some Goand Node.js. I mostly do that in my late evenings after dinner
+and it is good fun. I am thinking of documenting my learning process as I learn these new things in a better way. I think it works best for me. I will probably do a 15 or 30 day challenge, pick up a language and learn as much as I could about that language. The goal here is to learn it deeply and clearly.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="life" /><summary type="html">Software Engineering comes with a lot of good learning opportunities. First you learn how to write something by reading tutorials, watching videos etc, Then down the time you learn some new ways to do the same thing and you are blown by it. But only after some days you actually encounter the real hard problem in Computer Science. Some of them are:</summary></entry><entry><title type="html">Open Source</title><link href="http://localhost:4000/articles/2016/04/03/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2016-04-03T00:00:00+05:30</published><updated>2016-04-03T00:00:00+05:30</updated><id>http://localhost:4000/articles/2016/04/03/Open-Source</id><content type="html" xml:base="http://localhost:4000/articles/2016/04/03/Open-Source.html">&lt;p&gt;I joined github in 2010 and it has been my primary source for reading and writing code. I took my baby steps doing open source programming reading others code and it has been a  good source of knowledge for me. Since then I have written quite some open source software. I have written some javascript, python and go code and shared those projects in github. Open Source has quite some good benefits as it gives you a nice place to hack on things that fancy your imagination.&lt;/p&gt;
+
+&lt;p&gt;But there is certain downside to this as well. Sometimes your primary work(paid job) takes up all the time and you don’t have any time and energy left to spend on side projects. This is something that has happened to me since last 1.5-2 years. I have tackled very nice hard and challenging problems at work. I worked on complex scaling issues, performance tuning and lots of new features that really added value to the product. But I hardly found any time for myself. I have struggled for properly managing my time and it makes me a bit sad. But these days, I am writing some amount of code regularly.&lt;/p&gt;
+
+&lt;p&gt;I hope to write some more open source code in the coming time.&lt;/p&gt;</content><author><name></name></author><category term="articles" /><category term="oss" /><category term="general" /><summary type="html">I joined github in 2010 and it has been my primary source for reading and writing code. I took my baby steps doing open source programming reading others code and it has been a good source of knowledge for me. Since then I have written quite some open source software. I have written some javascript, python and go code and shared those projects in github. Open Source has quite some good benefits as it gives you a nice place to hack on things that fancy your imagination.</summary></entry></feed>
