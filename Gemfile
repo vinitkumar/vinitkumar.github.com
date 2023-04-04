@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.0"
+gem "jekyll", "~> 4.1", ">= 4.1.1"
 gem "jekyll-paginate"
 gem "jekyll-gist"
 gem 'jekyll-feed'
